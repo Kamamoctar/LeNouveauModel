@@ -1,0 +1,26 @@
+// VARIABLES
+$MyGreenLight: rgb(60, 255, 60);
+$MyBlue: rgb(128, 204, 255);
+$MyRed: rgb(255, 99, 71);
+
+background-image: linear-gradient(to top right, rgba(128, 204, 255, 0.6) 20%, rgba(60, 255, 60, 0.8)), url(/img/BGHEADER.jpeg);
+background-size: cover;
+background-position: center;
+
+@mixin responsive($breakpoint) {
+    @if $breakpoint == phone {
+        @media only screen and (max-width: 600px) { @content };
+    }
+    @if $breakpoint == phone-big {
+        @media only screen and (max-width: 768px) { @content };
+    }
+    @if $breakpoint == tab-port {
+        @media only screen and (max-width: 900px) { @content };
+    }
+    @if $breakpoint == tab-land {
+        @media only screen and (max-width: 1400px) { @content };
+    }
+    @if $breakpoint == big-desktop {
+        @media only screen and (min-width: 1800px) { @content };
+    }
+}
