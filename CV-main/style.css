@@ -1,0 +1,693 @@
+
+@font-face {
+    src: url(fonts/DancingScript-VariableFont_wght.ttf);
+    font-family: dancing;
+}
+
+
+
+/*********************************************************
+    GENERAL
+*********************************************************/
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(51, 51, 51);
+    display: grid;
+    grid-template-columns: 1fr;
+    color: wheat;
+    font-family: consolas;
+    position: relative;
+}
+
+
+/******* LE SCROLLBAR****** */
+
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(141, 134, 134);
+    border-radius: 10px;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    background: rgba(255, 99, 71, 0.801);
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+a:hover {
+    color: aliceblue;
+}
+
+img {
+    max-width: 100%;
+    max-height: 50%;
+}
+
+.majuscul {
+    text-transform: uppercase;
+}
+
+span {
+    display: inline;
+}
+
+section article header {
+    text-align: center;
+}
+
+
+/*SECTIONS PAIRES*/
+
+.pair:nth-child(even) {
+    width: 95%;
+    height: auto;
+    border: 1px solid rgb(206, 182, 139);
+    /*A CHANGER*/
+    padding: 2% 1% 5% 1%;
+    margin: 1% auto;
+    color: antiquewhite;
+    display: flex;
+}
+
+sub {
+    font-size: 0.5em;
+}
+
+
+/*********************************************************
+    ENTETE - MENU
+*********************************************************/
+
+#navheader {
+    display: contents;
+    width: 100%;
+    position: fixed;
+}
+
+#navheader #menu ul {
+    background-color: darkslategray;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50% 50%;
+    grid-gap: 10%;
+    align-items: center;
+    align-content: center;
+    height: auto;
+    padding: 2%;
+    margin-top: 0px;
+    border-bottom: 5px solid darkslategray;
+}
+
+#navheader #menu li {
+    padding: 2%;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+#navheader #menu li:hover {
+    background-color: tomato;
+    color: black !important;
+    border-radius: 25px;
+}
+
+
+/*********************************************************
+    SECTIONS 1 spécial
+*********************************************************/
+
+
+/*******La section avec la photo*******/
+
+#pres {
+    margin-top: -16px;
+    width: 100%;
+    color: white;
+    background-color: darkslategray;
+}
+
+#pres article {
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 95%;
+    height: auto;
+    margin: 4% auto;
+    background-color: black;
+}
+
+#pres article:hover {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 95%;
+    height: auto;
+    margin: 4% auto;
+    background-color: black;
+    box-shadow: 10px 10px 10px 10px rgb(41, 44, 42);
+}
+
+
+/* interieur de header */
+
+#pres article #cadre {
+    background-color: rgba(220, 220, 220, 0.767);
+    width: 65%;
+    height: auto;
+    margin: auto;
+    padding: 1%;
+}
+
+#img_princ {
+    border-radius: 50%;
+    width: 60%;
+    border: 5px solid tomato;
+}
+
+#pres article #cadre h1 {
+    
+    background-color: dimgray;
+    color: darkslategreys;
+    font-size: 150%;
+}
+
+#pres article #cadre h1:hover {
+    background-color: rgb(48, 47, 47);
+    color: darkslategreys;
+    font-size: 150%;
+}
+
+#cadre #coordonnees {
+    padding-bottom: 2%;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 20rem);
+    justify-content: space-around;
+    /* MEDIA QUERIES */
+}
+
+#cadre #coordonnees #in_coordonnees {
+    background-color: black;
+}
+
+#cadre #coordonnees #in_coordonnees h5 {
+    background-color: tomato;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#cadre #coordonnees #in_coordonnees div {
+    background-color: black;
+    text-align: left;
+}
+
+#pres div {
+    background-color: rgb(26, 25, 26);
+    margin: 0 2% 0 2%;
+}
+
+#pres article p {
+    text-indent: 5%;
+    text-align: justify;
+    padding: 1% 2% 0 2%;
+    font-family: dancing, cursive;
+}
+
+#pres article h4 {
+    padding: 0 0 2% 0;
+}
+
+#pres article h4:hover {
+    font-weight: bolder;
+    background-color: tomato;
+    color: black;
+    font-family: cursive;
+}
+
+
+/*********************************************************
+    SECTIONS CURSUS
+*********************************************************/
+
+#cursus {
+    margin: 2% 10px;
+}
+
+#cursus article {
+    display: grid;
+    margin-bottom: 80px;
+}
+
+#cursus article header {
+    margin: 1% auto 2% auto;
+    border-bottom: 5px solid tomato;
+    width: 50%;
+}
+
+#cursus article div {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 20rem);
+    justify-content: space-around;
+    column-gap: 2%;
+    row-gap: 2%;
+    /* MEDIA QUERIES */
+}
+
+#cursus article div div {
+    text-align: justify;
+    display: block;
+    padding: 1%;
+    background-color: rgb(48, 80, 80);
+    transition: 0.4s;
+}
+
+#cursus article div div:hover {
+    text-align: justify;
+    display: block;
+    padding: 1%;
+    background-color: rgb(18, 53, 53);
+    color: rgb(255, 245, 245);
+    box-shadow: -3px -3px 3px 3px rgb(139, 167, 149);
+}
+
+#cursus article div div p {
+    padding: 1%;
+}
+
+
+/*********************************************************
+    SECTIONS EXPÉRIENCES
+*********************************************************/
+
+#expe article {
+    display: grid;
+    justify-content: space-around;
+}
+
+#expe article header {
+    margin: 1% auto 2% auto;
+    border-bottom: 5px solid tomato;
+    width: 50%;
+}
+
+#expe article #contenair_expe {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* MEDIA QUERIES */
+}
+
+#expe article #contenair_expe div {
+    width: 20rem;
+    margin: 1%;
+    padding: 5%;
+    background-color: black;
+    text-align: justify;
+}
+
+#expe article #contenair_expe div:hover {
+    color: #020202;
+    background: #21f3d7;
+    box-shadow: 0 0 20px #21f3d7, 0 0 80px #21f3d7, 0 0 160px #21f3d7;
+    transition-delay: 0.3s;
+}
+
+#expe article #contenair_expe div h3 {
+    text-align: center;
+    background-color: tomato;
+    margin: auto;
+    color: black;
+}
+
+#expe article #contenair_expe div p {
+    text-align: justify;
+}
+
+
+/*********************************************************
+    SECTIONS COMPÉTENCES
+*********************************************************/
+
+#compe {
+    margin: 2% 10px;
+}
+
+#compe article {
+    display: grid;
+}
+
+#compe article header {
+    margin: 1% auto 2% auto;
+    border-bottom: 5px solid tomato;
+    width: 50%;
+}
+
+#contenair_compe div .flex_comp {
+    color: black;
+    padding: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* UN MEDIA QUERIES ICI */
+}
+
+
+/* BEURAUTIQUE */
+
+.flex_comp div {
+    background-image: -webkit-linear-gradient(-45deg, transparent 33%, rgba(0, 0, 0, .1) 33%, rgba(0, 0, 0, .1) 66%, transparent 66%), -webkit-linear-gradient(top, rgba(255, 255, 255, .25), rgba(0, 0, 0, .25)), -webkit-linear-gradient(left, #09c, tomato);
+    padding: 2%;
+    width: 20rem;
+    margin: 1%;
+}
+
+.flex_comp div:hover {
+    padding: 2%;
+    box-shadow: 3px 2px 3px 3px rgb(97, 97, 97);
+}
+
+.flex_comp div strong center {
+    padding: 1%;
+    text-align: center;
+    background-color: rgb(14, 12, 12);
+    color: white;
+}
+
+.flex_comp table {
+    margin: 2% auto;
+    padding: 2%;
+    table-layout: auto;
+    border: 2px solid rgb(255, 255, 255);
+    width: 100%;
+    text-align: center;
+}
+
+.flex_comp table th {
+    border-bottom: 5px solid rgb(7, 7, 7);
+    border-left: 5px solid rgb(0, 0, 0);
+}
+
+.flex_comp table,
+td,
+th {
+    border: 5px double rgb(0, 0, 0);
+}
+
+hr {
+    background-color: rgb(251, 255, 0);
+    border: 0.5px solid tomato;
+}
+
+
+/* INFORMATIQUE DOCUMENTAIRE */
+
+.LaProgressBar {
+    justify-items: center;
+    padding: 2%;
+    width: 20rem;
+    margin: 1%;
+}
+
+
+/* DIGITAL */
+
+
+/* DEV WEB */
+
+
+/*********************************************************
+    SECTIONS LEADERSHIP
+*********************************************************/
+
+#leader {
+    display: grid;
+    justify-content: space-around;
+}
+
+#leader article header {
+    margin: 1% auto 2% auto;
+    border-bottom: 5px solid tomato;
+    width: 50%;
+}
+
+#leader #contenair_leader {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* MEDIA QUERIES */
+}
+
+#leader #contenair_leader div {
+    color: rgb(167, 154, 154);
+    text-align: center;
+    border: 1px solid black;
+    background-color: rgb(0, 0, 0);
+    margin: 1%;
+    padding: 2%;
+    width: 25rem;
+}
+
+#leader #contenair_leader div:hover {
+    color: #152330;
+    background: #2196f3;
+    box-shadow: 0 0 20px #2196f3, 0 0 80px #2196f3, 0 0 160px #2196f3;
+    transition-delay: 0.5s;
+}
+
+#leader #contenair_leader div h4 {
+    background-color: tomato;
+    color: black;
+}
+
+
+/*********************************************************
+    SECTIONS HOBBIES
+*********************************************************/
+
+#hobs {
+    margin: 2% 1%;
+}
+
+
+/* #hobs article {} */
+
+#hobs article header {
+    margin: 1% auto 2% auto;
+    border-bottom: 5px solid tomato;
+    width: 50%;
+}
+
+#contenair_hobs {
+    /* LA DIV */
+    justify-content: center;
+}
+
+
+/*DIV VOYAGE*/
+
+#Voyages {
+    padding: 1%;
+    background-color: rgb(48, 80, 80);
+    transition: 0.4s;
+}
+
+#Voyages:hover {
+    padding: 1%;
+    background-color: rgb(18, 53, 53);
+    color: rgb(255, 245, 245);
+    box-shadow: -3px -3px 3px 3px rgb(139, 167, 149);
+}
+
+#Voyages h2 {
+    text-transform: uppercase;
+}
+
+.D_avant {
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 20rem);
+    justify-content: center;
+}
+
+.pays_viz {
+    background-color: black;
+    /* display: ; */
+    flex-wrap: wrap;
+    margin: 1%;
+    padding: 0 2%;
+}
+
+.pays_viz h3 {
+    background-color: tomato;
+    text-align: center;
+}
+
+.pays_viz p {
+    text-align: center;
+    background-color: rgb(26, 25, 25);
+    margin: 0 0 4% 0;
+    padding: 1%;
+    color: white;
+    transition: 0.8s;
+}
+
+.pays_viz p:hover {
+    text-align: center;
+    background-color: #31b4a3;
+    margin: 0 0 4% 0;
+    padding: 1%;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 20px #31b4a3, 0 0 80px #31b4a3, 0 0 160px #31b4a3;
+}
+
+
+/* LECTURE */
+
+#lecture {
+    padding: 1%;
+    background-color: rgb(48, 80, 80);
+    transition: 0.4s;
+}
+
+#lecture:hover {
+    padding: 1%;
+    background-color: rgb(18, 53, 53);
+    color: rgb(255, 245, 245);
+    box-shadow: -3px -3px 3px 3px rgb(139, 167, 149);
+}
+
+#lecture h2 {
+    text-transform: uppercase;
+}
+
+.D_avant {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 20rem);
+    justify-content: center;
+}
+
+.genre_lu {
+    background-color: black;
+    margin: 1%;
+    padding: 0 2%;
+}
+
+.the_span_flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.genre_lu h3 {
+    background-color: tomato;
+    text-align: center;
+}
+
+.genre_lu p {
+    text-align: center;
+    background-color: rgb(26, 25, 25);
+    margin: 0 0 4% 0;
+    padding: 1%;
+    color: white;
+    transition: 0.8s;
+}
+
+.genre_lu p:hover {
+    text-align: center;
+    background-color: #31b4a3;
+    margin: 0 0 4% 0;
+    padding: 1%;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 20px #31b4a3, 0 0 80px #31b4a3, 0 0 160px #31b4a3;
+}
+
+/**IFRAME CV **/
+details {
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    margin:0 2% 2%;
+    padding: 1%;
+}
+details:hover {
+    box-shadow: 3px -3px 5px rgb(158, 158, 158), -3px 3px 5px rgb(158, 158, 158);
+}
+
+details p a {
+    cursor: progress;
+    text-transform: uppercase;
+}
+
+details p a:hover {
+    font-weight: bolder;
+
+    color: rgb(255, 71, 71);
+}
+
+
+
+/*********************************************************
+    SECTIONS FOOTER
+*********************************************************/
+
+footer {
+    background-color: #fff;
+}
+
+footer div {
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    margin: 2%;
+    padding: 1%;
+    height: auto;
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 18rem);
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+footer div:hover {
+    
+    border-radius: 5px;
+    margin: 2%;
+    padding: 1%;
+    height: auto;
+    width: auto;
+    color: rgb(0, 0, 0);
+    
+}
+
+footer div p {
+    margin: 1%;
+    color: black;
+    text-align: center;
+    background-color: #fff;
+    transition: 0.5s;
+}
+
+footer div p:hover {
+    margin: 1%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: #1f1e1e;
+    box-shadow: 0 0 20px #1e1f1e, 0 0 80px #1f1e1e, 0 0 160px ##1f1e1e;
+}

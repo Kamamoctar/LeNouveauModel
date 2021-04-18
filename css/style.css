@@ -1,0 +1,269 @@
+
+/* 
+    GENERALES
+*/
+.CentrageTotal {
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    text-align: center;
+}
+.ToutEnMaj {
+    text-transform: uppercase;
+}
+.TextLong {
+    text-align: justify;
+}
+body {
+    color: black;
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* LES VARIABLES */
+:root {
+    --MyGreen: rgb(33, 163, 33);
+    --MyGreenLight: rgb(60, 255, 60);
+    --MyBlue: rgb(128, 204, 255);
+    --MyWhite: rgb(235, 233, 233);
+    --MyRed: rgb(253, 88, 59);
+}
+
+/* 
+    ENTETE
+*/
+#TitreDeDefilement {
+    
+    min-height: 5vh;
+    font-size: 1.5em;
+    background-color: var(--MyBlue);
+    margin-bottom: 0;
+    position: sticky;
+}
+
+/* MENU */
+nav {
+    background-image: linear-gradient(to right bottom, rgb(128, 204, 255), rgb(60, 255, 60));
+}
+.navbar-brand {
+    
+    padding: 1% 2%;
+    border-radius: 100px;
+    background-color: var(--MyRed);
+}
+.navbar-brand:hover {
+    color: var(--MyRed) !important;
+    background-color: black !important;
+}
+
+/* SECTION DE PRESENTATION */
+#WhoIam {
+    text-align: justify;
+    background-color: var(--MyWhite);
+    display: grid;
+}
+#TheWhoIAmArticle {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 3%;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 2%;
+    background-image: linear-gradient(to top right, rgba(128, 204, 255, 0.75), rgba(60, 255, 60, 0.75)), url(../img/BGHEADER.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+ 
+    /* IMAGE DE PRESENTATION */
+
+   /* MEDIA Q SECTION DE PRESENTATION*/
+   @media screen and (max-width: 768px) {
+    #TheWhoIAmArticle {
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+
+
+    #TheWhoIAmArticle #PDePresentation p {
+        font-weight: bold;
+    }
+}
+
+/* LE H1 DES VALEURS */
+.MesValeurs {
+    min-width: 100%;
+    margin: auto;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.MesValeurs h1 {
+    display: none;
+}
+.MesValeurs P {
+    padding: 3% 8% 3% 8%;
+    color: var(--MyRed);
+}
+/* MEDIA Q (LE H1 DES VALEURS) */ 
+@media screen and (max-width: 768px) {
+    .MesValeurs h1 {
+        color: var(--MyBlue);
+        display:inline-block;
+    }
+    .MesValeurs P {
+        padding: 2% 7% 1% 7%;
+        color: var(--MyRed);
+        font-size: 110%;
+        font-weight: bold;
+    } 
+}
+@media screen and (min-width: 769px) {
+    .MesValeurs P {
+        padding: auto;
+        color: var(--MyRed);
+        font-size: 110%;
+        font-weight: bold;
+    } 
+}
+
+/* 
+    CONTENU PRINCIPAL
+*/
+#TheMainContent {
+    max-width: 99.5%;
+    margin-top: 1%;
+    text-align: center;
+    background-image: linear-gradient(to top right, rgba(128, 204, 255, 0.75), rgba(60, 255, 60, 0.75)), url(../img/MainMenton.jpg);
+    background-size: cover;
+    background-position: center;
+}
+    /* LES SECTIONS PREINCIPALES */
+    .PartiesPrincipales {
+        display: grid;
+        width: 100%;
+    }
+    .SectionPaireImpaire:nth-child(even) {
+        width: 100%;
+        background-image: linear-gradient(to top right, rgba(0, 0, 0, 0.5), rgba(33, 163, 33, 0.6));
+        background-size: cover;
+        background-position: center;
+        border-radius: 5px;
+        margin: 1% 0 1% 0;
+    }
+
+.SectionsHeader {
+    width: 75%;
+    margin: 1% auto;
+    background-color:rgba(0, 0, 0, 0.259);
+    border-bottom: 5px solid var(--MyRed);
+} /* SON HOVER*/ .SectionsHeader:hover {
+    color: black;
+    background-color:  rgba(128, 204, 255, 0.259);
+}
+
+.LaDivDesParcours {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 20rem);
+    justify-content: space-around;
+    align-content: center;
+    column-gap: 1%;
+} /* SON MEDIA QUERIES*/ @media screen and (max-width: 768px) {
+
+}
+
+.CursusAkdemicItems {
+    border-radius: 5px;
+    margin-top: 2%;
+    padding: 1%;
+    max-width: 20rem;
+    min-height: 12rem;
+
+    background-image: linear-gradient(to top right, rgba(128, 204, 255, 0.3), rgba(253, 88, 59, 0.3));
+} /* SON HOVER*/
+
+    /* EXPERIENCE PRO */
+#ExpePro{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.ExpePro {
+    border-radius: 5px;
+    width: 20rem;
+    margin: 1%;
+    padding: 2%;
+    
+    text-align: center;
+    background-image: linear-gradient(to top right,   rgba(235, 233, 233, 0.8), rgba(128, 204, 255, 0.7)), url(../img/IMG_ipf2.jpg);
+    background-size: cover;
+    background-position: center;
+} /* SON HOVER LED*/
+    .ExpePro:nth-child(odd):hover {
+        color: black;
+        background: #3cff3c;
+        box-shadow: 0 0 20px #3cff3c, 0 0 80px #3cff3c, 0 0 160px #3cff3c;
+        transition-delay: 0.2s;
+    } /* SON HOVER LED BLEU*/
+    .ExpePro:nth-child(even):hover {
+        color: black;
+        background:  #80ccff;
+        box-shadow: 0 0 20px #80ccff, 0 0 80px #80ccff, 0 0 160px #80ccff;
+        transition-delay: 0.2s;
+    }
+    /* SON MEDIA QUERIES*/ @media screen and (max-width: 768px) {
+    .ExpePro{
+        width: 25rem;
+    }
+}
+
+/* DIV DES COMPETENCES */
+#EncadreCompetences {
+    display: grid;
+}
+    /* SOFTSKILS */
+    #SoftSkils {
+        display: grid;
+    }
+
+    #CompeParDomaine {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .ItemSoftSkils {
+        border-radius: 100px;
+        margin: 1%;
+        padding: 3%;
+        color: var(--MyRed);
+        background-color: rgba(0, 0, 0, 0.9);
+        /* CONTOUR LUMINEUX */
+        font-weight: bold;
+    }
+    /* SPECIFIQUES */
+    #OutilsSpecifiques {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 1%;
+    }
+
+    .CompeSpecifique {
+        border: 2px solid var(--MyWhite);
+        padding: 2%;
+        width: 22rem;
+        margin: 2% 1%;
+        background-image: linear-gradient(to bottom right,  rgb(0, 89, 255), rgba(128, 204, 255, 0.6));
+    }
+
+
+/* 
+    PIED DE PAGE
+*/

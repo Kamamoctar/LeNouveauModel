@@ -1,0 +1,888 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.ToutEnMaj {
+  text-transform: uppercase;
+}
+
+.TextLongJustifier {
+  text-align: justify;
+}
+
+body {
+  color: black;
+  background-color: #e4dede;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.ToutEnMaj {
+  text-transform: uppercase;
+}
+
+.TextLongJustifier {
+  text-align: justify;
+}
+
+body {
+  color: black;
+  background-color: #e4dede;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+#TheHeader {
+  height: 100vh;
+  background-image: -webkit-gradient(linear, left bottom, right top, color-stop(20%, rgba(128, 204, 255, 0.6)), to(rgba(60, 255, 60, 0.8))), url(/img/BGHEADER.jpeg);
+  background-image: linear-gradient(to top right, rgba(128, 204, 255, 0.6) 20%, rgba(60, 255, 60, 0.8)), url(/img/BGHEADER.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+#TheHeader nav {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#80ccff), to(#3cff3c));
+  background-image: linear-gradient(to right bottom, #80ccff, #3cff3c);
+}
+
+#TheHeader nav .navbar-brand {
+  color: white;
+  padding: 1% 2%;
+  border-radius: 100px;
+}
+
+#TheHeader .CentrageTotal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 25%;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 1400px) {
+  #TheHeader .CentrageTotal {
+    margin-top: 15%;
+    font-size: 2em;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  #TheHeader .CentrageTotal {
+    margin-top: 25%;
+    font-size: 2em;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #TheHeader .CentrageTotal {
+    margin-top: 25%;
+    font-size: 2em;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #TheHeader .CentrageTotal {
+    margin-top: 37%;
+    font-size: 1.5em;
+  }
+}
+
+#TheMainContent {
+  width: 100%;
+}
+
+#TheMainContent #WhoIam #TheWhoIAmArticle {
+  margin: 0px -10px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 4fr 2fr;
+      grid-template-columns: 4fr 2fr;
+  gap: 3%;
+  justify-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2%;
+  background-image: -webkit-gradient(linear, right top, left bottom, color-stop(50%, rgba(128, 204, 255, 0.99)), color-stop(50%, rgba(60, 255, 60, 0.99)));
+  background-image: linear-gradient(to bottom left, rgba(128, 204, 255, 0.99) 50%, rgba(60, 255, 60, 0.99) 50%);
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen and (max-width: 768px) {
+  #TheMainContent #WhoIam #TheWhoIAmArticle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
+  }
+}
+
+#TheMainContent #WhoIam #TheWhoIAmArticle #PDePresentation {
+  font-size: 1.12em;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 2%;
+  border-radius: 5px;
+}
+
+#TheMainContent #WhoIam #TheWhoIAmArticle .ImgPresentation {
+  width: 70%;
+}
+
+@media screen and (max-width: 768px) {
+  #TheMainContent #WhoIam #TheWhoIAmArticle .ImgPresentation {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
+    margin-bottom: 2%;
+  }
+}
+
+#TheMainContent #WhoIam .MesValeurs {
+  min-width: 100%;
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 15px -5px;
+}
+
+#TheMainContent #WhoIam .MesValeurs h1 {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  #TheMainContent #WhoIam .MesValeurs h1 {
+    display: inline-block;
+    color: #80ccff;
+    font-weight: bold;
+  }
+  #TheMainContent #WhoIam .MesValeurs h1:hover {
+    border-bottom: 2px solid tomato;
+  }
+}
+
+#TheMainContent #WhoIam .MesValeurs p {
+  word-spacing: 1em;
+  padding: 3% 8% 3% 8%;
+  color: tomato;
+}
+
+#TheMainContent #WhoIam .MesValeurs p:hover {
+  color: #80ccff;
+}
+
+#TheMainContent .PartiesPrincipales {
+  display: -ms-grid;
+  display: grid;
+  width: 100%;
+  padding: 1%;
+}
+
+#TheMainContent .PartiesPrincipales:nth-child(even) {
+  width: 100%;
+  background-image: -webkit-gradient(linear, right top, left bottom, from(rgba(60, 255, 60, 0.89)), to(rgba(128, 204, 255, 0.5)));
+  background-image: linear-gradient(to bottom left, rgba(60, 255, 60, 0.89), rgba(128, 204, 255, 0.5));
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+  margin: 0 0 1% 0;
+}
+
+#TheMainContent .PartiesPrincipales:nth-child(odd) {
+  width: 100%;
+  margin: 1px auto;
+  background-color: rgba(255, 255, 255, 0.8);
+  -webkit-box-shadow: inset 0 0 35px #424141;
+          box-shadow: inset 0 0 35px #424141;
+}
+
+#TheMainContent .PartiesPrincipales .SectionsHeader {
+  width: 70%;
+  margin: 0.5% auto;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.259);
+  border-bottom: 5px solid tomato;
+}
+
+#TheMainContent .PartiesPrincipales .SectionsHeader:hover {
+  color: black;
+  background-color: rgba(128, 204, 255, 0.3);
+}
+
+#TheMainContent #SectionAcadem .SectionsArticle {
+  display: -ms-grid;
+  display: grid;
+}
+
+#TheMainContent #SectionAcadem .SectionsArticle .LaDivDesParcours {
+  text-align: center;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (20rem)[auto-fit];
+      grid-template-columns: repeat(auto-fit, 20rem);
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-column-gap: 1%;
+          column-gap: 1%;
+}
+
+@media only screen and (max-width: 1400px) {
+  #TheMainContent #SectionAcadem .SectionsArticle .LaDivDesParcours {
+    -ms-grid-columns: (21rem)[auto-fit];
+        grid-template-columns: repeat(auto-fit, 21rem);
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  #TheMainContent #SectionAcadem .SectionsArticle .LaDivDesParcours {
+    -ms-grid-columns: (22rem)[auto-fit];
+        grid-template-columns: repeat(auto-fit, 22rem);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #TheMainContent #SectionAcadem .SectionsArticle .LaDivDesParcours {
+    -ms-grid-columns: (40rem)[auto-fit];
+        grid-template-columns: repeat(auto-fit, 40rem);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #TheMainContent #SectionAcadem .SectionsArticle .LaDivDesParcours {
+    -ms-grid-columns: (30rem)[auto-fit];
+        grid-template-columns: repeat(auto-fit, 30rem);
+  }
+}
+
+#TheMainContent #SectionAcadem .SectionsArticle .LaDivDesParcours .CursusAkdemicItems {
+  border-radius: 5px;
+  padding: 1%;
+  margin-bottom: 2%;
+  background-image: -webkit-gradient(linear, left bottom, right top, color-stop(50%, rgba(255, 99, 71, 0.3)), to(rgba(128, 204, 255, 0.5)));
+  background-image: linear-gradient(to top right, rgba(255, 99, 71, 0.3) 50%, rgba(128, 204, 255, 0.5));
+}
+
+#TheMainContent #SectionAcadem .SectionsArticle .LaDivDesParcours .CursusAkdemicItems:hover {
+  background-image: -webkit-gradient(linear, left bottom, right top, from(rgba(128, 204, 255, 0.9))), url(/img/academia.png);
+  background-image: linear-gradient(to top right, rgba(128, 204, 255, 0.9)), url(/img/academia.png);
+  background-size: cover;
+  background-position: center;
+  -webkit-box-shadow: 0 0 20px #80ccff, 0 0 80px #80ccff, 0 0 160px #80ccff;
+          box-shadow: 0 0 20px #80ccff, 0 0 80px #80ccff, 0 0 160px #80ccff;
+}
+
+#TheMainContent #SectionExper .SectionsArticle {
+  display: -ms-grid;
+  display: grid;
+}
+
+#TheMainContent #SectionExper .SectionsArticle #ExpePro {
+  text-align: center;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (22rem)[auto-fit];
+      grid-template-columns: repeat(auto-fit, 22rem);
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-column-gap: 1%;
+          column-gap: 1%;
+}
+
+@media only screen and (max-width: 1400px) {
+  #TheMainContent #SectionExper .SectionsArticle #ExpePro {
+    -ms-grid-columns: (21rem)[auto-fit];
+        grid-template-columns: repeat(auto-fit, 21rem);
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  #TheMainContent #SectionExper .SectionsArticle #ExpePro {
+    -ms-grid-columns: (22rem)[auto-fit];
+        grid-template-columns: repeat(auto-fit, 22rem);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #TheMainContent #SectionExper .SectionsArticle #ExpePro {
+    -ms-grid-columns: (40rem)[auto-fit];
+        grid-template-columns: repeat(auto-fit, 40rem);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #TheMainContent #SectionExper .SectionsArticle #ExpePro {
+    -ms-grid-columns: (30rem)[auto-fit];
+        grid-template-columns: repeat(auto-fit, 30rem);
+  }
+}
+
+#TheMainContent #SectionExper .SectionsArticle #ExpePro .ExpePro {
+  border-radius: 5px;
+  margin: 1%;
+  padding: 2%;
+  text-align: center;
+  background-image: -webkit-gradient(linear, left bottom, right top, from(rgba(235, 233, 233, 0.8)), color-stop(1%, rgba(255, 99, 71, 0.3)), to(rgba(128, 204, 255, 0.5)));
+  background-image: linear-gradient(to top right, rgba(235, 233, 233, 0.8), rgba(255, 99, 71, 0.3) 1%, rgba(128, 204, 255, 0.5));
+  background-size: cover;
+  background-position: center;
+}
+
+#TheMainContent #SectionExper .SectionsArticle #ExpePro .ExpePro:hover {
+  background-image: -webkit-gradient(linear, left bottom, right top, from(rgba(60, 255, 60, 0.8))), url(/img/IMG_ipf2.jpg);
+  background-image: linear-gradient(to top right, rgba(60, 255, 60, 0.8)), url(/img/IMG_ipf2.jpg);
+  background-size: cover;
+  background-position: center;
+  -webkit-box-shadow: 0 0 20px #3cff3c, 0 0 80px #3cff3c, 0 0 160px #3cff3c;
+          box-shadow: 0 0 20px #3cff3c, 0 0 80px #3cff3c, 0 0 160px #3cff3c;
+}
+
+#TheMainContent #SectionCompe #SoftSkils {
+  padding: 0.2%;
+  background-color: rgba(0, 0, 0, 0.35);
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+  margin: 0.5% 0 0.5% 0;
+}
+
+#TheMainContent #SectionCompe #SoftSkils #TitreCompeGene {
+  color: white;
+  text-align: center;
+}
+
+#TheMainContent #SectionCompe #SoftSkils #CompeParDomaine {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#TheMainContent #SectionCompe #SoftSkils #CompeParDomaine .ItemSoftSkils {
+  border-radius: 100px;
+  margin: 10px;
+  padding: 3%;
+  color: tomato;
+  background-color: rgba(0, 0, 0, 0.9);
+  /* CONTOUR LUMINEUX */
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+
+#TheMainContent #SectionCompe #AvantCompSpec {
+  padding: 0.2% 0 30px;
+  background-color: rgba(0, 0, 0, 0.35);
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+#TheMainContent #SectionCompe #AvantCompSpec #TitreCompeSpec {
+  text-align: center;
+  color: white;
+}
+
+#TheMainContent #SectionCompe #AvantCompSpec h4 {
+  color: whitesmoke;
+  padding: 2%;
+}
+
+#TheMainContent #SectionCompe #AvantCompSpec .OutilsSpecifiques {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#TheMainContent #SectionCompe #AvantCompSpec .OutilsSpecifiques .CompeSpecifique {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  height: 20rem;
+  -webkit-box-shadow: 2px 2px 3px 2px #80ccff;
+          box-shadow: 2px 2px 3px 2px #80ccff;
+}
+
+#TheMainContent #SectionCompe #AvantCompSpec .OutilsSpecifiques .CompeSpecifique:hover {
+  -webkit-box-shadow: 5px 2px 3px 5px white;
+          box-shadow: 5px 2px 3px 5px white;
+}
+
+#TheMainContent #SectionCompe #AvantCompSpec .OutilsSpecifiques .CompeSpecifique:nth-child(even) {
+  border: 2px solid white;
+  padding: 2%;
+  margin: 2% 0;
+  background-image: -webkit-linear-gradient(-45deg, transparent 33%, rgba(0, 0, 0, 0.1) 33%, rgba(0, 0, 0, 0.1) 66%, transparent 66%), -webkit-linear-gradient(top, rgba(255, 255, 255, 0.25), rgba(0, 0, 0, 0.25)), -webkit-linear-gradient(left, #80ccff, tomato);
+}
+
+#TheMainContent #SectionCompe #AvantCompSpec .OutilsSpecifiques .CompeSpecifique:nth-child(odd) {
+  border: 2px solid white;
+  padding: 2%;
+  margin: 2% 0;
+  background-image: -webkit-linear-gradient(-45deg, transparent 33%, rgba(0, 0, 0, 0.1) 33%, rgba(0, 0, 0, 0.1) 66%, transparent 66%), -webkit-linear-gradient(top, rgba(255, 255, 255, 0.25), rgba(0, 0, 0, 0.25)), -webkit-linear-gradient(left, tomato, #80ccff);
+}
+
+#TheMainContent #SectionCompe #AvantCompSpec .OutilsSpecifiques .CompeSpecifique table {
+  padding: 2%;
+}
+
+#TheMainContent #SectionCompe #AvantCompSpec .OutilsSpecifiques .CompeSpecifique table thead {
+  font-size: 1.5em;
+}
+
+#TheMainContent #SectionCompe #AvantCompSpec .OutilsSpecifiques .CompeSpecifique strong {
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+#TheMainContent #SectionCompe #encadreGroupeInfoDoc {
+  display: -ms-grid;
+  display: grid;
+}
+
+#TheMainContent #SectionCompe #encadreGroupeInfoDoc h4 {
+  color: whitesmoke;
+  padding: 2%;
+}
+
+#TheMainContent #SectionCompe #encadreGroupeInfoDoc .OutilsSpecifiques {
+  text-align: center;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (20rem)[auto-fit];
+      grid-template-columns: repeat(auto-fit, 20rem);
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-column-gap: 1%;
+          column-gap: 1%;
+}
+
+#TheMainContent #SectionCompe #encadreGroupeInfoDoc .OutilsSpecifiques .CompeSpecifique {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#TheMainContent #SectionCompe #encadreGroupeInfoDoc .OutilsSpecifiques .CompeSpecifique strong {
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+#TheMainContent #SectionCompe .flex_comp {
+  padding: 2%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#TheMainContent #SectionCompe .flex_comp div {
+  background-image: -webkit-linear-gradient(-45deg, transparent 33%, rgba(0, 0, 0, 0.1) 33%, rgba(0, 0, 0, 0.1) 66%, transparent 66%), -webkit-linear-gradient(top, rgba(255, 255, 255, 0.25), rgba(0, 0, 0, 0.25)), -webkit-linear-gradient(left, tomato, #80ccff);
+  padding: 2%;
+  width: 20rem;
+  min-height: 20rem;
+  margin: 1%;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#TheMainContent #SectionCompe .flex_comp div:hover {
+  -webkit-box-shadow: 3px 2px 3px 3px #616161;
+          box-shadow: 3px 2px 3px 3px #616161;
+}
+
+#TheMainContent #SectionCompe .flex_comp table {
+  margin: 2% auto;
+  padding: 4%;
+  table-layout: auto;
+  border: 2px solid white;
+  width: 100%;
+  text-align: center;
+}
+
+#TheMainContent #SectionCompe .flex_comp table thead {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+#TheMainContent #SectionCompe .flex_comp table th {
+  border-bottom: 7px solid #070707;
+  border-left: 5px solid black;
+}
+
+#TheMainContent #SectionCompe .flex_comp table table, #TheMainContent #SectionCompe .flex_comp table td, #TheMainContent #SectionCompe .flex_comp table th {
+  border: 5px double black;
+}
+
+#TheMainContent #SectionLeader {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#TheMainContent #SectionLeader .SectionsHeader {
+  width: 70%;
+  margin: 0.5% auto;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.259);
+  border-bottom: 5px solid tomato;
+}
+
+#TheMainContent #SectionLeader .SectionsHeader:hover {
+  color: black;
+  background-color: rgba(128, 204, 255, 0.3);
+}
+
+#TheMainContent #SectionLeader #contenair_leader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#TheMainContent #SectionLeader #contenair_leader div {
+  color: black;
+  text-align: center;
+  border: 1px solid black;
+  margin: 1%;
+  padding: 2%;
+  width: 25rem;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(128, 204, 255, 0.9)), to(rgba(60, 255, 60, 0.89))), url(/img/leader.jpg);
+  background-image: linear-gradient(to bottom, rgba(128, 204, 255, 0.9), rgba(60, 255, 60, 0.89)), url(/img/leader.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#TheMainContent #SectionLeader #contenair_leader div:hover {
+  color: #161515;
+  border: 2px solid #0ef30efc;
+  background: #3cff3c;
+  -webkit-box-shadow: 0 0 20px #3cff3c, 0 0 80px #3cff3c, 0 0 160px #3cff3c;
+          box-shadow: 0 0 20px #3cff3c, 0 0 80px #3cff3c, 0 0 160px #3cff3c;
+  -webkit-transition-delay: 0.3s;
+          transition-delay: 0.3s;
+}
+
+#TheMainContent #SectionLeader #contenair_leader div h4 {
+  width: 80%;
+  background-color: black;
+  color: tomato;
+  text-align: center;
+  margin: 1% auto 2% auto;
+  padding: 2%;
+  border-radius: 100px;
+}
+
+#TheMainContent #SectionLeader #contenair_leader div #CardAiesec {
+  padding: 2%;
+  background-color: white;
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+#TheMainContent #SectionHobbies {
+  display: -ms-grid;
+  display: grid;
+}
+
+#TheMainContent #SectionHobbies .lesDifTypeDeHob {
+  display: -ms-grid;
+  display: grid;
+}
+
+#TheMainContent #SectionHobbies #voyageHob {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 1%;
+}
+
+#TheMainContent #SectionHobbies #voyageHob h3 {
+  padding: 2%;
+  margin: 1% auto 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  background-image: -webkit-gradient(linear, left bottom, right top, color-stop(50%, rgba(128, 204, 255, 0.6)), to(rgba(60, 255, 60, 0.3))), url(/img/VOYAGE.png);
+  background-image: linear-gradient(to top right, rgba(128, 204, 255, 0.6) 50%, rgba(60, 255, 60, 0.3)), url(/img/VOYAGE.png);
+  background-size: cover;
+  background-position: center;
+}
+
+#TheMainContent #SectionHobbies #voyageHob .encadreItems {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1%;
+}
+
+@media only screen and (max-width: 900px) {
+  #TheMainContent #SectionHobbies #voyageHob .encadreItems {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #TheMainContent #SectionHobbies #voyageHob .encadreItems {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #TheMainContent #SectionHobbies #voyageHob .encadreItems {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+#TheMainContent #SectionHobbies #voyageHob .encadreItems .ParPays {
+  width: 45%;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  margin: 1%;
+  text-align: center;
+  padding: 1%;
+}
+
+@media only screen and (max-width: 900px) {
+  #TheMainContent #SectionHobbies #voyageHob .encadreItems .ParPays {
+    display: -ms-grid;
+    display: grid;
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #TheMainContent #SectionHobbies #voyageHob .encadreItems .ParPays {
+    display: -ms-grid;
+    display: grid;
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #TheMainContent #SectionHobbies #voyageHob .encadreItems .ParPays {
+    display: -ms-grid;
+    display: grid;
+    width: 70%;
+  }
+}
+
+#TheMainContent #SectionHobbies #voyageHob .encadreItems .ParPays h4 {
+  background-color: tomato;
+  max-height: 50px;
+  width: 60%;
+  margin: 0 auto 0 auto;
+  padding: 1.5%;
+  font-weight: bold;
+  border-radius: 100px;
+}
+
+#TheMainContent #SectionHobbies #voyageHob .encadreItems .ParPays div {
+  margin: 5px auto auto auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap-reverse;
+      flex-wrap: wrap-reverse;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  min-height: 15rem;
+}
+
+#TheMainContent #SectionHobbies #voyageHob .encadreItems .ParPays div p {
+  padding: 2%;
+  font-size: 1.2em;
+  margin: 4%;
+  border-color: wheat;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+#TheMainContent #SectionHobbies #voyageHob .encadreItems .ParPays div p:hover {
+  color: black;
+  background: #80ccff;
+  -webkit-box-shadow: 0 0 20px #80ccff, 0 0 80px #80ccff, 0 0 160px #80ccff;
+          box-shadow: 0 0 20px #80ccff, 0 0 80px #80ccff, 0 0 160px #80ccff;
+  -webkit-transition-delay: 0.3s;
+          transition-delay: 0.3s;
+}
+
+#TheMainContent #SectionHobbies #lectureHob {
+  margin-top: 5px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 1%;
+}
+
+#TheMainContent #SectionHobbies #lectureHob h3 {
+  padding: 2%;
+  margin: 1% auto 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  background-image: -webkit-gradient(linear, left bottom, right top, color-stop(50%, rgba(128, 204, 255, 0.6)), to(rgba(60, 255, 60, 0.3))), url(/img/livre.png);
+  background-image: linear-gradient(to top right, rgba(128, 204, 255, 0.6) 50%, rgba(60, 255, 60, 0.3)), url(/img/livre.png);
+  background-size: cover;
+  background-position: center;
+}
+
+#TheMainContent #SectionHobbies #lectureHob #EncadreCategoriesLivres {
+  text-align: center;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (22rem)[auto-fit];
+      grid-template-columns: repeat(auto-fit, 22rem);
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  gap: 1%;
+}
+
+#TheMainContent #SectionHobbies #lectureHob #EncadreCategoriesLivres .CategoriesLivres {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  margin: 1%;
+  text-align: center;
+  padding: 1%;
+}
+
+#TheMainContent #SectionHobbies #lectureHob #EncadreCategoriesLivres .CategoriesLivres h4 {
+  background-color: tomato;
+  width: 90%;
+  padding: 1%;
+  margin: 0 auto 10px auto;
+  font-weight: 600;
+  border-radius: 100px;
+}
+
+center {
+  margin: 20px auto;
+  font-size: x-large;
+}
+
+center p {
+  color: wheat;
+  background-color: black;
+  padding: 15%;
+}
+/*# sourceMappingURL=main.css.map */
