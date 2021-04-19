@@ -4,12 +4,20 @@ const Defilement = document.getElementById("TitreDeDefilement");
 
 new Typewriter(Defilement, {
     loop: true,
-    deleteSpeed: 100
+    deleteSpeed: 150
 })
 .changeDelay(5)
 .typeString("Bonjour et Bienvenu")
 .pauseFor(700)
 .deleteChars(19)
+
+.typeString('Ce site est encore en construction')
+.pauseFor(600)
+.deleteChars(34)
+
+.typeString('consultez sa version ancienne <a href="https://kamamoctar.github.io/LeNouveauModel/CV-main/" target="_blank">ici</a>')
+.pauseFor(3000)
+.deleteChars(116)
 
 .typeString('Je suis ')
 .pauseFor(500)
