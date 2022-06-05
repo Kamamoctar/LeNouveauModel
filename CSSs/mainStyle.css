@@ -115,7 +115,7 @@ body.dark-theme {
 }
 
 /* ===== NAV BUTTONS DARK : LIGH ===== */
-.nav__btns{
+.nav__btns {
   display: flex;
   align-items: center;
   padding-left: var(--mb-0-5);
@@ -124,124 +124,129 @@ body.dark-theme {
   gap: var(--mb-0-75);
 }
 
-.change-theme{
+.change-theme {
   font-size: 1.25rem;
   color: var(--title-color);
   margin-right: var(--mb-1);
   cursor: pointer;
 }
-.change-theme:hover{
+.change-theme:hover {
   color: var(--first-color);
 }
 
 /* ========================
     LES GENERALITE 
 ======================== */
-*{
+* {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
-html{
+html {
   scroll-behavior: smooth;
 }
 
-body{
+body {
   margin: 0 0 var(--header-height) 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   background-color: var(--body-color);
 }
 
-h1, h2, h3, h4{
+h1,
+h2,
+h3,
+h4 {
   color: var(--title-color);
   font-weight: var(--font-semi-bold);
 }
 
-ul{
+ul {
   list-style: none;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-img{
+img {
   max-width: 100%;
   height: auto;
 }
 
 /* CLASSES GENERAUX */
-.section{
+.section {
   padding: 2rem 0 4rem;
   margin: auto;
   min-height: 80vh;
 }
 
-.section__title{
+.section__title {
   font-size: var(--big-font-size);
   font-family: var(--gullible-font);
 }
 
-.section__subtitle{
+.section__subtitle {
   display: block;
   font-size: var(--small-font-size);
   margin-bottom: var(--mb-3);
   color: var(--text-color);
 }
 
-.section__title, 
-.section__subtitle{
+.section__title,
+.section__subtitle {
   text-align: center;
 }
 
-/* ========================= BUTTONS STYLING =====================  */
-.button{
+/* ========================= STYLES DES BUTTONS =====================  */
+.button {
   display: inline-block;
   background-color: var(--first-color);
-  color: #FFF;
+  color: #fff;
   padding: 1rem;
   border-radius: .5rem;
   font-weight: var(--font-medium);
 }
 
-.button:hover{
+.button:hover {
   background-color: var(--first-color-alt);
-  color: #FFF;
+  color: #fff;
 }
 
-.button__icon{
+.button__icon {
   font-size: 1.25rem;
   margin-left: var(--mb-0-5);
-  transition: .3s;
+  transition: 0.3s;
 }
 
-.button--flex{
+.button--flex {
   display: inline-flex;
   align-items: center;
+  /*background-color: var(--body-color);
+  color: var(--text-color); */
 }
 
-.button--white{
-  background-color: #FFF;
+.button--white {
+  background-color: #fff;
   color: var(--first-color);
 }
 
-.button--white:hover{
+.button--white:hover {
   background-color: var(--first-color-lighter);
 }
 
 /* ===============================
-            ENTETE
+            AFFICHAGE
 =============================== */
-.container{
+.container {
   margin-right: auto;
 }
 
-.grid{
+.grid {
   display: grid;
 }
 
-.header{
+.header {
   width: 100%;
   position: fixed;
   bottom: 0;
@@ -252,8 +257,8 @@ img{
   margin-right: var(--mb-0-25);
 }
 
-/* LA NAV */
-.nav{
+/* +++++++LA NAV+++++++++ */
+.nav {
   max-width: 968px;
   height: var(--header-height);
   display: flex;
@@ -263,49 +268,49 @@ img{
   margin-right: var(--mb-0-25);
 }
 .nav__logo,
-.nav__toggle{
-    color: var(--title-color);
-    font-weight: var(--font-medium);
+.nav__toggle {
+  color: var(--title-color);
+  font-weight: var(--font-medium);
 }
 
-.nav__logo:hover{
+.nav__logo:hover {
   color: var(--first-color);
 }
 
-.nav__toggle{
+.nav__toggle {
   font-size: var(--h3-font-size);
   cursor: pointer;
   margin-right: 2rem;
 }
 
-.nav__toggle:hover{
+.nav__toggle:hover {
   color: var(--first-color);
 }
 
-.navbar-brand{
+.navbar-brand {
   font-family: var(--robotomono-font);
 }
 
 @media screen and (max-width: 768px) {
-  .nav__menu{
-      position: fixed;
-      bottom: -100%;
-      right: 0;
-      left:0;
-      width: 100%;
-      background-color: var(--body-color);
-      padding: 2rem 1.5rem 4rem;
-      box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
-      border-radius: 1.5rem 1.5rem 0 0;
-      transition: .5s;
+  .nav__menu {
+    position: fixed;
+    bottom: -100%;
+    right: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--body-color);
+    padding: 2rem 1.5rem 4rem;
+    box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 1.5rem 1.5rem 0 0;
+    transition: 0.5s;
   }
 }
 
-.nav__list{
+.nav__list {
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
 }
-.nav__link{
+.nav__link {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -313,45 +318,190 @@ img{
   color: var(--title-color);
   font-weight: var(--font-medium);
 }
-.nav__link:hover{
+.nav__link:hover {
   color: var(--first-color);
 }
 
-.nav__icon{
+.nav__icon {
   font-size: 1.2rem;
 }
 
-.nav__close{
+.nav__close {
   position: absolute;
   right: 1.3rem;
-  bottom: .5rem;
+  bottom: 0.5rem;
   font-size: 1.5rem;
   cursor: pointer;
   color: var(--first-color);
 }
-.nav__close:hover{
+.nav__close:hover {
   color: var(--first-color-alt);
 }
 
 /* APPARANT MENU */
-.show-menu{
+.show-menu {
   bottom: 0;
 }
 
-/* Active link */
-.active-link{
+/* LEINS Actifs */
+.active-link {
   color: var(--first-color);
 }
 
 /* Change background header */
-.scroll-header{
+.scroll-header {
   box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
 }
 
 /* ===============================
             CORPS
 =============================== */
+/* ++++++++++++++++ HOME++++++++++++++ */
+.home {
+  height: 90vh;
+  align-content: space-between;
+  margin-top: var(--mb-3);
+}
 
+.home__container {
+  display: flex;
+  gap: 1.75rem;
+  padding-left: 0;
+  margin-left: var(--mb-1);
+  justify-content: space-around;
+  align-items: center;
+}
+.home__content {
+  display: grid;
+  grid-template-columns: 0.08fr 1fr;
+  grid-template-areas: "home__social home__content";
+  padding-top: var(--mb-2-5);
+  align-items: center;
+  height: auto;
+  align-content: space-between;
+  margin-right: var(--mb-0-25);
+  margin-left: 0;
+}
+.home__social {
+  display: grid;
+  grid-area: home__social;
+  row-gap: 1rem;
+  column-gap: 0;
+  padding-top: 2rem;
+  margin: 0;
+}
+.home__social-icon {
+  font-size: 1.25rem;
+  columns: var(--first-color);
+}
+.home__social-icon:hover {
+  columns: var(--first-color-alt);
+}
+
+.home__data {
+  grid-area: home--content;
+  align-content: center;
+  text-align: center;
+}
+.home_welcome {
+  text-align: center;
+  font-size: var(--small-font-size);
+  color: var(--text-color);
+  padding: 1.5rem;
+}
+
+.home__title {
+  text-align: center;
+  font-size: var(--big-font-size);
+  color: var(--text-color);
+  margin-top: var(--mb-1-5);
+  padding-bottom: 1rem;
+}
+
+.modal-body {
+  text-align: justify;
+  color: var(--text-color);
+  background-color: var(--body-color);
+}
+
+#typewriter {
+  margin-top: var(--mb-1);
+  margin-bottom: var(--mb-2);
+}
+.Typewriter__wrapper {
+  text-align: center;
+  font-size: var(--h2-font-size);
+  font-family: var(--robotomono-font);
+  font-weight: var(--font-medium);
+  color: var(--mainText);
+}
+.Typewriter__cursor {
+  font-size: var(--h1-font-size);
+  color: tomato;
+  font-family: var(--gullible-font);
+  font-weight: 600;
+}
+
+.home__subtitle {
+  text-align: center;
+  font-size: var(--h3-font-size);
+  color: var(--text-color);
+  font-weight: var(--font-medium);
+  margin-bottom: var(--mb-1);
+  padding: 1rem 1.5rem 1rem 1.5rem;
+}
+
+/* SCROLL DOWN */
+@keyframes scrollDown {
+  0%{
+    margin-top: 14px;
+    opacity: 0;
+  }
+  15%{
+    margin-top: 15px;
+    opacity: 1;
+  }
+  30%{
+    margin-top: 16px;
+    opacity: 1;
+  }
+  50%{
+    margin-top: 30px;
+    opacity: 1;
+  }
+  100%{
+    margin-top: 30px;
+    opacity: 0;
+  }
+}
+
+.home__scroll {
+  display: flex;
+  justify-content: center;
+  margin-top: var(--mb-1);
+  animation: scrollDown 3s infinite;
+}
+.home__scroll-button {
+  color: var(--first-color);
+  transition: .6s;
+}
+.home__scroll-button:hover {
+  color: var(--first-color-alt);
+  transform: translateY(.25rem);
+}
+
+.home__scroll-mouse {
+  font-size: var(--big-font-size);
+}
+.home__scroll-name {
+  font-size: var(--small-font-size);
+  color: var(--title-color);
+  font-weight: var(--font-medium);
+  margin: var(--mb-0-25);
+}
+.home__scroll-arrow {
+  font-size: var(--h3-font-size);
+}
 /* ===============================
             PIED
 =============================== */

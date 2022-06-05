@@ -12,15 +12,15 @@ const selectedIcon = localStorage.getItem('selected-icon')
 // ++++++ 
 //  NOUS OBTENONS LE THEME ACTUEL DE L'INTERFACE 
 // ++++++
-const getCurrentTheme = () => document.body.classList.contains(darkTheme)?'dark':'light'
-const getCurrentIcon = () => document.body.classList.contains(iconTheme)?'uil-moon':'uil-sun'
+const getCurrentTheme = () => document.body.classList.contains(darkTheme) ? 'dark' : 'light'
+const getCurrentIcon = () => document.body.classList.contains(iconTheme) ? 'uil-moon' : 'uil-sun'
 
 // ++++++ 
 //  POUR VALIDER SI LE CHOIX EST FAIT PRECEDEMMT 
 // ++++++
-if(selectedTheme){
-    document.body.classList[selectedTheme === 'dark'?'add':'remove'](darkTheme)
-    themeButton.classList[selectedIcon === 'uil-moon'?'add':'remove'](iconTheme)
+if (selectedTheme) {
+    document.body.classList[selectedTheme === 'dark' ? 'add' : 'remove'](darkTheme)
+    themeButton.classList[selectedIcon === 'uil-moon' ? 'add' : 'remove'](iconTheme)
 }
 
 // ++++++ 
@@ -34,24 +34,53 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
-console.log("THEME SETTING IS WORKING!")
+console.log("THEME marche")
 
-//===================================== MENU SHOW Y HIDDEN =========================
+// +++++++++++++++++++++++++++++++++
+//          LE MENU
+// +++++++++++++++++++++++++++++++++
 const navMenu = document.getElementById('nav-menu')
 const navToggle = document.getElementById('nav-toggle')
 const navClose = document.getElementById('nav-close')
 
-// ================  MENU SHOW  =============
+// ================  MENU visible  =============
 /*  Validate if the constant exists */
-if(navToggle){
+if (navToggle) {
     navToggle.addEventListener('click', () => {
         navMenu.classList.add('show-menu')
     })
-} 
-// ================  MENU HIDE  =============
-/*  Validate if the constant exists */
-if(navClose){
+}
+
+// ================  MENU caché  =============
+/*  Valider si constante existe */
+if (navClose) {
     navClose.addEventListener('click', () => {
-        navMenu.classList.remove('show-menu')
+        navMenu.classList.add('show-menu')
     })
-} 
+}
+
+
+// ==================DISPARITON MENU
+const navLink = document.querySelectorAll('.nav__link')
+
+function linkAction() {
+    const navMenu = document.getElementById('nav-menu')
+    // ENLEVE LA VISIBILITE DU MENU QUNAD CLICK SUR nav-link
+    navMenu.classList.remove('show-menu')
+}
+
+navLink.forEach(n => n.addEventListener('click', linkAction))
+console.log('remove menu marche');
+
+
+// ++++++++++++++++++++++
+// ? TYPEWRITER EFFECT
+// ++++++++++++++++++++++++++++
+
+new Typewriter('#typewriter', {
+  strings: ['NAMADOU Moctar K.', '#Information Manager', '#Communicant'],
+  autoStart: true,
+  loop: true,
+  cursor: '|'
+});
+console.log('Marche Aussi');

@@ -3,6 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="Moctar Kamakaté NAMADOU ; professionnel de l'information documentaire et de la communication digitale. Un information manager"
+    />
+    <meta
+      name="keywords"
+      content="NAMADOU Moctar Kamakaté, cv, Curriculum Vitae, PID"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- LES FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -35,7 +43,13 @@
       <nav class="nav container navbar-expand-lg">
         <a href="#" class="nav__logo navbar-brand ml-3">NAMADOU Moctar K.</a>
         <button
-        class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-default" aria-controls="navbar-default" aria-expanded="false" aria-label="Toggle navigation"
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbar-default"
+          aria-controls="navbar-default"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -79,12 +93,16 @@
               </a>
             </li>
           </ul>
-          <i class="uil uil-times nav__close" id="nav-close"></i>
+          <!-- <i class="uil uil-times nav__close" id="nav-close"></i> -->
         </div>
 
         <div class="nav__btns">
           <!-- BOUTON POUR CANGEMENT DE THEME -->
-          <i data-mode="dark" class="uil uil-moon moon-change-theme uil-sun" id="theme-button"></i>
+          <i
+            data-mode="dark"
+            class="uil uil-moon moon-change-theme uil-sun"
+            id="theme-button"
+          ></i>
           <div class="nav__toggle" id="nav-toggle">
             <i class="uil uil-apps"></i>
           </div>
@@ -97,7 +115,169 @@
     ============================ -->
     <main class="main">
       <!-- ACCUEIL - HOME -->
-      <section class="home section" id="home"></section>
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__content grid">
+            <div class="home__social">
+              <a
+                href="https://www.linkedin.com/in/moctar-kamakat%C3%A9-namadou/"
+                target="_blank"
+                class="home__social_icon"
+                id="myLinkedIn"
+              >
+                <i class="uil uil-linkedin-alt"></i>
+              </a>
+
+              <a
+                href="#"
+                target="_blank"
+                class="home__social_icon"
+                id="myTwitter"
+              >
+                <i class="uil uil-twitter-alt"></i>
+              </a>
+
+              <a
+                href="#"
+                target="_blank"
+                class="home__social_icon"
+                id="myFacebook"
+              >
+                <i class="uil uil-facebook-f"></i>
+              </a>
+
+              <a
+                href="#"
+                target="_blank"
+                class="home__social_icon"
+                id="myInstagram"
+              >
+                <i class="uil uil-instagram"></i>
+              </a>
+              
+              <a
+                href="#"
+                target="_blank"
+                class="home__social_icon"
+                id="myYoutube"
+              >
+                <i class="uil uil-youtube"></i>
+              </a>
+              <a
+                href="#"
+                target="_blank"
+                class="home__social_icon"
+                id="myTelegram"
+              >
+                <i class="uil uil-telegram-alt"></i>
+              </a>
+              <a
+                href="#"
+                target="_blank"
+                class="home__social_icon"
+                id="myGithub"
+              >
+                <i class="uil uil-github-alt"></i>
+              </a>
+            </div>
+          </div>
+          <div class="home__data">
+            <small class="home_welcome s-color">
+              Bienvenue sur mon site - Curriculum vitae !
+            </small>
+            <h1 class="home__title">Salut Je suis</h1>
+
+            <!-- EFFET TEXTE ANIME -->
+            <div id="typewriter" class="Typewriter"></div>
+
+            <h3 class="home__subtitle" id="home-bio">
+              <strong>Information manager</strong> depuis 2016. Je suis un <strong>passioné</strong> de la
+              technologie. Et j'aime lire ou apprendre de nouvelles choses. <br>
+              <!-- ===================
+                Button trigger modal 
+              ==================== -->
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+                id="InfoSuple"
+              >
+                En savoir plus
+              </button>
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="exampleModal"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">
+                        Bio
+                      </h5>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body">
+                      <p>
+                        Je suis Moctar Kamakaté NAMADOU,
+                        <strong
+                          >professionnel de l'information documentaire</strong
+                        >
+                        (information manager) depuis 2016. J'ai été un
+                        collaborateur sur le projet de mise en place du SAE de
+                        la Conférence des Ministres de la Jeunesse et des sports
+                        (CONFEJES). J'ai travaillé en grande partie comme un
+                        independant... Je suis un <strong>Passioné</strong> de
+                        la technologie en général ; ce qui me permet d'assimiler
+                        rapidement les applications en Informatique
+                        documentaire. Outre le professionnel, j'aime surtout
+                        lire et écrire, <strong>apprendre,</strong> le
+                        developement WEB et la musique.
+                      </p>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        Fermer
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- 
+                FIN DU Modal
+              -->
+            </h3>
+
+            
+
+            <a href="#contact" class="button button--flex">
+              contact me <i class="uil uil-message button__icon"></i>
+            </a>
+          </div>
+          
+        </div>
+
+        <div class="home__scroll">
+          <a href="#about" class="home__scroll-button button--flex">
+            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+            <!-- <span class="home__scroll-name">Défiler </span>
+            <i class="uil uil-arrow-down home__scroll-arrow"></i> -->
+          </a>
+        </div>
+      </section>
       <!-- A PROPOS - ABOUT -->
       <section class="about section" id="about"></section>
       <!-- COMPETENCES - SKILLS -->
@@ -109,21 +289,28 @@
       <!-- PORTFOLIO -->
       <section class="portfolio section" id="portfolio"></section>
       <!-- CONTACTEZ-NOUS -->
-      <section class="contacts section" id="contacts"></section>
+      <section class="contact section" id="contact"></section>
     </main>
 
     <!-- PIED - FOOTER -->
     <footer class="Footer"></footer>
 
-    <!-- LE JS DE BOOTSTRAP
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-     -->
+    <!-- LE JS DE BOOTSTRAP -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+
     <!-- Core -->
     <script src="JS/core/jquery.min.js"></script>
     <script src="JS/core/popper.min.js"></script>
     <script src="JS/core/bootstrap.min.js"></script>
     <!-- Theme JS -->
-    <!-- <script src="JS/argon-design-system.min.js"></script> -->
+    <script src="JS/argon-design-system.min.js"></script>
+
+    <!-- Typewriter CSS EFFECT JS -->
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 
     <!-- MON JS -->
     <script src="JS/app.js"></script>
