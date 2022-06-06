@@ -222,7 +222,7 @@ img {
 .button--flex {
   display: inline-flex;
   align-items: center;
-  /*background-color: var(--body-color);
+  /* background-color: var(--body-color);
   color: var(--text-color); */
 }
 
@@ -358,9 +358,10 @@ img {
 =============================== */
 /* ++++++++++++++++ HOME++++++++++++++ */
 .home {
-  height: 90vh;
+  height: 70vh;
   align-content: space-between;
   margin-top: var(--mb-3);
+  padding-bottom: 0;
 }
 
 .home__container {
@@ -492,6 +493,7 @@ img {
 
 .home__scroll-mouse {
   font-size: var(--big-font-size);
+  margin-top: var(--mb-3);
 }
 .home__scroll-name {
   font-size: var(--small-font-size);
@@ -502,6 +504,51 @@ img {
 .home__scroll-arrow {
   font-size: var(--h3-font-size);
 }
+
+/* ++++++++++++++++ APROPOS ++++++++++++++ */
+.about{
+  padding-top: 1rem;
+}
+.about__img {
+  width: 200px;
+  border-radius: .5rem;
+  margin-bottom: var(--mb-2);
+  display: inline-flex;
+  justify-self: center;
+}
+.about__description{
+  text-align: center;
+  margin-bottom: var(--mb-2-5);
+  text-align: justify;
+}
+
+.about__info{
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: var(--mb-2-5);
+}
+.about__info-title {
+  font-size: var(--h2-font-size);
+  font-weight: var(--font-semi-bold);
+  color: var(--title-color);
+}
+.about__info-name {
+  font-size: var(--smaller-font-size);
+  font-family: var(--roboto-font);
+}
+
+.about__info-title, .about__info-name {
+  display: block;
+  text-align: center;
+}
+
+.about__buttons{
+  display: flex;
+  justify-content: center;
+}
+
+/* ++++++++++++++++ COMPETENCES - SKILLS ++++++++++++++ */
+
 /* ===============================
             PIED
 =============================== */
