@@ -1,436 +1,807 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="description"
-      content="Moctar Kamakaté NAMADOU ; professionnel de l'information documentaire et de la communication digitale. Un information manager"
-    />
-    <meta
-      name="keywords"
-      content="NAMADOU Moctar Kamakaté, cv, Curriculum Vitae, PID, information manager"
-    />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- LES FONTS -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600&family=Poppins:wght@200;300;400;600;800&family=Roboto&family=Roboto+Mono:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
-    <!-- LES ICONES -->
-    <link
-      rel="stylesheet"
-      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
-    />
-    <!-- LE CSS DE BOOTSTRAP -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
-      crossorigin="anonymous"
-    />
-    <!-- LE CSS DE ARGON -->
-    <link href="CSSs/argon-design-system.min.css" rel="stylesheet" />
-    <!-- Link Swiper's CSS -->
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/swiper/swiper-bundle.min.css"
-    />
 
-    <!-- MON CSS -->
-    <link rel="stylesheet" href="CSSs/mainStyle.css" />
-    <title>NAMADOU Moctar K. | Bienvenue sur mon Curriculum vitae</title>
-  </head>
-  <body class="dark-theme vsc-initialized">
-    <!-- =========================== 
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="description"
+    content="Moctar Kamakaté NAMADOU ; professionnel de l'information documentaire et de la communication digitale. Un information manager" />
+  <meta name="keywords" content="NAMADOU Moctar Kamakaté, cv, Curriculum Vitae, PID, information manager" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- LES FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600&family=Poppins:wght@200;300;400;600;800&family=Roboto&family=Roboto+Mono:wght@400;500&display=swap"
+    rel="stylesheet" />
+  <!-- LES ICONES -->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+  <!-- <link rel="stylesheet" href="CSSs/reset.css"> -->
+  <!-- LE CSS DE BOOTSTRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+  <!-- LE CSS DE ARGON -->
+  <link href="CSSs/argon-design-system.min.css" rel="stylesheet" />
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+  <!-- MON CSS -->
+  <link rel="stylesheet" href="CSSs/mainStyle.css" />
+  <title>NAMADOU Moctar K. | Bienvenue sur mon Curriculum vitae</title>
+</head>
+
+<body class="dark-theme vsc-initialized">
+  <!-- =========================== 
 
             ENTETE - HEADER 
             
     ============================ -->
-    <header class="header" id="header">
-      <nav class="nav container navbar-expand-lg">
-        <a href="#" class="nav__logo navbar-brand ml-3">NAMADOU Moctar K.</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbar-default"
-          aria-controls="navbar-default"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+  <header class="header" id="header">
+    <nav class="nav container navbar-expand-lg">
+      <a href="#" class="nav__logo navbar-brand ml-3">NAMADOU Moctar K.</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-default"
+        aria-controls="navbar-default" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-        <div class="nav__menu" id="nav-menu">
-          <ul class="nav__list grid">
-            <li class="nav__item">
-              <a href="#home" class="nav__link active-link">
-                <i class="uil uil-estate nav__icon"></i>HOME
-              </a>
-            </li>
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list grid">
+          <li class="nav__item">
+            <a href="#home" class="nav__link active-link">
+              <i class="uil uil-estate nav__icon"></i>ACCEUIL
+            </a>
+          </li>
 
-            <li class="nav__item">
-              <a href="#home" class="nav__link">
-                <i class="uil uil-user nav__icon"></i>A PROPOS
-              </a>
-            </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">
+              <i class="uil uil-user nav__icon"></i>Moi ?
+            </a>
+          </li>
 
-            <li class="nav__item">
-              <a href="#home" class="nav__link">
-                <i class="uil uil-file nav__icon"></i>COMPETENCES
-              </a>
-            </li>
+          <li class="nav__item">
+            <a href="#skills" class="nav__link">
+              <i class="uil uil-file nav__icon"></i>COMPETENCES
+            </a>
+          </li>
 
-            <li class="nav__item">
-              <a href="#home" class="nav__link">
-                <i class="uil uil-briefcase-alt nav__icon"></i>CURSUS &
-                EXPERIENCE
-              </a>
-            </li>
+          <li class="nav__item">
+            <a href="#qualification" class="nav__link">
+              <i class="uil uil-briefcase-alt nav__icon"></i>CURSUS &
+              EXPERIENCE
+            </a>
+          </li>
 
-            <li class="nav__item">
-              <a href="#home" class="nav__link">
-                <i class="uil uil-scenery nav__icon"></i>PORTFOLIO
-              </a>
-            </li>
+          <li class="nav__item">
+            <a href="#portfolio" class="nav__link">
+              <i class="uil uil-scenery nav__icon"></i>PORTFOLIO
+            </a>
+          </li>
 
-            <li class="nav__item">
-              <a href="#home" class="nav__link">
-                <i class="uil uil-message nav__icon"></i>CONTACTEZ-NOUS
-              </a>
-            </li>
-          </ul>
-          <!-- <i class="uil uil-times nav__close" id="nav-close"></i> -->
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">
+              <i class="uil uil-message nav__icon"></i>CONTACTES
+            </a>
+          </li>
+        </ul>
+        <!-- <i class="uil uil-times nav__close" id="nav-close"></i> -->
+      </div>
+
+      <div class="nav__btns">
+        <!-- BOUTON POUR CANGEMENT DE THEME -->
+        <i data-mode="dark" class="uil uil-moon moon-change-theme uil-sun" id="theme-button"></i>
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="uil uil-apps"></i>
         </div>
+      </div>
+    </nav>
+  </header>
 
-        <div class="nav__btns">
-          <!-- BOUTON POUR CANGEMENT DE THEME -->
-          <i
-            data-mode="dark"
-            class="uil uil-moon moon-change-theme uil-sun"
-            id="theme-button"
-          ></i>
-          <div class="nav__toggle" id="nav-toggle">
-            <i class="uil uil-apps"></i>
-          </div>
-        </div>
-      </nav>
-    </header>
-
-    <!-- =========================== 
+  <!-- =========================== 
 
             CORPS - MAIN 
 
     ============================ -->
-    <main class="main">
-      <!-- ACCUEIL - HOME -->
-      <section class="home section" id="home">
-        <div class="home__container container grid">
-          <div class="home__content grid">
-            <div class="home__social">
-              <a
-                href="https://www.linkedin.com/in/moctar-kamakat%C3%A9-namadou/"
-                target="_blank"
-                class="home__social_icon"
-                id="myLinkedIn"
-              >
-                <i class="uil uil-linkedin-alt"></i>
-              </a>
+  <main class="main">
+    <!-- ACCUEIL - HOME -->
+    <section class="home section" id="home">
+      <div class="home__container container grid">
+        <div class="home__content grid">
+          <div class="home__social">
+            <a href="https://www.linkedin.com/in/moctar-kamakat%C3%A9-namadou/" target="_blank"
+              class="home__social_icon" id="myLinkedIn">
+              <i class="uil uil-linkedin-alt"></i>
+            </a>
 
-              <a
-                href="https://twitter.com/NamadouMoctar"
-                target="_blank"
-                class="home__social_icon"
-                id="myTwitter"
-              >
-                <i class="uil uil-twitter-alt"></i>
-              </a>
+            <a href="https://twitter.com/NamadouMoctar" target="_blank" class="home__social_icon" id="myTwitter">
+              <i class="uil uil-twitter-alt"></i>
+            </a>
 
-              <a
-                href="https://www.facebook.com/MKNAMADOU/"
-                target="_blank"
-                class="home__social_icon"
-                id="myFacebook"
-              >
-                <i class="uil uil-facebook-f"></i>
-              </a>
+            <a href="https://www.facebook.com/MKNAMADOU/" target="_blank" class="home__social_icon" id="myFacebook">
+              <i class="uil uil-facebook-f"></i>
+            </a>
 
-              <a
-                href="https://www.instagram.com/moctar_kamakate/"
-                target="_blank"
-                class="home__social_icon"
-                id="myInstagram"
-              >
-                <i class="uil uil-instagram"></i>
-              </a>
+            <a href="https://www.instagram.com/moctar_kamakate/" target="_blank" class="home__social_icon"
+              id="myInstagram">
+              <i class="uil uil-instagram"></i>
+            </a>
 
-              <a
-                href="https://www.youtube.com/channel/UCFePu0LN_VOwIpqT4T02YgQ"
-                target="_blank"
-                class="home__social_icon"
-                id="myYoutube"
-              >
-                <i class="uil uil-youtube"></i>
-              </a>
-              <a
-                href="https://t.me/SageMKN"
-                target="_blank"
-                class="home__social_icon"
-                id="myTelegram"
-              >
-                <i class="uil uil-telegram-alt"></i>
-              </a>
-              <a
-                href="https://github.com/Kamamoctar"
-                target="_blank"
-                class="home__social_icon"
-                id="myGithub"
-              >
-                <i class="uil uil-github-alt"></i>
-              </a>
-            </div>
-          </div>
-          <div class="home__data">
-            <small class="home_welcome s-color">
-              Bienvenue sur mon site - Curriculum vitae !
-            </small>
-            <h1 class="home__title">Salut Je suis</h1>
-
-            <!-- EFFET TEXTE ANIME -->
-            <div id="typewriter" class="Typewriter"></div>
-
-            <h3 class="home__subtitle" id="home-bio">
-              <strong>Information manager</strong> depuis 2016. Je suis un
-              <strong>passioné</strong> de la technologie. Et j'aime lire ou
-              apprendre de nouvelles choses. <br />
-              <!-- ===================
-                Button trigger modal 
-              ==================== -->
-            </h3>
-
-            <a href="#contact" class="button button--flex">
-              contact me <i class="uil uil-message button__icon"></i>
+            <a href="https://www.youtube.com/channel/UCFePu0LN_VOwIpqT4T02YgQ" target="_blank" class="home__social_icon"
+              id="myYoutube">
+              <i class="uil uil-youtube"></i>
+            </a>
+            <a href="https://t.me/SageMKN" target="_blank" class="home__social_icon" id="myTelegram">
+              <i class="uil uil-telegram-alt"></i>
+            </a>
+            <a href="https://github.com/Kamamoctar" target="_blank" class="home__social_icon" id="myGithub">
+              <i class="uil uil-github-alt"></i>
             </a>
           </div>
         </div>
+        <div class="home__data">
+          <small class="home_welcome s-color">
+            Bienvenue sur mon site - Curriculum vitae !
+          </small>
+          <h1 class="home__title">Salut Je suis</h1>
 
-        <div class="home__scroll">
-          <a href="#about" class="home__scroll-button button--flex">
-            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
-            <!-- <span class="home__scroll-name">Défiler </span>
-            <i class="uil uil-arrow-down home__scroll-arrow"></i> -->
+          <!-- EFFET TEXTE ANIME -->
+          <div id="typewriter" class="Typewriter"></div>
+
+          <h3 class="home__subtitle" id="home-bio">
+            <strong>Information manager</strong> depuis 2016. Je suis un
+            <strong>passioné</strong> de la technologie. Et j'aime lire ou
+            apprendre de nouvelles choses. <br />
+          </h3>
+
+          <a href="#contact" class="button button--flex">
+            Contactez-Nous <i class="uil uil-message button__icon"></i>
           </a>
         </div>
-      </section>
-      <!-- A PROPOS - ABOUT -->
-      <section class="about section" id="about">
-        <h2 class="section__title">About</h2>
-        <span class="section__subtitle">My Introduction</span>
-        <div class="about__container container grid">
-          <img
-            src="LesAssets/IMG/SOUTEDAY.jpg"
-            alt="Soutenance"
-            class="about__img"
-          />
-          <div class="about__data">
-            <p class="about__description" id="home-about">
-              Je suis Moctar Kamakaté NAMADOU,
-              <strong>professionnel de l'information documentaire</strong>
-              (information manager) depuis 2016. J'ai été un collaborateur sur
-              le projet de mise en place du SAE de la Conférence des Ministres
-              de la Jeunesse et des sports (CONFEJES). J'ai travaillé en grande
-              partie comme un independant... Je suis un
-              <strong>Passioné</strong> de la technologie en général ; ce qui me
-              permet d'assimiler rapidement les applications en Informatique
-              documentaire. Outre le professionnel, j'aime surtout lire et
-              écrire, <strong>apprendre de nouvelles choses ;</strong> le
-              developement WEB et la musique.
-            </p>
+      </div>
+
+      <div class="home__scroll">
+        <a href="#about" class="home__scroll-button button--flex">
+          <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+          <!-- <span class="home__scroll-name">Défiler </span>
+            <i class="uil uil-arrow-down home__scroll-arrow"></i> -->
+        </a>
+      </div>
+    </section>
+    <!-- A PROPOS - ABOUT -->
+    <section class="about section" id="about">
+      <h2 class="section__title">About</h2>
+      <span class="section__subtitle">My Introduction</span>
+      <div class="about__container container grid">
+        <img src="LesAssets/IMG/SOUTEDAY.jpg" alt="Soutenance" class="about__img" />
+        <div class="about__data">
+          <p class="about__description" id="home-about">
+            Je suis Moctar Kamakaté NAMADOU,
+            <strong>professionnel de l'information documentaire</strong>
+            (information manager) depuis 2016. J'ai été un collaborateur sur
+            le projet de mise en place du SAE de la Conférence des Ministres
+            de la Jeunesse et des sports (CONFEJES). J'ai travaillé en grande
+            partie comme un independant... Je suis un
+            <strong>Passioné</strong> de la technologie en général ; ce qui me
+            permet d'assimiler rapidement les applications en Informatique
+            documentaire. Outre le professionnel, j'aime surtout lire et
+            écrire, <strong>apprendre de nouvelles choses ;</strong> le
+            developement WEB et la musique.
+          </p>
+        </div>
+
+        <div class="about__info">
+          <div>
+            <span class="about__info-title"> 03+ </span>
+            <span class="about__info-name">
+              ans <br />
+              d'Experience</span>
           </div>
 
-          <div class="about__info">
-            <div>
-              <span class="about__info-title"> 03+ </span>
-              <span class="about__info-name">
-                ans <br />
-                d'Experience</span
-              >
-            </div>
-
-            <div>
-              <span class="about__info-title"> 02 </span>
-              <span class="about__info-name">
-                Projets <br />
-                à notre actif
-              </span>
-            </div>
-
-            <div>
-              <span class="about__info-title"> 02+ </span>
-              <span class="about__info-name">
-                Entités, <br />
-                travaillé pour</span
-              >
-            </div>
+          <div>
+            <span class="about__info-title"> 02 </span>
+            <span class="about__info-name">
+              Projets <br />
+              à notre actif
+            </span>
           </div>
-          <div class="about__buttons">
-            <!-- ==========================
+
+          <div>
+            <span class="about__info-title"> 02+ </span>
+            <span class="about__info-name">
+              Entités, <br />
+              travaillé pour</span>
+          </div>
+        </div>
+        <div class="about__buttons">
+          <!-- ==========================
               inclure cv 
             =============================-->
-            <a
-              href="LesAssets\telechargeables\CV-NAMADOUM.pdf"
-              download="CV_de_NAMADOU_Moctar_Kamakaté"
-              target="_blank"
-              class="button button--flex"
-            >
-              Téléchargez Mon CV
-              <i class="uil uil-download-alt button__icon"></i>
-            </a>
+          <a href="LesAssets\telechargeables\CV-NAMADOUM.pdf" download="CV_de_NAMADOU_Moctar_Kamakaté" target="_blank"
+            class="button button--flex">
+            Téléchargez Mon CV
+            <i class="uil uil-download-alt button__icon"></i>
+          </a>
 
-            <!-- <a href="LesAssets\telechargeables\CV-NAMADOUM.pdf" download="CV_de_NAMADOU_Moctar_Kamakaté" target="_blank" class="button button--flex">
+          <!-- <a href="LesAssets\telechargeables\CV-NAMADOUM.pdf" download="CV_de_NAMADOU_Moctar_Kamakaté" target="_blank" class="button button--flex">
               OU Consulter le <i class="uil uil-download-alt button__icon"></i>
             </a> -->
-          </div>
         </div>
-      </section>
-      <!-- COMPETENCES - SKILLS -->
-      <section class="skills section" id="skills">
-        <div class="centrage" style="margin-bottom: 3rem">
-          <h2 class="section__title">Compétences</h2>
-          <span class="section__sutitle"> Mes compétences </span>
-        </div>
+      </div>
+    </section>
+    <!-- COMPETENCES - SKILLS -->
+    <section class="skills section" id="skills">
+      <div class="centrage" style="margin-bottom: 3rem">
+        <h2 class="section__title">Compétences</h2>
+        <span class="section__sutitle"> Mes compétences Génerales </span>
+      </div>
 
-        <div class="skills__container container grid">
-          <div class="row" id="skillset_container">
-            <!-- COMPETENCE 1 -->
-            <div class="skills__container-card">
-              <div class="card_skill shadow2">
-                <div class="imgBx">
-                  <img
-                    src="LesAssets/IMG/HTML_5-595b40b65ba036ed117d4260_fnyo1z.svg"
-                    alt="HTML logo"
-                  />
-                </div>
-                <div class="contentBx">
-                  <h2>HTML</h2>
-                </div>
+      <div class="skills__container container grid">
+        <div class="row" id="skillset_container">
+          <!-- COMPETENCE 1 -->
+          <div class="skills__container-card">
+            <div class="card_skill shadow2">
+              <div class="imgBx">
+                <img src="LesAssets/IMG/archive-svgrepoPhyz-com.svg" alt="HTML logo" />
               </div>
-            </div>
-
-            <!-- COMPETENCE 2 -->
-            <div class="skills__container-card">
-              <div class="card_skill shadow2">
-                <div class="imgBx">
-                  <img
-                    src="LesAssets/IMG/HTML_5-595b40b65ba036ed117d4260_fnyo1z.svg"
-                    alt="HTML logo"
-                  />
-                </div>
-                <div class="contentBx">
-                  <h2>HTML</h2>
-                </div>
-              </div>
-            </div>
-
-            <!-- COMPETENCE 3 -->
-            <div class="skills__container-card">
-              <div class="card_skill shadow2">
-                <div class="imgBx">
-                  <img
-                    src="LesAssets/IMG/HTML_5-595b40b65ba036ed117d4260_fnyo1z.svg"
-                    alt="HTML logo"
-                  />
-                </div>
-                <div class="contentBx">
-                  <h2>HTML</h2>
-                </div>
-              </div>
-            </div>
-
-            <!-- COMPETENCE 4 -->
-            <div class="skills__container-card">
-              <div class="card_skill shadow2">
-                <div class="imgBx">
-                  <img
-                    src="LesAssets/IMG/HTML_5-595b40b65ba036ed117d4260_fnyo1z.svg"
-                    alt="HTML logo"
-                  />
-                </div>
-                <div class="contentBx">
-                  <h2>HTML</h2>
-                </div>
-              </div>
-            </div>
-
-            <!-- COMPETENCE 5 -->
-            <div class="skills__container-card">
-              <div class="card_skill shadow2">
-                <div class="imgBx">
-                  <img
-                    src="LesAssets/IMG/HTML_5-595b40b65ba036ed117d4260_fnyo1z.svg"
-                    alt="HTML logo"
-                  />
-                </div>
-                <div class="contentBx">
-                  <h2>HTML</h2>
-                </div>
-              </div>
-            </div>
-
-            <!-- COMPETENCE 6 -->
-            <div class="skills__container-card">
-              <div class="card_skill shadow2">
-                <div class="imgBx">
-                  <img
-                    src="LesAssets/IMG/HTML_5-595b40b65ba036ed117d4260_fnyo1z.svg"
-                    alt="HTML logo"
-                  />
-                </div>
-                <div class="contentBx">
-                  <h2>HTML</h2>
-                </div>
-              </div>
-            </div>
-
-            <!-- COMPETENCE 7 -->
-            <div class="skills__container-card">
-              <div class="card_skill shadow2">
-                <div class="imgBx">
-                  <img
-                    src="LesAssets/IMG/HTML_5-595b40b65ba036ed117d4260_fnyo1z.svg"
-                    alt="HTML logo"
-                  />
-                </div>
-                <div class="contentBx">
-                  <h2>HTML</h2>
-                </div>
+              <div class="contentBx">
+                <h6>Archivage Physique</h6>
               </div>
             </div>
           </div>
-        </div>
-      </section>
 
-      <!-- CURsSus & EXPERIENCE -->
-      <section class="qualification section" id="qualification">
-        <h2 class="section__title">Qualification</h2>
-        <span class="section__subtitle"> Mon parcours </span>
+          <!-- COMPETENCE 2 -->
+          <div class="skills__container-card">
+            <div class="card_skill shadow2">
+              <div class="imgBx">
+                <img src="LesAssets/IMG/Archivage_Site.jpg" alt="archivage-nulerique logo" />
+              </div>
+              <div class="contentBx">
+                <h6>Archivage Numérique</h6>
+              </div>
+            </div>
+          </div>
 
-        <div class="qualification__container container">
-          <div class="row mt-lg-0">
-            <!-- EDUCATION -->
-            <div
-              class="col-lg-6 col-sm-10 col-md-10 mt-2 qualification__content"
-              id="education"
-            >
-              <div class="qualification__button button--flex">
-                <i class="uil uil-graduation-cap qualification__icon"></i>
-                Cursus Académique
+          <!-- COMPETENCE 3 -->
+          <div class="skills__container-card">
+            <div class="card_skill shadow2">
+              <div class="imgBx">
+                <img src="LesAssets/IMG/icon-t3-150x150.png" alt="HTML logo" />
+              </div>
+              <div class="contentBx">
+                <h5>Numérisation</h5>
+              </div>
+            </div>
+          </div>
+
+          <!-- COMPETENCE 4 -->
+          <div class="skills__container-card">
+            <div class="card_skill shadow2">
+              <div class="imgBx">
+                <img src="LesAssets/IMG/static-vs-dynamic-website-difference.jpg" alt="HTML logo" />
+              </div>
+              <div class="contentBx">
+                <h6>Site Static</h6>
+              </div>
+            </div>
+          </div>
+
+          <!-- COMPETENCE 5 -->
+          <div class="skills__container-card">
+            <div class="card_skill shadow2">
+              <div class="imgBx">
+                <img src="LesAssets/IMG/recherche.jpg" alt="HTML logo" />
+              </div>
+              <div class="contentBx">
+                <h6>Recherche documentaire</h6>
+              </div>
+            </div>
+          </div>
+
+          <!-- COMPETENCE 6 -->
+          <div class="skills__container-card">
+            <div class="card_skill shadow2">
+              <div class="imgBx">
+                <img src="LesAssets/IMG/recherche en lignz.png" alt="HTML logo" />
+              </div>
+              <div class="contentBx">
+                <h6>Recherche en ligne</h6>
+              </div>
+            </div>
+          </div>
+
+          <!-- COMPETENCE 7 -->
+          <div class="skills__container-card">
+            <div class="card_skill shadow2">
+              <div class="imgBx">
+                <img src="LesAssets/IMG/Microsoft_Office_logo__282019_E2_80_93present_29_pswha1.svg" alt="HTML logo" />
+              </div>
+              <div class="contentBx">
+                <h6>Ms Office</h6>
+              </div>
+            </div>
+          </div>
+
+          <!-- COMPETENCE 8 -->
+          <div class="skills__container-card">
+            <div class="card_skill shadow2">
+              <div class="imgBx">
+                <img src="LesAssets/IMG/rss_feed.png" alt="HTML logo" />
+              </div>
+              <div class="contentBx">
+                <h6>Veille</h6>
+              </div>
+            </div>
+          </div>
+
+          <!-- COMPETENCE 9 -->
+          <div class="skills__container-card">
+            <div class="card_skill shadow2">
+              <div class="imgBx">
+                <img src="LesAssets/IMG/devcol.jpg" alt="HTML logo" />
+              </div>
+              <div class="contentBx">
+                <h6>développement des collections</h6>
+              </div>
+            </div>
+          </div>
+
+          <!-- COMPETENCE 10 -->
+          <div class="skills__container-card">
+            <div class="card_skill shadow2">
+              <div class="imgBx">
+                <img src="LesAssets/IMG/bibliothèqueNumérique.png" alt="HTML logo" />
+              </div>
+              <div class="contentBx">
+                <h6>Création de bibliothèque Numérique</h6>
+              </div>
+            </div>
+          </div>
+
+          <!-- COMPETENCE 11 -->
+          <div class="skills__container-card">
+            <div class="card_skill shadow2">
+              <div class="imgBx">
+                <img src="LesAssets/IMG/indesign-cc-logo-svgrepo-com.svg" alt="HTML logo" />
+              </div>
+              <div class="contentBx">
+                <h6>Adobe Indesign</h6>
+              </div>
+            </div>
+          </div>
+
+          <!-- AUTRE COMPETENCES -->
+          <details>
+            <summary class="centrage">
+              <span class="section__sutitle"> Compétences Spécifiques &amp; outils particuliers </span>
+            </summary><br>
+            <div class="row">
+              <!-- COMPETENCE 12 -->
+              <div class="skills__container-card">
+                <div class="card_skill shadow2">
+                  <div class="imgBx">
+                    <img src="LesAssets/IMG/HTML_5-595b40b65ba036ed117d4260_fnyo1z.svg" alt="HTML logo" />
+                  </div>
+                  <div class="contentBx">
+                    <h2>HTML</h2>
+                  </div>
+                </div>
               </div>
 
-              <div id="education_timeline">
+              <!-- COMPETENCE 13 -->
+              <div class="skills__container-card">
+                <div class="card_skill shadow2">
+                  <div class="imgBx">
+                    <img src="LesAssets/IMG/Css3-595b40b65ba036ed117d3eb8_jiqifm.svg" alt="CSS logo" />
+                  </div>
+                  <div class="contentBx">
+                    <h2>CSS</h2>
+                  </div>
+                </div>
+              </div>
+
+              <!-- COMPETENCE 14 -->
+              <div class="skills__container-card">
+                <div class="card_skill shadow2">
+                  <div class="imgBx">
+                    <img src="https://icon-library.com/images/ocr-icon/ocr-icon-29.jpg" alt="CSS logo" />
+                  </div>
+                  <div class="contentBx">
+                    <h6> Technologie OCR</h6>
+                  </div>
+                </div>
+              </div>
+
+              <!-- COMPETENCE 15 -->
+              <div class="skills__container-card">
+                <div class="card_skill shadow2">
+                  <div class="imgBx">
+                    <img
+                      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAA4VBMVEX/ZgD////v7+7u7u319fT5+fny8vL/YwD8/Pv/YAD/XQD/aAD+38r/WAD/WwD+7uH3////bQD/fy//8+v/fzb/+/j/hDT/dyT/cBn/UwD/pnr/ejT/gjz/yqr/hkry9/j/6Nr/klT9yK/+to7/0r3/cBr/pob718f1xrb+uZf+nmn8vJ7/sIT9i137qYb+cCn/ikf23M79iVT+mGjz6OH/wqr+kl//2cP/tYn+uZP+qXf+pHv+xrH+fj/22sz349j6mnL/lGX+l1v/hlP3rpL5tqD40b//xqT/dhX6m3b+o28gM8o+AAAT7klEQVR4nNWdeVviyhKHE5Y0HSAJxAwgS1hFhHFQFMfxjDiOR7x8/w90EyBhS6pXlPN7nvPHzR2TfumturuqWlEDpRJraeGj4EkyHT5KBo8ywZN0+OjwVa6qOnYz178cXF0Vi8VSSfFVKhWLravOYHjZb5oJ11VpXsVbqoRyFMKkprmpVHI2H31vVMsK0jFGnpRA/v/AWDeUcrXxfTQ3Hec/Rmi5dnf4VCzkdbzNFSUfVc8XitftnKVaiYNXnSSh0+zUegrCMNoeKEbZH7XOs9doE8nTJnTqF42szgK3VZ268TGp31nuqRK6qtkeVwymujusS70yvm8mTpBQS93VpyUhupDSKP2t2ydG6GrdaUGs9nYYkVF46conTK619a7g0da7Am3epaVvOmcIS6ILhNHZcCZQqvCRkgqUDkX1KHjg9b7zAt/QQhDSs+emxVeqrUfKYZ1nDie4oM6TmyFA8wf1pJvqf9NlV99GWP/Wz7CWavkoFT5iI0xsvcv7Hx7fLWFGFxVCt33GUi0lgzCpWd1W/rh8S8b8tPslhG6635A+vEQLo0Zua7z8LEL7vPA5fEtGb8xxP5fQflM+j2/JqAxs9xMJuzXjU/l8GbWuqyU/h9AeHWX+IwnpL7abJI1/66JvEWqB0pm10uGjTMQj1bmsfm4D3UivDqzoUgVKBU9S4SNWq81NfMYMESeUX9jMVtuGMKhy0MZtf3xVBa6kf3i98aBU8tYW9kj5ugpcCSkjWzsaoV3Wv5jPl16+c5PHIXwvf3UFroR6w8xRCDtfMkdECeGOm0rKJrTHnz/Jx8sYm65kQrN3KhW4EuqZboqVEJgPrYcfpwXoj6lda0MIzYcBamJjtYWPwn/fzp4aoIeYbae1/VbHa5e2T2aM2RbCc2td1ANCtl0Mq3MKs2CUcCejRROy1eH8a+00SPinI06YWZxiCw2EFhlRQuv6VJvoSvrC0YQIrRNuoiuhn5mkCGHn1AH94caCZ4twZtwiDORNE19dfgrh+cZ804KibxGm42UdA3B9hK/rxkb6/jk/m3DbSsVTQFbbg1xLxiPzXRN+//2+WAzmjw/9h6Vy3e5gPlr8Wfo0cJ3QoWzX5drFMKXZor43glEptAaXuaZth6XYleWYzf7lqKVUDJ2REynmck3MuLZwJG2peTX3Mb0YNK0DphhZucFLSWcyFL2VRoqdcCyjBjEun436pkNLF8huPo7LDDWJxi4zYUd4wYuQgSb3JnXd7cu8b2HqmjQ6/iTHQvguPIzq5Wmdue52lUkNb7OUfQUPXSZCW3DTyau+t6YY3hryeVKhaq2ocOMS1/gbwrQYIFamDzLwVjI7JYOiOKhsa/R1KLQixMrrTLB57snulCnaqj5yN7sS6URIGGG1uW0RPuNFSvPcVXNEU43dSKvt0PJW7z642yjKvpjy+XzNyEeW6MOmW1s4Ld6pHhnFB+7JgST7mjh16ItwXQQSXuY5AfXSP8fCWypHtLLy9y4FoV3la6MIL47UQEMRWxfqBe0UInziG0dxtn1kPl+/CO0Lv7hEwi4n4PiOroyObTaf6+32L1/t+vtN07QZ5pYhoYHpXZdAaNe42mj+iaqUdv1iWisjb8nrrXmxvxA2DFSuTS8ec2nyX68QK2BBUM3eJ9ybD994DG6E7yno3heFvBHh2r50Zjfy3wb9mJXjru7hvmi8WXvz4Y4bg2tz8HkLUHIXfHiqYti+RDr+e04zVp0ThhtT3fHT2LFLk2nSX0cWDXdJheqOqbYnEEbTLnlCvQKHCnzu/5sYu1TrFzgAsyTAfpF+kwmjRp/YpYvg67K5eEKrwVOFhCbqPLH5byDjyobfqD6AL8CNOMKk2+UYR40BXJpndv8NjOaEpnoPTouoG0eY4jBI8RguS51npYn0R0JLnUAlxdMYQrfPbpB60w9YkvcKnwmYn8DvzYGvzfejCVO37KVBORgwy8XnSZ/AtTiC2j66zUQRun12QNwBiyGy22M8gfN/E3w16m8Rhvv76jfm4qAa+EOL7fbgOfjrgTM3+maFgReh1aaZ7Ca33gcLIbblihBo4HTBl+NN7wktbw5zZmU9xErUyQhPoXZqgS/fKlpAqN2wDwoGPN5xb4YE0t+h17+Cr8/O9gld9g1EfAUCOsIHO+g31M3/AZupPjyowzPmJpW9AQl5jPg9IcjizYE2NDrbI+Qw2NAtCMi5lN4RfoI+8BtejAW/zpowNWX+xY06SDiTcfqIU/EfsEDLTcEvO4TaHfuyCcFGx1CGD4AOmfW/4N+wsB4HV/OhW2eeuvAEBFQ59yT3PvIH+AI8I4ZtbG21/WUuD2FrxixzY20JVYEJ6QZeKKC/qS1PhWaJ/ReHz8/acrwcsoBl78AzOCqZW5b3Pbt9lYVPmK7luDlgYNJ3CGOHsdriXxGyeyWgKrgMdyTMFb6goYb0DfSxdLBdEjrwLmvkn8Nre02SPxxoN8HThbcQXh5iLAnZR1IS4aMkfzFUAD7yRCDU625AeMGxP7MACUk/L61AwjfCR/BTQGiz26QKHkGAppTZ0FcF+Mq/hIaCPsw1YZPjy6gFEfY53hitPDCgEWek7LO2zBrB5YsP90N5nsV5YMonEuod1c8akXR5RnaYkH3LJ055wPYmEqKa6lvemt3j+DLqAYa3Lc/zNg9s1pAJf1hLwi7Xp8uATcMx+8QJIiQX3Df6lIRLOjiOForf7HM4tpbjBBHmiFtL/qmRkkiRJs5o4dfYLz9IdPAXI8TXS0L4NC5WldhmyvnCSAnWYdHxCDmW90vhXzEf5jmji5UYoVLwCLUZrwuUEr0TZhdOiND7c8Wd8w7t6CNqrkrfSg2zESTU56qijrhLhMeHc6L1KjfUTZAQj1xF/c5fJFzYb6g3Y8lhNoKE6LurOA2BH91P4bD1SWfekx0JJkrYcBReV8S1dDRpN23POLLM7huVPzabRAmrttIU3fbDqNz74anHls+TUoKEnnGp5GSUQyDwjCBRQqWvcJzef6ZECY1L5fK0gyhFCfWhMjjpOFgkSogHytWJEi4DTZVeFtjFoCLsKFcn1Q9XEbRGvlL4dtW5fO83obMDGkJ0pchc6gho6SeMC2fTl+vH+gNdSB8VYevLCT0yrGR71fFr/X3G5NROR1j8MsKVd7dRqE3+bXeXVhGzKAmlnGSyyQ/qRqXf33/Nc3eOQJQb1YxfUni2Erm1TKZfKYwXl32+auMh/Cz5FaeXJhf1B2CP9wiEnyOv6rI/xov3WVws/n+ZcJlIYby4p46J+W8RIh1Xv4+eRUaTEyb06s4P9DlmwB4l4VHGGq/yGhfHaJjshKUjEHrDSmM+I0WFfB6hZJsGGYXXe3lNM2MCDeELrDakZzc3U4jJNpuzwa/xD8jZm5KwJY3Qq75r2KmWSpadq1+/1EqKn6ZGeAXsrS1krQ8x+iMWCGw55sP7/WsxmzcMP6nS6rXChFeKnGxeSGk9c9srGceZPY4mjaqiH2QXEt7FuJKyT4PRAo4OipXTfLh/axXzhr6pNrmEA0XclxcpfzgyYTjmbP6r1isrMWiSCPVL5VLUq0AvUAS27sruDia3qxu9SG8X7od9RdB9CeERU/8zm/9cKXn6bF7Ce945wXMLXGVItePMRpNqge1aGgnnFkJOdvqUen5v3j+VDELAeoQknD0lBM4PCeGHm8prPo6z7HS+JJwfutxnwKhCN8Wb8wbiTkQsfAasKi7vOT4u0cyB5mXREMmzLHyOryoWpy8GKs/ivx3yjX4IppEW9sVwFdXk8qdBZfISqfkiftmcqD/NTFOIYQuRQiViDdqvMq4TEvWJSiY8Qp4VYgUM7/TVLkkx6YX92nw/b47wFlIuDNVsSXLLEPRNfMr4cU/sIUo6HIqgqn1p1wkJ1uHQ9euQedsRVQmA9/I8MwT74cOS0GLMposgB2hfEiKAQ4kR9u5W8RaMvvoGwVYjxHaySYgQ1ayknzWCMd4CjiH3apDbXzVKQoR6x1pmjUg8M3VEA06axOcXHyuxVup3Jz/S2WTJdYk+wBX9jWT3LxFCdGavCV0Wb310CQHast0CRAjxhRoQ1uk7Ihh77LVR2VcmiRCuormX8fh39DGk+iME2Dwp/9KKExJa9HHAcD4TmTPhSgKE6+CzJaFGHcsNRMp4Ssn3kRMgNO43hIkZbTz+JilKlKRkitgVPyEqrUyvVdaIFG1OBTAKPyMxoiuQAOHf1b9aZ42gjKdDVcieaXLGF0HiJzTq7vb9FjZd4eDoX/Fc/IfiJyzcaTv52l6oBgl4rrg/JUI8XWe+DgjpAs6MZ4gQzk3FJ25CtE4ovMm5RxWTj8CV4TEcOXkJ0VlwT0BISDPSE7YQpYblrcVL6C2cknuEM5rDuDPQojkCIdI5vU2yN9p+HdJYXARCeVH4wffyr5ye7Pg8vP5hQ5gTJpTnuLIuZm8ObicAhLoZ3gOhhDkiLXIVEAilbtB4A3eVsOMVT4i+qZs7u4LKTKbJEVAEQmGXgG1hZUByDwAI+274r7YIyWYlgVBmkJjeILtXmXE+6ug2FZ1Xn5hHGJXA2YKQ549BODug8H+ITeiR77sxNweQUwvCPUNWR8QtKu/GOELcSsfdjUA03Qz4TI2QI46WD9NUIEDoGWyxN+mQcrKDeQy9BSJHOqaD4umERNcbxRxH4IYVf78FcX8uLlPEWm3hZoqLD/QeSNGE2b4G3OBBMGxQDR7BM4LGN8ZDFr/+SEI8Se3e6RzeA5HOZDKqSSgC6fReKF0iwlds/tPRW4S269Gkwns79m7pdAl3lBAPfxfcq2CUL8HJs+kIjbfl/xV/S+cdfNRGylqqWpynv0iv5phDvSIOzYJE//E3y7mEu4IImWe9GYMjUajXPktDDg/4iLtu9fXJGHB3ngbv2BhwLnjVz9HMWovIKMUPMA4wQdkHh2Z6kFsZuh3wDkylTjiZWSL+ZkJE+AxYJN2VevGN19lPz4h6QekgQncEWiaEhP6+zDH1IgPhfHEOpdUrY2gTen+bNx+m/oUIkxY8HiIioWot6Ly9vOHzHHL/c14MBCYstnY3TnArbAzwHZaHzXtb5J7o6blEZEQ4e/YONvnmrf9Tg2nLf243U/SxuWQ9+p6Z8NZqQjI7mlEv0z7LxzP6EbPje8IlyO94VXwobbmz4+HcdaNurQ5QE5tbOr2uCLVT3KIg9FS/LURVJMK6Up10SWGXdmhAgq4R/U1P1EfRt8fv2qVLwqQGX58CJWjeltUcFSvG6tp0tL5TPV/5OB9SxF1u3eaIbiFb/DyoDFS2N4TwPaSZZEKDb9/A9BEkqYfr/03Pzs7K3n/T/3XmTbo79l63HW+z0FmCN6ptAKnr0JsyhuCFSrdMkb2Obdum9x/1H3VrO70ENhWd0bIvrK77oCdMaOAlMd4ikwWRTfZo33O6ArfqeslAa1c0FkIX9F4wwETJQno4tN0Roc0487N1SlwGwkRiBndFylALVqVGUeMv0ZAKegAToWuCd94Z8EVBfHIejcj+jwhzcCYofBRhxK3V6wduNwvXotQUEL76sTthqAV9LASMvLU6HS8L3ljCDbmI/QlgBUFOrZkUAJGOtNoCpeG83Lgm8Y5xcwQHL+ixY5v3O4cNMcpq2xCGlnf4SHPhKGGm2DxQzjnxIsjY1MxeEw3M7G3CCMv7kND7i5/wbZGVKxlZPcxzmojLfOQiI+P3OH7ChHawjJZfjc1flDlB8SLi51wyCRB6w+6EcGENJl6MCinTnijUwVF6df/ILbMaRoUIE85Pwi+Msx3KO7kPNOtUMcumDkJ7W3LrSUGMUEsRkxLo5TeOZB9O+wUzx+4Zxe1eEcx6lITJaMJEwhqS2hHS8y14R2JPVvOf10q0/UIQyhfba45MOK1z12FgA6XboHWzFMbV0QPVwJpJPY9ue1x4K0b899HMbANmgqInNoThI8BqSyY3P3mX4l5mhI3SE2HzJZ1rv70igyLVAPglHY3fmulwVt9sQEVZbQHqgeXtPdoUzKW7cnOVtmzUnpmm7WQ2rN4auNl8flyMf2QlZRvGP8ytlnjQ6qjWFjuESW1Gu83r5y/D2V5tOrkI9DJtlLKrfDMy6DwZfrJ0uYQJ17PgWEJr/H2nUJITKSO9sy6VTEJvvBkKXg4rS6j8rh6FMOHesd+TfgTpZVs9EmFCs0dsd90fQVuJ7o9A6B+gfnxtNWK9e1gqmJBqPtyaeewFsBI/tlC+lXCjShUSRsyHoc9CKnDK2Lgx7PhpBI+skfQLEGilVy8dNbpU+4/S4aNDuzR5YJdutWDPAky69otgsgs+If3Jji3V+hHX2uLwXZrWrcmOMyTLqHXBUskk9OeNNxlJLxiElTebVCqZhP5+8Xn28xgRPrdpSiWT0Btncw30OYwYNd7TLlWpZBL67+pOP2Hm8GaIrqWRxr8jEapq//ZYl5MEfOi2n3IZSxVHGDFbJInvyvS/sSVgYxLWv3l83pTOWKodwnB/Pwy8SB0+SgOPLG/MOcr8iPTsuam6fKXaPGK22gJt20ez4Zn0QQcrvc5NWhMo1VqMlnesjdt9KRjSuiRCRmHa1SxNtFQyCVXVrv8tSWFEuPS3fpfR/P52UoTeWDVrjyvUWS1j6IzKuO31PnmlkkmYTGjuXX1S9gYevqtNdb1xUXdWrzpRQk+uYz53aqy7ht6/zvZqnRtn+1UnSphYTs5Wrn1dXGWZhUGXl7HkC8XzYe7Osg5edaKE61c5jjkffW9Ue8oqD/IW69rJDSnlauP7aD5LplKutu2M9t8g9OW6CfOmfzkcdK5axWJplcS/Vy4Wi1dXg8t+ruk7wrg0r+Iu1f8BEea8ctFspFsAAAAASUVORK5CYII="
+                      alt="CSS logo" />
+                  </div>
+                  <div class="contentBx">
+                    <h6>Ica-AtoM</h6>
+                  </div>
+                </div>
+              </div>
+
+              <!-- COMPETENCE 16 -->
+              <div class="skills__container-card">
+                <div class="card_skill shadow2">
+                  <div class="imgBx">
+                    <img
+                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Calibre_logo_3.png/768px-Calibre_logo_3.png"
+                      alt="CSS logo" />
+                  </div>
+                  <div class="contentBx">
+                    <h5>Calibre</h5>
+                  </div>
+                </div>
+              </div>
+
+              <!-- COMPETENCE 17 -->
+              <div class="skills__container-card">
+                <div class="card_skill shadow2">
+                  <div class="imgBx">
+                    <img
+                      src="data:image/png;base64,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"
+                      alt="CSS logo" />
+                  </div>
+                  <div class="contentBx">
+                    <h6>Alfresco community</h6>
+                  </div>
+                </div>
+              </div>
+
+              <!-- COMPETENCE 18 -->
+              <div class="skills__container-card">
+                <div class="card_skill shadow2">
+                  <div class="imgBx">
+                    <img
+                      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOAAAADhCAMAAADmr0l2AAABU1BMVEX///8AAfIAAPJJ/DH3+hfyoRTM/BL6EBv3+gD6AADy8v4JCvPJyfzK/ADr7P/9/P+lpflTVPZoZ/YZGPPxnADDw/uwsPpbXPZ6evZiYfVD/CnynwBISPTxmgDQ0Pz4+P/6ABL///OBgfd+/XA3/BX6/+mcnPhAQPTi4v29vftsbPaFhfeRkfjp6f6amvjM/sbv/+3+29z+6uv+0NH+3t/9srRQ/Dr7a3D2/tbX/Fjw/sPd/XPn/p/R/TD8//Hj/Yz98uDzrDf4+035+1763LT6/H78/bX9/swlJfPZ2f0xMfSqqvlzc/bf/9ym/Zxq/VmR/YWS/YbU/tDi/+C1/q5w/V99/W78paf8j5H8Zmub/ZH8f4P7Q0r7TlP+wMP6Jy+//rn6NDvk/Zb9nqHa/WP2v2v4z5v75MLU/EP3xYDe/Xrr/rT7/ZT1tFP8/bD2wXT5+1UKU/t9AAALvklEQVR4nO2b6V8aSRPHZxqRwwMRFYMg4iLiAUk0ByEbF6+ISOJukt3E1ZjN4ZGYbJ7//9XTMwNM9TEHODjjbP9e5BPopqe+U9XVp5IkJCQkJCQkJCQkJCQkJCQkJCQkJHRzevHSbQv6rMP8726b0FfdzQf8TXiYCgTyv7htRf/0Kh8I+Jrwj1RAJfRrlOYeBTTl/3DblP5Ii1CV0J+jxctUoEN4121j+qFDHTCQf+22NX1QXucLpB7l3DbHcb2AgIGU/waLuwRgIP/GbYOc1ptUgCS857ZFDutvCjD1p9sWOaxfKEDfBelfNGAgsOG2TY6KBUz97bZNjorjQX/lGaYPYhf6atb9OwsYSHXpwtj907fvjo+Ojh6/e/twPdYfQ3sVPUyogF0sK9ZOj08iquaw1P+cHJ+u9c/gbvUmzwF8ZPPHa2/fY6a5ECn8Vejxg75a3YXucgAD+Vd2frp+xMK1FYkc99tym3rNA7QzUpyeGNKpbvSMC3mAAcsYPf1oiheKPLwJ223pkJNlAinzle/99+Z4Ic8EqMRPo+abF7FjC7zQ3MmNmW8tbpYxGyjWP0TM8UJzIQ8NE9IGN0SNV/bvrNyHA/T+DdpvLc5s1HhVGDuych/mO71R+y31D3eo5+8+rVmGp6cSqKZ73HGCuyh8ELIMz1Dk7U0DWIqzoAgEePNtW3yfb9x+S73ixSgHcM06vXgvPlU94qwJWcDYR0u+OW/ycdMMC2idP+fm1l2w3o44LmQA31ryRT56aXwnxC4KmSy6Zs332GNreSjahalDusaR1fTTG91vYaGyV72qViuVBeJ7ekLKzGROLRwYOXI9PCtX3548Gxxpa/DZk097eik1X2Pmoiemi9tIyN3ZWa7y6bKFBaR8flptTcnuUYDUkn7dxIFzkQ+uTl5y1aeDFBqEHPykBSs5VOT/IRt5bAQ4F4m8f+hmcql+GTSC6zA+VRGJCRu963TS2heEaOom4clnN/vewidD15GI3xREuHfBTGRi6w+Pj04+hCJthT68f/zZ5U3eih26FuKvyqpCJzTYdIqtrT14sL6+fv/B2poXBr0vdgEx4rOK9DrfJrwtR/Ubz7ogHPlNetH24a05BK3YB8SIlxvtKL0992WqXRGOXEl/5k26oBd11Q3hIA7Tl7gjpm7TxcOq7VSqEn6RXhzmb9edtUoXmUbJpjnp7l+36xrCxpPuCME6I1fDugXX137tJkxxP1RU2znbDAZnsILBzbPzC29jLjyxi6jOaaTceTAzoaC1NDORyWx+9TRk9dIW4shlRarsbksTOpxOiRlrbnOYyBpxZOTZlbS3FQ4PSOcTLKDqyc0dtzlMVPlmtnQaGbls4Q2EKxKXT3Vj8NzDkZqrfmMW9oPa2n7wt4q0sK3gYcDn0k7GCDE4ETx3m8NUlatvl2BvRmG7fHqFx4bcroaHAb9L0g9OL9QRL9ymsNJCpVK9+hXrqlpZ0ELu+UALDwPu4mGC3wtbypx5OE65ym138DRA6dw4SJW+6H0nEtoLAz4N0DRIFSd+ddvoLvQd4rUBa6Z8uCeeuW22bW2TfC1A6cI0SDHh5u3oiLktik/Nooq+miYa3BFvBeEGwzcQ/rdVdmZJ6KrptpQbYPiUmUxLm+aJJjjzw03b7YiNT0WdJWHOinDip5vW2xCdX1Rt6eW1oAVhxtvztl0eXyuJarL0YabmlvE2tMfjU+baQLlN80zj5UST4+FhQGrP6cx8PJzwbpByA5TogprOeQt8QOjV0XCBz9cZBXVdBM3CdMarmZSbQdkIVfV1xmx9WLtp022pYsC3y61dOzOO0wlvLiwMemB4z6B+7WfGkPFGDbcpox7IpBhduZ0fM1zGjBf32r536UBNtZ2fmxnGk55MM1w8Uwe2lbs4P9ucmQDKzPTf3m5llGLMHQiUq11cXOyowv/pp6m9iR+h4e3eWpt11jgntMV34IL1Lzlqyl64VEKIn0PbexXdqdSQvQf4nLtOspFhWM0OIQ8C8heCFesfMhqWMZ/3AHk7FZxZtrVmkcLnOcAcj6+XDDqq8XkOkDMKhv/XS0OLGp/nANkcE97qZdk6JnsUkBnmwwO98EWHWnyeA2ROI7Z6uvtTlmWPAjoSn5KUQF4F5B2Xda9h2aseJEaJMLkP2oXmkVcB4Uw0vNXbBBur7jZgNjo6OhqNsgX6MBge+FcqHTRVU1FjfmqUrlo6WInXhxKN5fIw3VAU0YBRRTfFWhwbbygWIJSeXqJsa2/Zh8Pfc1NppY5aEf+LkpMQobCofa+VjU8SrewDQPy8g+V0AlcbWhwv7PcfbwlPMRCwu1lkAMPhAYzXkIGZau3GcKtWdgURhUoZRJyV9cL281qvonHQXz8O1xmz5eUSBMR023tSNE7W0+rKy1n1HSGmEH+O60E8LBP0ZD100D+8WFOmrVYZp3TA3e8VPPLt19l6SlW5jv09z2lENb3tYBKQbSRd4lp3fY3W+Q9G8jxZcZjxno6xlDSyHsntF2UKqDQyydjmhIpDhmbLd2DFWUM+papxYYfQAhC8Cic1asinqKlXLJnwmQuhWVuAuHjJecCG2UORvGqvooXhQ1FbgLjc8QGDnxr0J6L2DmaZLkBdeBSN2wOUUd3h4WKWfiaT6OtaxVE6rfMqA3YSX/MMB5B+TUhecRZwkWweMWYjeUytCObJilXLk8XR4mST40WkzIRWV+IJggbFOYBIHevpEbFobnF3GiaeJydWJov7S5gF0tSVUTwLrEBysm3E6DITAfK8Vhg9gPQI7dOA2msqlfZXiXeBmobW9qAk4Zex1rexVQJHyWxTEGEatFCWqRjoDOtSNA2bWaFnMnK62HmeDJ+XdY4Pdiw0BBIYHNLVBJGkPuuaJ2efRBYEHUDJHiQgbGYJNuLgnG1JfyJl2iQswYkNgY/UCokYR0njwNCJ5BIBiNJEzTHwvLhzgNPAtjJZBJPKrLQPnk+nuTHglUWqbBW0MgUBmVyS1osSzsVoHDyQahXOWw6gQ5mhGMb5GFVWBC4sEIDjVE093VGxdB1l9cUBm7vAK13FsayHGl0x1mmFY5o+/UHzRIjSc7JY51Ug2bHT0ajJuwfRhZalA/B+mWYWdUBmwROHrUBAZrQDacyxKTcEZFYq+sCAkqCfmQIOMTs0cRiUEJDpZ9MmL/s2AjJTTgEoAAWgAPyPAsYaAlAAehuwLgAFoAB0FTAhAAWgALw+IHNuBQDv9AGQqbkMN7mcB0RlulDfN0TTDgHCE9RhumbD5GU7AXiHLgT7YQVHAJvEJuIqVbHU8W5/dtWYDbFZInydAFwl9sfp3d0VYIpj50uwD9I7scAy3F8cAFRSxyKgIF0InVt3io8EJHMXOO9BDckRQBx4BVlvh+hpWdADHTw/g4DY8gKXT42t6wOqZwNF2Cy4hlMkzv+Z/OMMoHKu2dp5n00ThhQdAUwqH9PwjcpxDaW0Qr5ox/goQOUoOTFfLk/L5IWzZckBwNYVGHiIo55gp5t3EtRRv2PDPAMo868PlK4D2D5xaGfNNPVKmcsa2ol5vwB5Uo8Drw3Yvm+zL5s/0tmrQDYAW0ea1wXUf7VqQUifG/YZsD3+F8AA1gMg9Evc7Jmo4WCA2gDsnGheD5C4l5FdNH4oSjAN9BVQv3hxTUDiwkE2bRSlqO4snwUgkhud+el1ABEdd9z7t+q4yLkO7xggZ8QAs8Wyfr+aAcwO6WUcQGw3s7hdGmIQkX4PyTnB1UQD3IvTbqXD5cVU8k5bSbqVWDzdEc+D8/R3ypNXtWtq4HnTfbjQnAXvcXJf2TNoj7v1gkO9IW60PI8e6H+AgJ9Xdrj3aYqBhKbsyRSXCtPN5soB8xcdvatg4pfoZKGZjCeXy0t9oVM0brLp5AuV/Q4I/tbGn4Dgz8F8Clj2eYiCgcKngHj14nPAzgG7XwE7fzjhW0CpoBH6F1BaUQl9DKhtk/gZUJrCExpfA0qzCZ8DStG4zwGFhISEhISEhISEhISEhISEhISEhISEhISE/tv6P0D+dPWyG7x7AAAAAElFTkSuQmCC"
+                      alt="CSS logo" />
+                  </div>
+                  <div class="contentBx">
+                    <h5>PMB</h5>
+                  </div>
+                </div>
+              </div>
+
+              <!-- COMPETENCE 19 -->
+              <div class="skills__container-card">
+                <div class="card_skill shadow2">
+                  <div class="imgBx">
+                    <img
+                      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQMAAADDCAMAAACxkIT5AAACDVBMVEXSs7ukZnb///+lpanXuMDRsrrZucGDX2icXm6kj5SiYnOjmJu/laCqc4GKVGLVtL2ogoyna3uysbHgyc98V2G0qa7MprBwQU6tk5qTfYP28PKDb3Ssp6nZwMY6Ki64naQ+NTe/rLEAAADj0NXu4+amnqAjAACaiY5ENDhvWmD69vfMwcSieIPQqrOJen6fhIvf4uHIysrCpq2AhoW1mqG7u7ucVWhKP0K3ipV2ZGmIa3JbTlHW1tbAmqNRRUiPj5N2dnmwfopPUVGXSl9UVFZxPUJtbXBEREZjQkuNc3lHqqy/trg4ODksLC0hISJjY2ZhUWkvryZ9lo9dl7Rgso2IOD9+FB+TYnFikFSu2WtIb4SHAA7/fACqFSeWdpunea//IiT/GwBcQTzLbHLNU1PQl5e4dnVqN0XKqr/fx6Phy7yNda9gT/d1bqoAALeQiaeEfKaTepFIOv2Fb8Gqm+qqYKOlnoiaimz//6LEwWebdl2LjIFjhIeysM6unLfW2l1+dle+oc7//+73+LKVk2WtrXOavLwA7u0wdXb/hYXhiYlqxsZMQZDBvv/5+sKoq0WXmEgAxMSh1NTW2Dvp6XWPkW8bX2Bnn59dbnEZLy5ycoKHh51Lg7ZfW0aJuWM2XHanAAD/jgD/RADuYQ52KyT/Nzduz+EoUZpFAABuAADg4LtgKio8CxuLiABeXjGfC2j+AAAf50lEQVR4nO2di2PjyHnYQXJmVoDIxYnUcTGA4KFIqDK4K4IcgSRw4HO1pz31VlJzjX1t7Ti+1u5ezk1yrtPYrq+1L85d3DZNUieXuG6api83btr+jf1mAOpJaUUSWul094kigXlh5od5fJgXlOznojgrhYL2NnzdbVmJZfJ7fLCytaE4nc7f+5WN4WoGRBOyBH/iCP47WmIiPrF9Roq21Dk2hdNO5rSAbeKjI+y0pYwINBFNO+lUBCKvtqSdtkhTtAApQhC1kZTyA0WaIPygvAwM3vr7v1r80pffBpdlzMtKCdtax8Zcy5RqeMXG/Xwtv1LCgZbpKKWCJkkUaqV8bYWXcL8jol+oy59EAEE2sG2MIVUrdQR2tq0VwGssHSd/5BA+hRJcApU73A4cfl0QtH7C4J7NDMPw0fi5rSBdIaj/XDDY+Qf/8B995atf/bWMhoKlDB7XOuNav7SDtSBwMo69g3fMHWe80te0fnYc2IUMwpqWd3ZqhXKhHyg86PT7ZgfbBV7GeTso80KmY3b6yjjo98uBA3aZgtPJ8A4P8goOynllPLaDMS9DiLiQWbKDINCyeY13lPK1MchPGJQGlmW5BBigkCoVHjPofO3Xv/L1d776a/ch5nALg5LWMXeQGXSUjlPI2E4A5ppTK4CdqTmder4OmaFTK9Q47pR4PePgmmZyXnCCks1LQS0fM3BqnaDWx5JBpxb0C33HqZmZWpCvg5HTd5bAYryS0exSqaPhWoF30MtgEGFEqMwHZFA1knzQif7xO/Y7/2QbMumKpo2DGqQ4X+hkIYlOAa90sjtmh3fGIilmxtnJBgKV1ndWanDn+uaSUyvtOHZe5BbbwVrfXInzQUELSn0uGWRWHNzByg5ygEvezIPToLQjQoQSZAeFcYFnsuXrZYAIITEDHcUM/ErYVRIGD0bfeOebb90Hp8443y87Y7gnDlQC4xUzcJx+aaW+4qBSX8sU4KZzO1MXMe04O6am2bhegJtazo4dx4a84UA5Kst8gGoZbVxzHBML5x2As5Q1Ebgt8Dq3eS3vrNS1JWesZWp4bI/tDr7mfGBVqwdElAWfMSsuC5yEk7KQub/9T0dLwuU4HywFQb6gFTL5DLQfQbACB+NgvDKGKjETwEFeK4AhSCEDlRwU5XGQKYzHmnAADU1GugQGwqsWjCEI6XylAKEXhNt8JhhrMlCwgLJQEBcMAqhYl5RrrBMJ5pwj8lqJM+ZzwUAnCD7lmIGm3f+ilqp0avnO7L6CUpBuNE7I28+fP3jw4PnzNx6IX/i6f++5lAf3gYEZ5NOX+cK8jpi8WLaAAVZAZxB1Jnzi2jMRdPr0jFFyJE0SY3RkdtqTItWSI6vE8RknZ41elqCYAdvz4YTruq/q0jz+5pZxNlac8sQa+XjiSEFGfIIplUkxDHzCj64ig3OPx84ZQiqFEJCKTjmBK+vqjUCQDHQVU8S5hZkRcswQJ0ymgfuUQ02CMXwpvkw4JWAK1oz7SboZQ4TtGYY4NrhCfMyxxbHPlROeKOUqlxAQhYthzIhPMYOQFTZxQnxCGb8xBgYwUCPKw9CiLFKp6jbEHeGhRz1KqUU9j4YylZhyNzSsPUgUGApHzMKWQV0/ZkBC3wNfEFak7IEnP04g+HfVOI9Q1VDV0A/BvwEuVZmxEKWhGqo0zkc3w4CqzApVz4si6lmqpVKZJG551LBEcg1LlXlZZ55PPdWzBBxMYwYMKFmSEBfIPJDI8yxIVeLJ8DzDigxLpo97VFctJfQaELhqMStmQKjhcRreGAPFgHSKi2P5JR6mpKVPKZgkNYQ0QnDjEBbWOo7NhSM0qc0gHIKFBwSlSPxOPFHQzWLnUGXIi8lL6JOaR4csAOUCJ9XRy5WYgU5I/EQ5qd0TIUQ/MtUTE3Jkr0tTEvsVyZsc6ycDUaQnfRI2XEo6ggQfuYlDV5QJkZtggG1R6oXsreuKTTdjoet7E1NFsdXEyZEpVW2sn3CC7ekWE9M9W1GOTqiNS/4Ji5uUuD7wzHoiyzp67ajnZW1iuqErRnNyUswmBz2oA46dKDqdarE2Ma1v6srRiekRq3XC4uYZqKUtXYeGCvdXEXoNQ+6VvS1rGOvvKvC1ihT/4RacgKP+WmlLtGlYeQQV5xqGigFLJ/pmSQQBp9JC3xKi66u1LWmMy/eQslaDigDjd5VAJdabW6Al/MZ7W8LiFjCo6d/+dnkclMuCwZaCv/XPhLqyprPf/K3f5gqSDHT2/m+9z5XyWk3Xybf/+Xf4KzKpjbUhQ8KJvllT2Nra2iaSFv2/K2Sb3KuJ2g/99rtbrwEDp+5sKb/zL76TFwzee/N3N77LbWFxGxh893vf+/7GvyzEDNBy6wdtA3KuvtxrtQ5JwiA+Ka/lPijT5g/aw5hBsdkaeShmoG/kttt7RFp4bG270W7EDNC7/+pfY8nAydZ/54c/+lAwaOvL2d/78e+/h24Jg49+/NFH3/+RkeSDYav91lAweOvjjz/+YJ0cM9gl5Vc/+IOfeP/m37ZGEwbmv/sZjxnQ3EZuuKvGDMziWq65AQx0nfM//BqJ84Hj/Psf/uaHSJaF9z76oz/68R+/d1vywUd/8kMQP2bwcVvIq/pazra/WbI/PsPgL/7DT75Rax0xMNd+uukRyeBwOPzj7UMWMyhCGEORD8KN3vq3uC4Z1GxAUHdwzOC7f/pnf/onOr4lDNxPfveTjyCjxwwc55tOMwcMtmp2zZkw8J88eTKCsvDBT/6cNo8Z1LN/8ZOnMYNnh4dfeXKQlAVR47c3gQHZ9J1cc1mXDD78/h9ms2bMQP+Nnw9fI8ptYSAbah8lDJrNN5tNyAfrHwspJgwUf3l5HerEUnlL3z08TOqDRrG4Ri1VMvCeHB4+VeM60ev1Wr2crA+w2u4Vh2XJwPrOh8cMSGN3E90aBonGFjPArwoR9UEscZ0olDxozKBdAH9C24sZIOGAxPkAxUqgtMCG6MfnwABcG76OZJ0ITrDj1OK2UVeweC65FQyQgcux5FcJ2SOxILKcmJZXCfLXJ042UXL0yEf6SSdUn26RHPRfA1Nx0u/3y2Ng4E8s7iH9BkUy8Nl66CayzOBkIpsTU5Uxbk1Ojkwtzph6ZAoep1tMDtxXT5iG6/5644RFasJnFiYYsPU7JG/cn1lEn6otcoR4trsDQh7M3u0uGazncsOf/exnw9ynRNaKseSKZw7Wcsr8DIZ/DvIfk0tMWIzk1zA5kqbbuTNuYkcvWR4mlfZmidhCXhmWkE2IOFiAwc97zWYzd5ikb3ginUdfwrT4TBw9FUaTtB+cjt7wZTB5KJ9DlS1aot1ul5JHQ1tRMTHgYBEGre1WSyR193B3F9JRHR4MD5+Nnh2ODrZHo91nw91DMH18+Gz49DFYPX4y3N0YPnmce7q7Pxw9yeU2DkaPR4/h8PDJSyhRD+OuPsFAF12RwEAPK1a0IIPhz5/8p91hbvugmBP5/3B7H5I8hKQ+235ymIOk7wrT4pPh6FnuWXH0ZDQcQnbY3i0+3Xgmbv2z3FPIJM+Go5eTD04w0CUDTMKqghZicJgbtoqQD7arosiPdoeQEYoJg+Fw+9lwOIK/J8Dg8RNgsL89Ko6ejoaCwVAWoX3JIHf4khiAQookA9DkJANSqRjVxfLB4atrw3ZuF8rzfu5wCIUdbvvG493HoydPR4ejofiCu354+Hj7EMhsQ4kBN/vbxSe7T0e7kGNyT4fwNxqNtl9KWSBupWIRYCD6QT1IegmpnKiLMdjdBtndvf7opyJvBkE+HwTjBg+kvD1MDu4PlefxrKg5GMSy8eqnQ5Y3z8irRwfKo7GQYGlWBliJlazSXZHaLEViwkAKLuUzK/fd1aWVT6uM5ZjAuJApz8VAjKmV8trzD36llbt/ZH3iJ5mjmRx0tCPzxM3ZWZonZmRqRwF0kimd2rHxkbMZsu8FicmXpNpYcu9vzcXAIoZfyq++9Ze/Wvzyg5U4ioWyrF86tRVNW+J5OLLHWgeXtUynLiZccjFTVRFzMyEF2ThRcY0kLCdwypgLhx0l0LQslyRsW9MCm/djp/LT4bXOgpORtLwYMIXnpjfmY4CqtKKW8v/5r/7qv/z1f/36lzKamEXZxwU7b+cRD3g53x/3+3m+UuYZrBWQU8ijQjZfRgHOaLadGWNzKV8OtJVSv1zuZ3C5Xw/ixNlQP3HwifuFMTfLBaSNkY20jgnJ7uBgBfMx5hrGY0cpLAZByyMyYF44P4PKATBY/fDX//rr/+2/f3kJolheGeMdR3PyfbPvaKbdr437TlALCrjjdMyCjZGzU+s748ApjAOzU+/UxnltJTs2NRPjYOx0MmMlr4n5nbjG7bJTE476plJzljDStLHjFHDNwVyEXu/nAydvL8xA0fe7aF4GSsg9o5R/cPg//ufWO69amU62M4acirFpO2NI+Y6D+3lHERgKHWzuiAmairlTLzsd7BS0FTDp5J18p5PVzB0zUwZPHW2MA2Aw7qw4gd137ABs+vUOuO0DA7yzUrfLHQ5sajvZfmZcS4EB8roVY24GYlIU1In3R9/4+hoEoGFzHKAOz9idWsexncCpwd3sO7yECxrvgwHUPU4ebDQ+rtc0DKhKfFyD8mEGpoJxwQySWq9WQ7hQKzk1jhVT6dfHZbtU0pZquBRkTDuoQRidvIkgbDEdeEEGFGF1bgZx26hllkYN2SxAPS9Ks/zriAn4cob90qTek7MPxfT9jpzhfzTNP3YbH0yuEYsMoHPkLrMUOxKLADpihr9YMrAQgowGFZb8W5CBpj1443omSV5VMi92cpG8/SCWeRgkE0L0UnnG2Y3Bo5PyyqyTIx9NkziU/lS7i6R/NuTZdSQ2mRsy4+AEuie6n46kNttUCpTPNadIT9qpvYczyNl5jWh2BrVkaVMJT4vrZQxOrYxyZvSeb09bX2XKGprWsK68uBf5/fd/uqXr5XMDVXMyaBXPMNA5O3FjxQw6jjk+PhMM6hcyOOH22FjnXOHwxYhkULyUAYRwdKXpgr71C/K/fqoraTFo5bLtUwyQ2vU4QckMM7JPFHIQumAiBhX3xew0nVzMQKduCCkVbruUCLcQEOERBq/7mEdietvlDHjEQiKuiy4sYuhr68Bg6/oYKH7XIJaFfUtMUlUPQk4q1ZBZlIYuHViMWkb49iUMhFtOXZdGLvUsw+UIfFQgELVi7O0z1/dfwKBiWR6lA/B1MQTytV9Aq5YWg95Gr3eaAeahf2B5UeQaFYVXqEoOvCqDU3cw6DKrAjAuY0CrbOC70aA7ULtdSuHO77PIJaRCKjTq4gF/YT7wrYpqdV0WkYsYKO/+pZjpk1p9UG+eqQ8wpbpHsWepTLV86jNicQ97oSpmKja40WDqJfWBwT0OXsXc3YbqU+YhHXx4SMzK9T2VW+xF+QD8GNTwIotdiEAp/6KUJoPsuXYBCqL4QGFGk+UFaKJKiEpbuaQ+EDNPT8xV1YV/XX7HgYivFzBQDRWDX3bZqoZ33xfl5PyEpgUYnJimexUhb5+KvaPP5v2CtlGEQrzS1tWl/Bo5E/S8DHrZkm/NJm7jlMzq22pME2nXqM4io7NBz64rSwa9VrbEjVsj/ixyzve8+UDoSKB7oaOJMRfMkLnRiTMnoneZo/kYmMXtuG3kR5oZn677XmD8cgTxk4rjhbXlYu0CrngWkesZCBdqnhzZU8Sp+Iivqn9xe33dAnoWbUhVFYHeSkIMBzo6H59FGVD1wK9UQlAHrTCseF03JBhOK6ArWgdeSPdB07mB5EtBlsGsLkSma1V4l0YqqGxqIzqXMxdkMCAYNPU9XMVuxLqDcLAXETEpzaBwzYHlewescrMMBqCscrhFBkQwjFzuRecerOatD3otyaCBMNX3KLFAn7MMuO8eRXiPMjiGfMgtNeTWzc2p5FaDd/c4hXvh73m+D2ooN6y08kExeWbSpSqnn1AKUaIyykOU6Iw3JXB9gySKpowYUvTz8VmQwe2XK3RXzcmgGfehXHsDP7fE6b+aw4XqRF1dvnWyIWRNLn28PHobsRgLMkB02nPMzUqpBqIux+uiL3Nolkq1UmmNojvHoG6LxXJ7ZxjUp7h0hMutZS8FBk35uTUCDKAxOGaQy25ni73ilAdvx4a2awEGze3tZsyg2as3e7cIQt1GlkWOGJitVrvd7tWndMA4th/SBRi0tnv128pAYeyYQauYa5vbveZUBkhdqCw0W/XbWhbEwoLjfJA14VNvT6kQnJJOFikLQm5nnZjdEzK8QrvgvCZcFhdvF4q3TuRqy3ayi8YVXC6aD5Sb7SW6RJJtda7mck4GvZH5KXleuILMmw/aM487316ZNx/sJvmAnNy3SB4T+YEzIp7ZiK5ctQ/lZFATT6f8XtdT+ILjTCwKZR+B6MElhiXGjrsYPvCcbgx8jEjVEIPBV4kJ64YcxUNLui7GqgXGfSLHruQ4FLH081tx3TwDXbWQolJExYY+e0ZXRZ4RWTjiFPSUigE/Bz6tMHqFiOjGPiYQlBhtNCxW2VN0n/pdTrnXoIrYjsjvMupdB4QF8wFhXbW6p1qVrlpBXlih1n7E3Mi1KGm4YWTRA1ftGu5VYoKwyw4gqMj15Mg1JfuhNYioF8mlrpbVHaDoWjrm5mNQbzWb8fhCaGHLYpYbGnuh6oWq5VqWAX+UeBZVLRoZlkvDq1SfPAxlUOEeBEVDwyBU7BwFYTUs1bI8I6S+Fd4eBtlcux7XiSgeFyZxB2I8snDUlygqCTCZ0oU3TZKgpH9drpqPgzgeHD27xd4NMzg7H+l2yhV0JGXuvvVhvSgZpKUoCm0tHTmJAF9luHbhMZbG2cVC84lKsfLgXioi5tGKOWpyK7/tyxZ7xf2JI31BBrw17+Pd8eNbrVZzSkOON3sLhyUEGKD7yxhTEb1Lg7TFYqZ7a4vmg5iBKXoQTPE/tePucqkpGCvBNsabUyeazCp1weB1c1RsWn0dolcXk1l7uWlhi9VpaDUNBqZpbmRHZjtXN7NFs2iaM95OB7RBlE+ZQXZY/9+t1xFEr93uDVvtdnZK4LbYqjQNBnW4TLO5bbaLYnF7q9iaerlLxEHWAUubgTOsf++hZDDc7vVGFzFQBySVfNBq51ptyAftXLGXKw57uRl7Fx0F8bTzwSYbFj9pCgbNejZXb19QFoRakwqDM1GYOdKOUKsEg3T65QQDhfzN3/zyl798A11eZYsde7augcHs8qZo0FaHWE+RAfI8sYeNiF79QskOh8vLy8O1RdtG3Fh8fHBNyCZW7JREqm5IaoDYu0xUKYuON4ouknSEpKYnntLgrxA9srCeuL2WjmxjfXVtIw0R+aDvx1vV8uGLr9xYtF85hfqgJrS1cmp1otQTXy9yOuT6VfTE14rp1Il1oSeCigQHc7QLQk9Mt10AHelp3TwwZLsAlV+9PrW9FuPO6bSN9WZd6ImtIlysmG2b9Xn1xFQZCD3xvmAgtiRst9emQbCxno5+UG8nemJubXdjrb3WKs6uJ+6ztBkc64mgK4sRpeyUQVdb3xukkw9arY12S+qJ7eZGO9ebivwSAR2Jp50PKB+2P+kJBmaxvVE/bA9bU/MB4unoyrIKkNUAVAimKcrfTFITawqC1PXEv3399XuxnijiY06LFBI7Ot8KPbElNaXiFvacVMSOp5KLdRovaBdiHW1hBvgLC8sXu0K+gJVaOnKym/Py6MkLd91F9QOFpCWKspWinjiZmHm1Ky+YD66giF1J4JlpdeFHDyGqKAtbPpIdxleJ3ubd1RO9Tf6i+iDWE1OqE3vZNqiKTXHQnFlRvB49cbfZHL2C4v5Es9ksTrtX6emJPbM5FP2JQ7Nltlvbzd6MWcMRY/bXoCf++EhHGrbb7fqUWMmehlQYCBWsB3pie2Mtt9HsAfGpizEvFIcMql7aDMwr6Ykoqiqp9K23exvFRE/sbbSKvWJztgcGyAcs5Xyg74Ge+PuxnrhWzIGeOLWTE/RElpKeCFVAXaiH8PAEhW+6SnaJOGJQ8Fr0xNVYTxRxa5pTnNpiceKt0BMfysG2HMeemYZIPVG/kp4YD/MtrifShSV5qw9WSin2JyZrOC6PXjLUuWifapp6Yko9k6f6E6+wllxfOB98cXGRWvsXsf7876Qh/2eOaRE3Xh/Ih71ajqc5vpA30MX7otxCBvKFFmnrB22DDo2XyMCs57K7Zq9YFyv+WvVZZ/JfT3/iKNscPrrq5KUU9MRWzwQdaaM4WisWh63iNLX0MgaIRqn3J2ZjPfGlMWgmeuIGaOa9dq89s56IjbTzwRt2zvz+S2SQBR3MBPXQrPfqdXhgmqqSXcYg/fpAwXu7w1z9JTJYUB6KrezeBgaNhYMSMtGVX3/9b6/8Ap9F+5EWXncSjxICA5TSltFCP8A4Xn3+MhiktuBZvtkzHblqylNjcCfkcwbzMFAfS3lqf4YZTJ4VF8sH59X5WfYWTfeVrvPsOY9fAXl0Jh/w2QYUNl49ExGcm8X7+k0z2HKZ7/tnGBhX2yS2Vqsx0dPhnlmNofM3X+xfx7qOuU50I9X1LHMxkNrHWQYP9VNrt6ZGEtvmx4fFYqv10D2TCh0XxXqPhMNFS+GYpzJOVf+WMMDn8oHneiTZkkpBxONTdqTCdvH3/q+Zm86AVCyDcbHXltxBlZz3rhOmbm5ueujWMqCUeKGrHijRAWuEruUfnNuNCRj82SUMSMXzLRrus4jvc/fcBls6q4Ju/pVsu3F7GYQcR1aFWiFSxY5UXfl++9MMUPOH/6/4o+KFDKhn0QGPXKPhDs5vsIU2N4rml7KmemsZqJZqhOGe5YeWEe57xtQ9bpu95nbxk+JUBq7FPS+0BpZqeZYVTfGNdEzVTeM2lIV74oXl5xlQ6pN4WZsud6ib0qcnWsB2a+0HUxi8ialHfSRepSVWyPFzmSgWuTvrzTPAD3u9s3sLA4OZ+tLD823jDL5vnkHc7p3VlbuVmWT9TCZBhzN4/sKN60hSzpaFWYdbzpWTmXyniWB2BqXJAM1n97mxmby94sHzz+5zozN5w5b2OYPPGXzO4HMGnzM4wwC9sMvgUyALMvCogpK9apFOheqSvC9Bj38UxNjUvWxvkyzGAHe5YlBsqMzAFB+oSMGUq6pBmcFVijxu+JyLjY39m07nZbIYAyR6OyilXdePONsPfRJaVuhSrxuxQcNzjdCiEdje4GbbV5AFy0I0wAPXGOy7Po28ruUjFZJcCbvugA8iVqFu1LAGUYT37y4DnXPEfYUzjrGPuXjRgPjxQsx15iMmjDATK49vOp2XybW0jbK10CdDIekOiKQpScwWrA9uq0xS+eqlIzVDfXEG6NHqLZR791ZXk7KnL9vHuVDXt/CpPEm+QFJgsHr2NT83LnxdzMN4JemlAgbHJRY1etun6iVSSYXBrVN+2DqkCT2axkDfzA6fnoRwhxmUV/BFDMzWSWXtDjNAJfsiBtnmydmrd5YBE4scpzJAjWaz/VnIBzwUSxMayctmTzFQuM/YSaXmrjJg6/K1Ckmn92kGZ+UuMyh9zmAqAySeXM64vbMMmCgJPBmLO2bA4IG+QuJXqE3c3lkG6zrc73Ptgm5YhHTdimFV9roTCHeXgYK39PNtox8a6mCgehE9ng12hxmUC6XzDJBvsJAbiBnH7zO8uwwQsk8+L0wskNz2WO6kNjFKh8E9lNJk87REYVRMIL0/YbCJ+SWynwIDbKe1ODUtKdnrUiZFYF1uVH6RbKIFGch3G7+E3D2bnH1j8uVTOWI38zPwX7kr8mheBpn7d0eW5mXw2ZTPGUwYLH22RcxLS7Zi/czKFjDASL7JevIvPvJYvGpCqmLJFyJH/e4nDOXPicOTrdj5jnJy4jNp6uLLyc/kwuRUCMdnRJ+4Thwl/9KjPuewgGTAqOFRn6hUQYbBDYoMrHqglhmgh+seVrhhgPoFdirxuYI95FNuwIMbj1+hBpFQDSzeBu4l6kXyrfrxjAX9aDIHhKtQxijD8atoGPMNA3ucQoAN3aAepqoOV6IQNDN8Yslg5bei8IYY/yceoRSpGDUoxMXgPqPwURml2JtPAREM9H3iV1DEuxzjKDQqGItxd9AZI19BVhWTAeuqmPnMinhkIOOAVFSv6pMDxePcICEb8AFnHtfVCveI4ftJAsmAcg97PmaQTOz7zEAcwjC6FaNiDMReIcijFih3XR8eg/cxrnLm8i7W/X2vi0iFVVgVG4biVcG7qhAXrFnV6qqU44jLRwPuGvTAYA2DQNxC9YJJ4VdhUCEQYMgsirwuNayG7vKQCv4G0rvAIGLdsBFGbuhGkaGDW8tVgcG+6g4si3i06oWhOxh44cCNWKUy8Cpc4UwhEfUrtBpRq4sH1KVuBTKraxmDitElwID7yPP23LDSZREl1h6qMhLyAUaGZNBl1ajKI/Bepd1QRciwWMiqg65qWRwYiPkhPDRowzJoyGnF8rxFGGC4gxFXXdZllqpahsuMiCsoNDDfq/jAwFXD8MB1o64lGXjUAAYVz6u6KiJVyCsu3KHQ6A6oOnCrfpeLPR+jyIOkWwM3PAip6/IoJKzLqTeoeF29SxTMkbpnha5fZSHGnmVUDTX0u1iBUgkEKywKq+KtSEY1pOL9EwYY+BGrGnQAPxgyDuQDj3q8AmXIitgi+QBjlTOVIzG9AHHIuYRBzoXgOPYxYYKFqAngMZ1xQ8xHQPBT4QhqELEFusIIeGMYKhEGxRUCUIy4/DLCpScfrOAXMi83VHGocoXJyxOoDZgCflVRqrjKFFVYiGoFyHNi6D4TlY2KDVGZYAicMOEJnEJQCvJVxIVfAyIAmWKuSQGSwfHEgrOiJxWaPnGhT8zJibOJ2ZT5CZNzXbyYSJHbHJ262NGrqyfXOrZCE++xn+RMP3KtTyJ0/JlvXoQsC/M1KXdGdNATV9N5fc6nVlaX/z+P+BGsUxVGzgAAAABJRU5ErkJggg=="
+                      alt="Winisis logo" />
+                  </div>
+                  <div class="contentBx">
+                    <h5>WINISIS</h5>
+                  </div>
+                </div>
+              </div>
+
+              <!-- COMPETENCE 20 -->
+              <div class="skills__container-card">
+                <div class="card_skill shadow2">
+                  <div class="imgBx">
+                    <img src="https://seeklogo.com/images/F/feedly-logo-0440D40E06-seeklogo.com.png"
+                      alt="Winisis logo" />
+                  </div>
+                  <div class="contentBx">
+                    <h5>Feedly</h5>
+                  </div>
+                </div>
+              </div>
+
+              <!-- COMPETENCE 21 -->
+              <div class="skills__container-card">
+                <div class="card_skill shadow2">
+                  <div class="imgBx">
+                    <img src="https://www.insightplatforms.com/wp-content/uploads/2018/07/netvibes_logo.png"
+                      alt="Winisis logo" />
+                  </div>
+                  <div class="contentBx">
+                    <h6>Netvibes BASIC</h6>
+                  </div>
+                </div>
+              </div>
+
+              <!-- COMPETENCE 22 -->
+              <div class="skills__container-card">
+                <div class="card_skill shadow2">
+                  <div class="imgBx">
+                    <img
+                      src="https://play-lh.googleusercontent.com/Fnvye3lx9HLPx7cVYDhqo14JGafUmFITA8vs5McKrtyHFwo-1unl4iMVj3mskJZZ8_w"
+                      alt="Winisis logo" />
+                  </div>
+                  <div class="contentBx">
+                    <h6>Pearltrees</h6>
+                  </div>
+                </div>
+              </div>
+
+              <!-- COMPETENCE 23 -->
+              <div class="skills__container-card">
+                <div class="card_skill shadow2">
+                  <div class="imgBx">
+                    <img
+                      src="data:image/png;base64,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"
+                      alt="Winisis logo" />
+                  </div>
+                  <div class="contentBx">
+                    <h5>Instapaper</h5>
+                  </div>
+                </div>
+              </div>
+
+              <!-- COMPETENCE 24 -->
+              <div class="skills__container-card">
+                <div class="card_skill shadow2">
+                  <div class="imgBx">
+                    <img
+                      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQYAAADACAMAAADRLT0TAAAAnFBMVEX///8NreoAqOlPwvXN7/+08PwAqOrO9/6t6//L6vwAqun8///3//8Ao+fw//8Aq+rp+f/V9P+06/2U5/pu0vZFy/Mes+zn/f+x5fqL3Phi0/gwxvDc/P/D9Pyo4/pey/UAuu170PQAseyS4fhh1vQ6wPHB7fyh5fiU3PaD4vjb9/698f142PbQ+/9qyfLT7/3A+P0zyvGV2PVSxvW3Ig1lAAAChklEQVR4nO3da1PaQBiGYRPLBkjYlFMiEBGDiIq2Vf//fys8Acc4ON1O26Gw9/VJZpYZ9jYHPmRezs4AAAAAAAAAAAAAAAAAAAAAAADwX7Nf40N/hIOy3V5/MMyCzpdDf5KDSPLoYjSeZCYMw3YapKFnGWxxOR1dnc8222+nabDlTQb71OtfD7MyNe33+/clQ2yjxnw8KXeHf7DX6WZI8m5zdLOYmfrh70+G5HZ5PZwEqXHY/+ll2Bz+d9H6j6jjvv9TypBHjdHNeVaGptNcv4zM7xQ4/gxxfru8v5qk7er0X///Q58yxPZhNX0cLoLq8vd+O35kyJ8aL4NJlm2ufvtO/5PPYJvzb4uyOvw/u/t7kKHVcbn4n36G0Gk7ZCADGchABjKQgQxkqJBByCBkEDIIGYQMQgYhg5BByCBkEDIIGYQMQgYhg5BByCBkEDJIy6QOTJXBZWn9fceS4fu5k9V6aeG2tKZ76P0BwB/IG06K9VLrtrQmP/T+HLU6oYPqKVmnpfX3HcsNk69PQgYhg5BByCBkEDIIGYQMQgYhg5BByCBkEDIIGYQMQgYhg5BByCBkEDIIGYQMQgYhg5BByCCtTn2mj6cZbLN/PcnS8JMRP75kqNinzby3RbZ/3KE3GbZsfjkdjfdM//Mrw1Zsu83+4Dlov82C9DLDjo1W/cFrlu0e+vE0w5Ytfkx9HpT4QRL1RlfPZfCLwWmnnqES593efDCcBaHxc4hqXfKwurt/nRnzNlTSywxbcXG5XN9jy8Dsq+FNhq0kjxovg9dZYPwct10X2+Ji/rg7Vfwbvv5BUtwuH8dZeTQPC/9Tiec/zAAAAAAAAAAAAAAAAAAAAAAAAPB3/AQc9EW/xDvggQAAAABJRU5ErkJggg=="
+                      alt="Winisis logo" />
+                  </div>
+                  <div class="contentBx">
+                    <h5>Windows</h5>
+                  </div>
+                </div>
+              </div>
+
+              <!-- COMPETENCE 25 -->
+              <div class="skills__container-card">
+                <div class="card_skill shadow2">
+                  <div class="imgBx">
+                    <img src="https://static.cdnlogo.com/logos/l/84/linux-mint.svg" alt="Winisis logo" />
+                  </div>
+                  <div class="contentBx">
+                    <h6>Linux Mint</h6>
+                  </div>
+                </div>
+              </div>
+
+              <!-- COMPETENCE 26 -->
+              <div class="skills__container-card">
+                <div class="card_skill shadow2">
+                  <div class="imgBx">
+                    <img
+                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Logo-ubuntu_cof-orange-hex.svg/1200px-Logo-ubuntu_cof-orange-hex.svg.png"
+                      alt="Winisis logo" />
+                  </div>
+                  <div class="contentBx">
+                    <h5>Ubuntu</h5>
+                  </div>
+                </div>
+              </div>
+
+              <!-- COMPETENCE 27 -->
+              <div class="skills__container-card">
+                <div class="card_skill shadow2">
+                  <div class="imgBx">
+                    <img
+                      src="data:image/png;base64,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"
+                      alt="Winisis logo" />
+                  </div>
+                  <div class="contentBx">
+                    <h5>Facebook business manager</h5>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </details>
+
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CURsSus & EXPERIENCE -->
+    <section class="qualification section" id="qualification">
+      <h2 class="section__title">Qualification</h2>
+      <span class="section__subtitle"> Mon parcours </span>
+
+      <div class="qualification__container container">
+        <div class="row mt-lg-0">
+          <!-- EDUCATION -->
+          <div class="col-lg-6 col-sm-10 col-md-10 mt-2 qualification__content" id="education">
+            <div class="qualification__button button--flex">
+              <i class="uil uil-graduation-cap qualification__icon"></i>
+              Cursus Académique
+            </div>
+
+            <div id="education_timeline">
+              <div class="container py-2">
+                <!-- PREMIER ELEMENT DE LA TIMELINE -->
+                <div class="row">
+                  <!-- LE DESIGN DE LA TIMELINE -->
+                  <div class="col-auto text-center flex-column d-sm-flex">
+                    <div class="row h-50 qualification__journey">
+                      <div class="col">
+                        <span class="qualification__line"></span>
+                      </div>
+                      <div class="col">&nbsp;</div>
+                    </div>
+
+                    <h5>
+                      <span class="badge qualification__calendar">
+                        <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
+                        2021
+                      </span>
+                    </h5>
+
+                    <div class="row h-50 qualification__journey">
+                      <div class="col">
+                        <span class="qualification__line"></span>
+                      </div>
+                      <div class="col">&nbsp;</div>
+                    </div>
+                  </div>
+                  <!-- CONTENU DE LA TIMELINE -->
+                  <div class="col py-2">
+                    <div class="card education-card transparent_card mirror-face shadow2">
+                      <div class="card-body">
+                        <div class="task">
+                          <div class="abstract">
+                            <h3 class="education-card-title qualification__title">
+                              MASTER
+                            </h3>
+                            <p class="education-card-desc qualification__subtitle">
+                              Institut de management - Dakar (IMAN)
+                            </p>
+                          </div>
+                          <div class="details">
+                            <p class="education-card-desc qualification__subtitle">
+                            
+                              Mémoire Disponible Ici
+                              <p>Mémoire soutenu le 12 Janvier 2021 : <strong>Mention</strong> Très-bien</p>
+                              <p><strong>Titre du Mémoire : </strong>LA COMMUNICATION SCIENTIFIQUE AU SENEGAL : Etat des
+                                lieux et proposition d’une approche.</p>
+                              <p><a href="https://1drv.ms/b/s!AraDkzXFunsfgalz_yGfNpzK-LNBAQ?e=zqkaga"
+                                  target="_blank">Téléchargez</a></p>
+                            
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- FIN DE PREMIER ELEMENT DE LA TIMELINE -->
+
+                <!-- DEUXIEME ELEMENT DE LA TIMELINE -->
+                <div class="row">
+                  <!-- LE DESIGN DE LA TIMELINE -->
+                  <div class="col-auto text-center flex-column d-sm-flex">
+                    <div class="row h-50 qualification__journey">
+                      <div class="col">
+                        <span class="qualification__line"></span>
+                      </div>
+                      <div class="col">&nbsp;</div>
+                    </div>
+
+                    <h5>
+                      <span class="badge qualification__calendar">
+                        <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
+                        2017
+                      </span>
+                    </h5>
+
+                    <div class="row h-50 qualification__journey">
+                      <div class="col">
+                        <span class="qualification__line"></span>
+                      </div>
+                      <div class="col">&nbsp;</div>
+                    </div>
+                  </div>
+                  <!-- CONTENU DE LA TIMELINE -->
+                  <div class="col py-2">
+                    <div class="card education-card transparent_card mirror-face shadow2">
+                      <div class="card-body">
+                        <div class="task">
+                          <div class="abstract">
+                            <h3 class="education-card-title qualification__title">
+                              LICENSE (<abbr
+                                title="Licence professionnelle en Sciences de l'Information documentaire">LIPSID</abbr>)
+                            </h3>
+                            <p class="education-card-desc qualification__subtitle">
+                              <abbr title="Ecole de Bibliothécaires, Archivistes et documentalistes">EBAD - UCAD</abbr>
+                            </p>
+                          </div>
+                          <div class="details">
+                            <p class="education-card-desc qualification__subtitle">
+                              Licence en Sciences de l’information documentaire (LIPSID) obtenue à l'Université Cheikh
+                              Anta Diop de Dakar
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- FIN DE DEUXIENME ELEMENT DE LA TIMELINE -->
+
+                <!-- TROISIEME ELEMENT DE LA TIMELINE -->
+                <div class="row">
+                  <!-- LE DESIGN DE LA TIMELINE -->
+                  <div class="col-auto text-center flex-column d-sm-flex">
+                    <div class="row h-50 qualification__journey">
+                      <div class="col">
+                        <span class="qualification__line"></span>
+                      </div>
+                      <div class="col">&nbsp;</div>
+                    </div>
+
+                    <h5>
+                      <span class="badge qualification__calendar">
+                        <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
+                        2014
+                      </span>
+                    </h5>
+
+                    <div class="row h-50 qualification__journey">
+                      <div class="col">
+                        <span class="qualification__line"></span>
+                      </div>
+                      <div class="col">&nbsp;</div>
+                    </div>
+                  </div>
+                  <!-- CONTENU DE LA TIMELINE -->
+                  <div class="col py-2">
+                    <div class="card education-card transparent_card mirror-face shadow2">
+                      <div class="card-body">
+                        <div class="task">
+                          <div class="abstract">
+                            <h3 class="education-card-title qualification__title">
+                              BACCALAURÉAT
+                            </h3>
+                            <p class="education-card-desc qualification__subtitle">
+                              Lycée d’enseignement Général d’Adidogomé-Lomé (LEGAL)
+                            </p>
+                          </div>
+                          <div class="details">
+                            <p class="education-card-desc qualification__subtitle">
+                              Série A4 : philosophie et lettre.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- FIN DE TROISIEME ELEMENT DE LA TIMELINE -->
+
+                <!-- QUATRIEME et dernier ELEMENT DE LA TIMELINE -->
+                <div class="row">
+                  <!-- LE DESIGN DE LA TIMELINE -->
+                  <div class="col-auto text-center flex-column d-sm-flex">
+                    <div class="row h-50 qualification__journey">
+                      <div class="col">
+                        <span class="qualification__start">
+                          <i class="uil uil-rocket qualification__icon"></i>
+                        </span>
+                      </div>
+                      <div class="col">&nbsp;</div>
+                    </div>
+                  </div>
+                  <!-- CONTENU DE LA TIMELINE -->
+                  <div class="col py-2"></div>
+                </div>
+                <!-- FIN DE QUATRIEME ELEMENT DE LA TIMELINE -->
+              </div>
+            </div>
+          </div>
+
+          <!-- Experience -->
+          <div class="col-lg-6 col-sm-10 col-md-10 mt-2 qualification__content" id="experience">
+            <div class="qualification__button button--flex">
+              <i class="uil uil-briefcase-alt qualification__icon"></i>
+              Experience
+            </div>
+
+            <div id="expreience_timeline">
+              <div class="container py-2">
                 <div class="container py-2">
                   <!-- PREMIER ELEMENT DE LA TIMELINE -->
                   <div class="row">
@@ -445,10 +816,9 @@
 
                       <h5>
                         <span class="badge qualification__calendar">
-                          <i
-                            class="uil uil-calendar-alt qualification__calendar-icon"
-                          ></i>
-                          2021
+                          <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
+                          nov. 2021<br>
+                          janv. 2022
                         </span>
                       </h5>
 
@@ -461,30 +831,20 @@
                     </div>
                     <!-- CONTENU DE LA TIMELINE -->
                     <div class="col py-2">
-                      <div
-                        class="card education-card transparent_card mirror-face shadow2"
-                      >
+                      <div class="card education-card transparent_card mirror-face shadow2">
                         <div class="card-body">
                           <div class="task">
                             <div class="abstract">
-                              <h3
-                                class="education-card-title qualification__title"
-                              >
-                                Undergrad
+                              <h3 class="education-card-title qualification__title">
+                                Contrôleur de documents financiers (stage)
                               </h3>
-                              <p
-                                class="education-card-desc qualification__subtitle"
-                              >
-                                Harvard - MOOC
+                              <p class="education-card-desc qualification__subtitle">
+                                Loterie Nationale du Togo
                               </p>
                             </div>
                             <div class="details">
-                              <p
-                                class="education-card-desc qualification__subtitle"
-                              >
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Explicabo culpa quo in!
-                                Dolores consequatur.
+                              <p class="education-card-desc qualification__subtitle">
+                                Contrôle.
                               </p>
                             </div>
                           </div>
@@ -507,10 +867,9 @@
 
                       <h5>
                         <span class="badge qualification__calendar">
-                          <i
-                            class="uil uil-calendar-alt qualification__calendar-icon"
-                          ></i>
-                          2021
+                          <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
+                          nov. 2020<br>
+                          janv. 2021
                         </span>
                       </h5>
 
@@ -523,30 +882,22 @@
                     </div>
                     <!-- CONTENU DE LA TIMELINE -->
                     <div class="col py-2">
-                      <div
-                        class="card education-card transparent_card mirror-face shadow2"
-                      >
+                      <div class="card education-card transparent_card mirror-face shadow2">
                         <div class="card-body">
                           <div class="task">
                             <div class="abstract">
-                              <h3
-                                class="education-card-title qualification__title"
-                              >
-                                Undergrad
+                              <h3 class="education-card-title qualification__title">
+                                Technicien - Bibliotécaire
                               </h3>
-                              <p
-                                class="education-card-desc qualification__subtitle"
-                              >
-                                Harvard - MOOC
+                              <p class="education-card-desc qualification__subtitle">
+                                <abbr
+                                  title="Institut Privé de Formation et de Recherches Médicales de Dakar">IPFORMED</abbr>
+                                (Dakar)
                               </p>
                             </div>
                             <div class="details">
-                              <p
-                                class="education-card-desc qualification__subtitle"
-                              >
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Explicabo culpa quo in!
-                                Dolores consequatur.
+                              <p class="education-card-desc qualification__subtitle">
+                                Assistance pour déployer une solution de bibliothèque virtuelle.
                               </p>
                             </div>
                           </div>
@@ -569,10 +920,9 @@
 
                       <h5>
                         <span class="badge qualification__calendar">
-                          <i
-                            class="uil uil-calendar-alt qualification__calendar-icon"
-                          ></i>
-                          2021
+                          <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
+                          nov. 2019<br>
+                          mars 2020
                         </span>
                       </h5>
 
@@ -585,30 +935,20 @@
                     </div>
                     <!-- CONTENU DE LA TIMELINE -->
                     <div class="col py-2">
-                      <div
-                        class="card education-card transparent_card mirror-face shadow2"
-                      >
+                      <div class="card education-card transparent_card mirror-face shadow2">
                         <div class="card-body">
                           <div class="task">
                             <div class="abstract">
-                              <h3
-                                class="education-card-title qualification__title"
-                              >
-                                Undergrad
+                              <h3 class="education-card-title qualification__title">
+                                Commercial &amp; Archiviste
                               </h3>
-                              <p
-                                class="education-card-desc qualification__subtitle"
-                              >
-                                Harvard - MOOC
+                              <p class="education-card-desc qualification__subtitle">
+                                Office system Archivage (Dakar)
                               </p>
                             </div>
                             <div class="details">
-                              <p
-                                class="education-card-desc qualification__subtitle"
-                              >
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Explicabo culpa quo in!
-                                Dolores consequatur.
+                              <p class="education-card-desc qualification__subtitle">
+                                Prospection - Archivage
                               </p>
                             </div>
                           </div>
@@ -618,669 +958,805 @@
                   </div>
                   <!-- FIN DE TROISIEME ELEMENT DE LA TIMELINE -->
 
-                  <!-- QUATRIEME et dernier ELEMENT DE LA TIMELINE -->
+                  <!-- QUATRIEME ELEMENT DE LA TIMELINE -->
                   <div class="row">
                     <!-- LE DESIGN DE LA TIMELINE -->
                     <div class="col-auto text-center flex-column d-sm-flex">
                       <div class="row h-50 qualification__journey">
                         <div class="col">
-                          <span class="qualification__start">
-                            <i class="uil uil-rocket qualification__icon"></i>
-                          </span>
+                          <span class="qualification__line"></span>
+                        </div>
+                        <div class="col">&nbsp;</div>
+                      </div>
+
+                      <h5>
+                        <span class="badge qualification__calendar">
+                          <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
+                          Juil.-Sept.<br>
+                          2019
+                        </span>
+                      </h5>
+
+                      <div class="row h-50 qualification__journey">
+                        <div class="col">
+                          <span class="qualification__line"></span>
                         </div>
                         <div class="col">&nbsp;</div>
                       </div>
                     </div>
                     <!-- CONTENU DE LA TIMELINE -->
-                    <div class="col py-2"></div>
+                    <div class="col py-2">
+                      <div class="card education-card transparent_card mirror-face shadow2">
+                        <div class="card-body">
+                          <div class="task">
+                            <div class="abstract">
+                              <h3 class="education-card-title qualification__title">
+                                Archiviste &amp; Record Manager Indépendant
+                              </h3>
+                              <p class="education-card-desc qualification__subtitle">
+                                CONFERENCE DES MINISTRES DE LA JEUNESSE ET DES SPORTS DE LA FRANCOPHONIE (CONFEJES)
+                              </p>
+                            </div>
+                            <div class="details">
+                              <p class="education-card-desc qualification__subtitle">
+                                Principales attributions d’un archiviste.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                   <!-- FIN DE QUATRIEME ELEMENT DE LA TIMELINE -->
-                </div>
-              </div>
-            </div>
 
-            <!-- Experience -->
-            <div
-              class="col-lg-6 col-sm-10 col-md-10 mt-2 qualification__content"
-              id="experience"
-            >
-              <div class="qualification__button button--flex">
-                <i class="uil uil-briefcase-alt qualification__icon"></i>
-                Experience
-              </div>
-
-              <div id="expreience_timeline">
-                <div class="container py-2">
-                  <div class="container py-2">
-                    <!-- PREMIER ELEMENT DE LA TIMELINE -->
-                    <div class="row">
-                      <!-- LE DESIGN DE LA TIMELINE -->
-                      <div class="col-auto text-center flex-column d-sm-flex">
-                        <div class="row h-50 qualification__journey">
-                          <div class="col">
-                            <span class="qualification__line"></span>
-                          </div>
-                          <div class="col">&nbsp;</div>
+                  <!-- CINquieme ELEMENT DE LA TIMELINE -->
+                  <div class="row">
+                    <!-- LE DESIGN DE LA TIMELINE -->
+                    <div class="col-auto text-center flex-column d-sm-flex">
+                      <div class="row h-50 qualification__journey">
+                        <div class="col">
+                          <span class="qualification__line"></span>
                         </div>
-
-                        <h5>
-                          <span class="badge qualification__calendar">
-                            <i
-                              class="uil uil-calendar-alt qualification__calendar-icon"
-                            ></i>
-                            2021
-                          </span>
-                        </h5>
-
-                        <div class="row h-50 qualification__journey">
-                          <div class="col">
-                            <span class="qualification__line"></span>
-                          </div>
-                          <div class="col">&nbsp;</div>
-                        </div>
+                        <div class="col">&nbsp;</div>
                       </div>
-                      <!-- CONTENU DE LA TIMELINE -->
-                      <div class="col py-2">
-                        <div
-                          class="card education-card transparent_card mirror-face shadow2"
-                        >
-                          <div class="card-body">
-                            <div class="task">
-                              <div class="abstract">
-                                <h3
-                                  class="education-card-title qualification__title"
-                                >
-                                  Undergrad
-                                </h3>
-                                <p
-                                  class="education-card-desc qualification__subtitle"
-                                >
-                                  Harvard - MOOC
-                                </p>
-                              </div>
-                              <div class="details">
-                                <p
-                                  class="education-card-desc qualification__subtitle"
-                                >
-                                  Lorem ipsum dolor sit amet consectetur
-                                  adipisicing elit. Explicabo culpa quo in!
-                                  Dolores consequatur.
-                                </p>
-                              </div>
+
+                      <h5>
+                        <span class="badge qualification__calendar">
+                          <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
+                          Mars.-Juin.<br>
+                          2019
+                        </span>
+                      </h5>
+
+                      <div class="row h-50 qualification__journey">
+                        <div class="col">
+                          <span class="qualification__line"></span>
+                        </div>
+                        <div class="col">&nbsp;</div>
+                      </div>
+                    </div>
+                    <!-- CONTENU DE LA TIMELINE -->
+                    <div class="col py-2">
+                      <div class="card education-card transparent_card mirror-face shadow2">
+                        <div class="card-body">
+                          <div class="task">
+                            <div class="abstract">
+                              <h3 class="education-card-title qualification__title">
+                                Archiviste Indépendant
+                              </h3>
+                              <p class="education-card-desc qualification__subtitle">
+                                MANKO<sub><abbr title="SOCIETE D’AIDE A L’INCLUSION FINANCIERE">SAIF</abbr></sub>
+                              </p>
+                            </div>
+                            <div class="details">
+                              <p class="education-card-desc qualification__subtitle">
+                                Tri et classement de documents financier.
+                              </p>
                             </div>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <!-- FIN DE PREMIER ELEMENT DE LA TIMELINE -->
-
-                    <!-- DEUXIEME ELEMENT DE LA TIMELINE -->
-                    <div class="row">
-                      <!-- LE DESIGN DE LA TIMELINE -->
-                      <div class="col-auto text-center flex-column d-sm-flex">
-                        <div class="row h-50 qualification__journey">
-                          <div class="col">
-                            <span class="qualification__line"></span>
-                          </div>
-                          <div class="col">&nbsp;</div>
-                        </div>
-
-                        <h5>
-                          <span class="badge qualification__calendar">
-                            <i
-                              class="uil uil-calendar-alt qualification__calendar-icon"
-                            ></i>
-                            2021
-                          </span>
-                        </h5>
-
-                        <div class="row h-50 qualification__journey">
-                          <div class="col">
-                            <span class="qualification__line"></span>
-                          </div>
-                          <div class="col">&nbsp;</div>
-                        </div>
-                      </div>
-                      <!-- CONTENU DE LA TIMELINE -->
-                      <div class="col py-2">
-                        <div
-                          class="card education-card transparent_card mirror-face shadow2"
-                        >
-                          <div class="card-body">
-                            <div class="task">
-                              <div class="abstract">
-                                <h3
-                                  class="education-card-title qualification__title"
-                                >
-                                  Undergrad
-                                </h3>
-                                <p
-                                  class="education-card-desc qualification__subtitle"
-                                >
-                                  Harvard - MOOC
-                                </p>
-                              </div>
-                              <div class="details">
-                                <p
-                                  class="education-card-desc qualification__subtitle"
-                                >
-                                  Lorem ipsum dolor sit amet consectetur
-                                  adipisicing elit. Explicabo culpa quo in!
-                                  Dolores consequatur.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <!-- FIN DE DEUXIENME ELEMENT DE LA TIMELINE -->
-
-                    <!-- TROISIEME ELEMENT DE LA TIMELINE -->
-                    <div class="row">
-                      <!-- LE DESIGN DE LA TIMELINE -->
-                      <div class="col-auto text-center flex-column d-sm-flex">
-                        <div class="row h-50 qualification__journey">
-                          <div class="col">
-                            <span class="qualification__line"></span>
-                          </div>
-                          <div class="col">&nbsp;</div>
-                        </div>
-
-                        <h5>
-                          <span class="badge qualification__calendar">
-                            <i
-                              class="uil uil-calendar-alt qualification__calendar-icon"
-                            ></i>
-                            2021
-                          </span>
-                        </h5>
-
-                        <div class="row h-50 qualification__journey">
-                          <div class="col">
-                            <span class="qualification__line"></span>
-                          </div>
-                          <div class="col">&nbsp;</div>
-                        </div>
-                      </div>
-                      <!-- CONTENU DE LA TIMELINE -->
-                      <div class="col py-2">
-                        <div
-                          class="card education-card transparent_card mirror-face shadow2"
-                        >
-                          <div class="card-body">
-                            <div class="task">
-                              <div class="abstract">
-                                <h3
-                                  class="education-card-title qualification__title"
-                                >
-                                  Undergrad
-                                </h3>
-                                <p
-                                  class="education-card-desc qualification__subtitle"
-                                >
-                                  Harvard - MOOC
-                                </p>
-                              </div>
-                              <div class="details">
-                                <p
-                                  class="education-card-desc qualification__subtitle"
-                                >
-                                  Lorem ipsum dolor sit amet consectetur
-                                  adipisicing elit. Explicabo culpa quo in!
-                                  Dolores consequatur.
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <!-- FIN DE TROISIEME ELEMENT DE LA TIMELINE -->
-
-                    <!-- QUATRIEME et dernier ELEMENT DE LA TIMELINE -->
-                    <div class="row">
-                      <!-- LE DESIGN DE LA TIMELINE -->
-                      <div class="col-auto text-center flex-column d-sm-flex">
-                        <div class="row h-50 qualification__journey">
-                          <div class="col">
-                            <span class="qualification__start">
-                              <i class="uil uil-rocket qualification__icon"></i>
-                            </span>
-                          </div>
-                          <div class="col">&nbsp;</div>
-                        </div>
-                      </div>
-                      <!-- CONTENU DE LA TIMELINE -->
-                      <div class="col py-2"></div>
-                    </div>
-                    <!-- FIN DE QUATRIEME ELEMENT DE LA TIMELINE -->
                   </div>
+                  <!-- FIN DE CINquieme ELEMENT DE LA TIMELINE -->
+
+                  <!-- SIXEME ELEMENT DE LA TIMELINE -->
+                  <div class="row">
+                    <!-- LE DESIGN DE LA TIMELINE -->
+                    <div class="col-auto text-center flex-column d-sm-flex">
+                      <div class="row h-50 qualification__journey">
+                        <div class="col">
+                          <span class="qualification__line"></span>
+                        </div>
+                        <div class="col">&nbsp;</div>
+                      </div>
+
+                      <h5>
+                        <span class="badge qualification__calendar">
+                          <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
+                          Fev.-Mars<br>
+                          2019
+                        </span>
+                      </h5>
+
+                      <div class="row h-50 qualification__journey">
+                        <div class="col">
+                          <span class="qualification__line"></span>
+                        </div>
+                        <div class="col">&nbsp;</div>
+                      </div>
+                    </div>
+                    <!-- CONTENU DE LA TIMELINE -->
+                    <div class="col py-2">
+                      <div class="card education-card transparent_card mirror-face shadow2">
+                        <div class="card-body">
+                          <div class="task">
+                            <div class="abstract">
+                              <h3 class="education-card-title qualification__title">
+                                Archiviste Prestaire externe
+                              </h3>
+                              <p class="education-card-desc qualification__subtitle">
+                                <abbr
+                                  title="CONFERENCE DES MINISTRES DE LA JEUNESSE ET DES SPORTS DE LA FRANCOPHONIE">CONFEJES</abbr>
+                              </p>
+                            </div>
+                            <div class="details">
+                              <p class="education-card-desc qualification__subtitle">
+                                Traitement d’informations statistiques et de diverses données...
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- FIN DE SIXEME ELEMENT DE LA TIMELINE -->
+
+                  <!-- SEPTIEME ELEMENT DE LA TIMELINE -->
+                  <div class="row">
+                    <!-- LE DESIGN DE LA TIMELINE -->
+                    <div class="col-auto text-center flex-column d-sm-flex">
+                      <div class="row h-50 qualification__journey">
+                        <div class="col">
+                          <span class="qualification__line"></span>
+                        </div>
+                        <div class="col">&nbsp;</div>
+                      </div>
+
+                      <h5>
+                        <span class="badge qualification__calendar">
+                          <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
+                          Dec. 2018<br>
+                          Jan. 2019
+                        </span>
+                      </h5>
+
+                      <div class="row h-50 qualification__journey">
+                        <div class="col">
+                          <span class="qualification__line"></span>
+                        </div>
+                        <div class="col">&nbsp;</div>
+                      </div>
+                    </div>
+                    <!-- CONTENU DE LA TIMELINE -->
+                    <div class="col py-2">
+                      <div class="card education-card transparent_card mirror-face shadow2">
+                        <div class="card-body">
+                          <div class="task">
+                            <div class="abstract">
+                              <h3 class="education-card-title qualification__title">
+                                Archiviste Indépendant
+                              </h3>
+                              <p class="education-card-desc qualification__subtitle">
+                                <abbr
+                                  title="CONFERENCE DES MINISTRES DE LA JEUNESSE ET DES SPORTS DE LA FRANCOPHONIE">CONFEJES</abbr>
+                              </p>
+                            </div>
+                            <div class="details">
+                              <p class="education-card-desc qualification__subtitle">
+                                Traitement et extraction de données. Génération d’un répertoire des Archives de la
+                                CONFEJES à partir des données du SAE Ica-Atom ; le tout dans le cadre du projet de
+                                création du Portail de l'Institution.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- FIN DE SEPTIEME ELEMENT DE LA TIMELINE -->
+
+                  <!-- HUITIEME ELEMENT DE LA TIMELINE -->
+                  <div class="row">
+                    <!-- LE DESIGN DE LA TIMELINE -->
+                    <div class="col-auto text-center flex-column d-sm-flex">
+                      <div class="row h-50 qualification__journey">
+                        <div class="col">
+                          <span class="qualification__line"></span>
+                        </div>
+                        <div class="col">&nbsp;</div>
+                      </div>
+
+                      <h5>
+                        <span class="badge qualification__calendar">
+                          <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
+                          Oct.-Nov.<br>
+                          2018
+                        </span>
+                      </h5>
+
+                      <div class="row h-50 qualification__journey">
+                        <div class="col">
+                          <span class="qualification__line"></span>
+                        </div>
+                        <div class="col">&nbsp;</div>
+                      </div>
+                    </div>
+                    <!-- CONTENU DE LA TIMELINE -->
+                    <div class="col py-2">
+                      <div class="card education-card transparent_card mirror-face shadow2">
+                        <div class="card-body">
+                          <div class="task">
+                            <div class="abstract">
+                              <h3 class="education-card-title qualification__title">
+                                Archiviste Indépendant
+                              </h3>
+                              <p class="education-card-desc qualification__subtitle">
+                                MANKO<sub><abbr title="SOCIETE D’AIDE A L’INCLUSION FINANCIERE">SAIF</abbr></sub>
+                              </p>
+                            </div>
+                            <div class="details">
+                              <p class="education-card-desc qualification__subtitle">
+                                Traitement de documents financiers.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- FIN DE HUITIEME ELEMENT DE LA TIMELINE -->
+
+                  <!-- NEUVIEME ELEMENT DE LA TIMELINE -->
+                  <div class="row">
+                    <!-- LE DESIGN DE LA TIMELINE -->
+                    <div class="col-auto text-center flex-column d-sm-flex">
+                      <div class="row h-50 qualification__journey">
+                        <div class="col">
+                          <span class="qualification__line"></span>
+                        </div>
+                        <div class="col">&nbsp;</div>
+                      </div>
+
+                      <h5>
+                        <span class="badge qualification__calendar">
+                          <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
+                          Août 2017<br>
+                          Juil. 2018
+                        </span>
+                      </h5>
+
+                      <div class="row h-50 qualification__journey">
+                        <div class="col">
+                          <span class="qualification__line"></span>
+                        </div>
+                        <div class="col">&nbsp;</div>
+                      </div>
+                    </div>
+                    <!-- CONTENU DE LA TIMELINE -->
+                    <div class="col py-2">
+                      <div class="card education-card transparent_card mirror-face shadow2">
+                        <div class="card-body">
+                          <div class="task">
+                            <div class="abstract">
+                              <h3 class="education-card-title qualification__title">
+                                Archiviste Indépendant, Assitant Projet
+                              </h3>
+                              <p class="education-card-desc qualification__subtitle">
+                                <abbr
+                                  title="CONFERENCE DES MINISTRES DE LA JEUNESSE ET DES SPORTS DE LA FRANCOPHONIE">CONFEJES</abbr>
+                              </p>
+                            </div>
+                            <div class="details">
+                              <p class="education-card-desc qualification__subtitle">
+                                Projet de mise en place du Systeme d'archivage électronique de l'Institution.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- FIN DE NEUVIEME ELEMENT DE LA TIMELINE -->
+
+                  <!-- DIXIEME ELEMENT DE LA TIMELINE -->
+                  <div class="row">
+                    <!-- LE DESIGN DE LA TIMELINE -->
+                    <div class="col-auto text-center flex-column d-sm-flex">
+                      <div class="row h-50 qualification__journey">
+                        <div class="col">
+                          <span class="qualification__line"></span>
+                        </div>
+                        <div class="col">&nbsp;</div>
+                      </div>
+
+                      <h5>
+                        <span class="badge qualification__calendar">
+                          <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
+                          Avr.-Mai<br>
+                          2016
+                        </span>
+                      </h5>
+
+                      <div class="row h-50 qualification__journey">
+                        <div class="col">
+                          <span class="qualification__line"></span>
+                        </div>
+                        <div class="col">&nbsp;</div>
+                      </div>
+                    </div>
+                    <!-- CONTENU DE LA TIMELINE -->
+                    <div class="col py-2">
+                      <div class="card education-card transparent_card mirror-face shadow2">
+                        <div class="card-body">
+                          <div class="task">
+                            <div class="abstract">
+                              <h3 class="education-card-title qualification__title">
+                                Stagiaire : Assistant Bibliothécaire
+                              </h3>
+                              <p class="education-card-desc qualification__subtitle">
+                                Direction du livre et de la lecture (DLL). (Dakar)
+                              </p>
+                            </div>
+                            <div class="details">
+                              <p class="education-card-desc qualification__subtitle">
+                                Bibliothécaire / Assistant : A la DLL nous avions pour charge la répartition des livres
+                                pour l’alimentation du réseau de lecture public sénégalais (<abbr
+                                  title="Centre National Technique de Lecture">CLAC</abbr> et Bibliothèques publiques).
+                                <br> Participé à la Misson à la commune de Nguéniene pour l’inauguration du <abbr
+                                  title="Centre National Technique de Lecture">CLAC</abbr>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- FIN DE DIXIEME ELEMENT DE LA TIMELINE -->
+
+                  <!-- ONZIEME ELEMENT DE LA TIMELINE -->
+                  <div class="row">
+                    <!-- LE DESIGN DE LA TIMELINE -->
+                    <div class="col-auto text-center flex-column d-sm-flex">
+                      <div class="row h-50 qualification__journey">
+                        <div class="col">
+                          <span class="qualification__line"></span>
+                        </div>
+                        <div class="col">&nbsp;</div>
+                      </div>
+
+                      <h5>
+                        <span class="badge qualification__calendar">
+                          <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
+                          Sept.-Oct.<br>
+                          2015
+                        </span>
+                      </h5>
+
+                      <div class="row h-50 qualification__journey">
+                        <div class="col">
+                          <span class="qualification__line"></span>
+                        </div>
+                        <div class="col">&nbsp;</div>
+                      </div>
+                    </div>
+                    <!-- CONTENU DE LA TIMELINE -->
+                    <div class="col py-2">
+                      <div class="card education-card transparent_card mirror-face shadow2">
+                        <div class="card-body">
+                          <div class="task">
+                            <div class="abstract">
+                              <h3 class="education-card-title qualification__title">
+                              Stagiaire : Bibliothécaire – Archiviste
+                              </h3>
+                              <p class="education-card-desc qualification__subtitle">
+                              ASSEMBLÉE NATIONALE DU SÉNÉGAL
+                              </p>
+                            </div>
+                            <div class="details">
+                              <p class="education-card-desc qualification__subtitle">
+                                Tri, élagage, buletinage...
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- FIN DE ONZIEME ELEMENT DE LA TIMELINE -->
+
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- PORTFOLIO -->
-      <section class="portfolio section" id="portfolio">
-        <h2 class="section__title">Portfolio</h2>
-        <span class="section__subtitle"> Projets récents </span>
+      <!-- =====================================================================
 
-        <div
-          class="blog-slider swiper-fade swiper-initialized swiper-horizontal swiper-pointer-events swiper-watch-progress swiper-backface-hidden"
-        >
+                      A COPIER ET MODIFIER
+
+      ======================================================================-->
+  <!-- <details>
+      <summary> AUTRES FORMATIONS </summary>
+      <div>
+        
+      </div>
+    </details> -->
+
+    <!-- PORTFOLIO -->
+    <section class="portfolio section" id="portfolio">
+      <h2 class="section__title">Portfolio</h2>
+      <span class="section__subtitle"> Projets récents </span>
+
+      <div
+        class="blog-slider swiper-fade swiper-initialized swiper-horizontal swiper-pointer-events swiper-watch-progress swiper-backface-hidden">
+        <div class="blog-slider__wrp swiper-wrapper" id="swiper-wrapper-beccde3bcc11826b" aria-live="polite"
+          style="transition-duration: 0ms">
           <div
-            class="blog-slider__wrp swiper-wrapper"
-            id="swiper-wrapper-beccde3bcc11826b"
-            aria-live="polite"
-            style="transition-duration: 0ms"
-          >
-            <div
-              class="blog-slider__item swiper-slide swiper-slide-duplicate swiper-slide-next swiper-slide-duplicate-prev"
-              data-swiper-slide-index="3"
-              style="
+            class="blog-slider__item swiper-slide swiper-slide-duplicate swiper-slide-next swiper-slide-duplicate-prev"
+            data-swiper-slide-index="3" style="
                 width: 744px;
                 transition-duration: 0ms;
                 opacity: 1;
                 transform: translate3d(0px, 0px, 0px);
-              "
-              role="group"
-              aria-label="4 / 4"
-            >
-              <div class="blog-slider__img">
-                <img
-                  src="./Biplov JHA_files/wikipedia_design_django_v28dmu.png"
-                  alt="Portfolio item"
-                />
-              </div>
-
-              <div class="blog-slider__content">
-                <span class="blog-slider__code"> September 2020</span>
-                <div class="blog-slider__title">WiKi</div>
-                <div class="blog-slider__text">
-                  Design a Wikipedia-like online encyclopedia.
-                </div>
-                <a
-                  href="#"
-                  target="_blank"
-                  class="button blog-slider__button button--flex"
-                >
-                  Demo
-                  <i class="uil uil-play button__icon"></i>
-                </a>
-              </div>
+              " role="group" aria-label="4 / 4">
+            <div class="blog-slider__img">
+              <img src="./Biplov JHA_files/wikipedia_design_django_v28dmu.png" alt="Portfolio item" />
             </div>
 
-            <!-- For portfolio item 1 -->
-            <div
-              class="blog-slider__item swiper-slide swiper-slide-duplicate-active"
-              data-swiper-slide-index="0"
-              style="
+            <div class="blog-slider__content">
+              <span class="blog-slider__code"> September 2020</span>
+              <div class="blog-slider__title">WiKi</div>
+              <div class="blog-slider__text">
+                Design a Wikipedia-like online encyclopedia.
+              </div>
+              <a href="#" target="_blank" class="button blog-slider__button button--flex">
+                Demo
+                <i class="uil uil-play button__icon"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- For portfolio item 1 -->
+          <div class="blog-slider__item swiper-slide swiper-slide-duplicate-active" data-swiper-slide-index="0" style="
                 width: 744px;
                 transition-duration: 0ms;
                 opacity: 1;
                 transform: translate3d(-744px, 0px, 0px);
-              "
-              role="group"
-              aria-label="1 / 4"
-            >
-              <div class="blog-slider__img">
-                <img
-                  src="./Biplov JHA_files/Twitter_SNS_f3ejqv.png"
-                  alt="Twitter type SNS "
-                />
-              </div>
-
-              <div class="blog-slider__content">
-                <span class="blog-slider__code"> July 2021</span>
-                <div class="blog-slider__title">Twitter Like SNS</div>
-                <div class="blog-slider__text">
-                  Designed a Twitter-like social network website for making
-                  posts and following users.
-                </div>
-                <a
-                  href="#"
-                  target="_blank"
-                  class="button blog-slider__button button--flex"
-                >
-                  Demo
-                  <i class="uil uil-play button__icon"></i>
-                </a>
-              </div>
+              " role="group" aria-label="1 / 4">
+            <div class="blog-slider__img">
+              <img src="./Biplov JHA_files/Twitter_SNS_f3ejqv.png" alt="Twitter type SNS " />
             </div>
 
-            <!-- For portfolio item 2 -->
-            <div
-              class="blog-slider__item swiper-slide"
-              data-swiper-slide-index="1"
-              style="
+            <div class="blog-slider__content">
+              <span class="blog-slider__code"> July 2021</span>
+              <div class="blog-slider__title">Twitter Like SNS</div>
+              <div class="blog-slider__text">
+                Designed a Twitter-like social network website for making
+                posts and following users.
+              </div>
+              <a href="#" target="_blank" class="button blog-slider__button button--flex">
+                Demo
+                <i class="uil uil-play button__icon"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- For portfolio item 2 -->
+          <div class="blog-slider__item swiper-slide" data-swiper-slide-index="1" style="
                 width: 744px;
                 transition-duration: 0ms;
                 opacity: 1;
                 transform: translate3d(-1488px, 0px, 0px);
-              "
-              role="group"
-              aria-label="2 / 4"
-            >
-              <div class="blog-slider__img">
-                <img
-                  src="./Biplov JHA_files/ecommerce_django_built_rjii3g.png"
-                  alt="Portfolio item"
-                />
-              </div>
-
-              <div class="blog-slider__content">
-                <span class="blog-slider__code"> December 2020</span>
-                <div class="blog-slider__title">E-commerce</div>
-                <div class="blog-slider__text">
-                  Designed an eBay-like e-commerce auction site that will allow
-                  users to post auction listings, place bids on listings,
-                  comment on those listings, and add listings to a “watchlist.”
-                </div>
-                <a
-                  href="#"
-                  target="_blank"
-                  class="button blog-slider__button button--flex"
-                >
-                  Demo
-                  <i class="uil uil-play button__icon"></i>
-                </a>
-              </div>
+              " role="group" aria-label="2 / 4">
+            <div class="blog-slider__img">
+              <img src="./Biplov JHA_files/ecommerce_django_built_rjii3g.png" alt="Portfolio item" />
             </div>
 
-            <!-- For portfolio item 3 -->
-            <div
-              class="blog-slider__item swiper-slide"
-              data-swiper-slide-index="2"
-              style="
+            <div class="blog-slider__content">
+              <span class="blog-slider__code"> December 2020</span>
+              <div class="blog-slider__title">E-commerce</div>
+              <div class="blog-slider__text">
+                Designed an eBay-like e-commerce auction site that will allow
+                users to post auction listings, place bids on listings,
+                comment on those listings, and add listings to a “watchlist.”
+              </div>
+              <a href="#" target="_blank" class="button blog-slider__button button--flex">
+                Demo
+                <i class="uil uil-play button__icon"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- For portfolio item 3 -->
+          <div class="blog-slider__item swiper-slide" data-swiper-slide-index="2" style="
                 width: 744px;
                 transition-duration: 0ms;
                 opacity: 1;
                 transform: translate3d(-2232px, 0px, 0px);
-              "
-              role="group"
-              aria-label="3 / 4"
-            >
-              <div class="blog-slider__img">
-                <img
-                  src="./Biplov JHA_files/Mail_django_built_rxd6jc.png"
-                  alt="Portfolio item"
-                />
-              </div>
-
-              <div class="blog-slider__content">
-                <span class="blog-slider__code"> October 2020</span>
-                <div class="blog-slider__title">MAIL</div>
-                <div class="blog-slider__text">
-                  Designed a front-end for an email client that makes API calls
-                  to send and receive emails.
-                </div>
-                <a
-                  href="#"
-                  target="_blank"
-                  class="button blog-slider__button button--flex"
-                >
-                  Demo
-                  <i class="uil uil-play button__icon"></i>
-                </a>
-              </div>
+              " role="group" aria-label="3 / 4">
+            <div class="blog-slider__img">
+              <img src="./Biplov JHA_files/Mail_django_built_rxd6jc.png" alt="Portfolio item" />
             </div>
 
-            <!-- For portfolio item 4 -->
-            <div
-              class="blog-slider__item swiper-slide swiper-slide-prev swiper-slide-duplicate-next"
-              data-swiper-slide-index="3"
-              style="
+            <div class="blog-slider__content">
+              <span class="blog-slider__code"> October 2020</span>
+              <div class="blog-slider__title">MAIL</div>
+              <div class="blog-slider__text">
+                Designed a front-end for an email client that makes API calls
+                to send and receive emails.
+              </div>
+              <a href="#" target="_blank" class="button blog-slider__button button--flex">
+                Demo
+                <i class="uil uil-play button__icon"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- For portfolio item 4 -->
+          <div class="blog-slider__item swiper-slide swiper-slide-prev swiper-slide-duplicate-next"
+            data-swiper-slide-index="3" style="
                 width: 744px;
                 transition-duration: 0ms;
                 opacity: 1;
                 transform: translate3d(-2976px, 0px, 0px);
-              "
-              role="group"
-              aria-label="4 / 4"
-            >
-              <div class="blog-slider__img">
-                <img
-                  src="./Biplov JHA_files/wikipedia_design_django_v28dmu.png"
-                  alt="Portfolio item"
-                />
-              </div>
-
-              <div class="blog-slider__content">
-                <span class="blog-slider__code"> September 2020</span>
-                <div class="blog-slider__title">WiKi</div>
-                <div class="blog-slider__text">
-                  Design a Wikipedia-like online encyclopedia.
-                </div>
-                <a
-                  href="#"
-                  target="_blank"
-                  class="button blog-slider__button button--flex"
-                >
-                  Demo
-                  <i class="uil uil-play button__icon"></i>
-                </a>
-              </div>
+              " role="group" aria-label="4 / 4">
+            <div class="blog-slider__img">
+              <img src="./Biplov JHA_files/wikipedia_design_django_v28dmu.png" alt="Portfolio item" />
             </div>
 
-            <div
-              class="blog-slider__pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal"
-            >
-              <span
-                class="swiper-pagination-bullet swiper-pagination-bullet-active"
-                tabindex="0"
-                role="button"
-                aria-label="Go to slide 1"
-                aria-current="true"
-              ></span
-              ><span
-                class="swiper-pagination-bullet"
-                tabindex="0"
-                role="button"
-                aria-label="Go to slide 2"
-              ></span
-              ><span
-                class="swiper-pagination-bullet"
-                tabindex="0"
-                role="button"
-                aria-label="Go to slide 3"
-              ></span
-              ><span
-                class="swiper-pagination-bullet"
-                tabindex="0"
-                role="button"
-                aria-label="Go to slide 4"
-              ></span>
+            <div class="blog-slider__content">
+              <span class="blog-slider__code"> September 2020</span>
+              <div class="blog-slider__title">WiKi</div>
+              <div class="blog-slider__text">
+                Design a Wikipedia-like online encyclopedia.
+              </div>
+              <a href="#" target="_blank" class="button blog-slider__button button--flex">
+                Demo
+                <i class="uil uil-play button__icon"></i>
+              </a>
             </div>
-            <div
-              class="blog-slider__item swiper-slide swiper-slide-duplicate swiper-slide-visible swiper-slide-active"
-              data-swiper-slide-index="0"
-              role="group"
-              aria-label="1 / 4"
-              style="
+          </div>
+
+          <div
+            class="blog-slider__pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal">
+            <span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button"
+              aria-label="Go to slide 1" aria-current="true"></span><span class="swiper-pagination-bullet" tabindex="0"
+              role="button" aria-label="Go to slide 2"></span><span class="swiper-pagination-bullet" tabindex="0"
+              role="button" aria-label="Go to slide 3"></span><span class="swiper-pagination-bullet" tabindex="0"
+              role="button" aria-label="Go to slide 4"></span>
+          </div>
+          <div class="blog-slider__item swiper-slide swiper-slide-duplicate swiper-slide-visible swiper-slide-active"
+            data-swiper-slide-index="0" role="group" aria-label="1 / 4" style="
                 width: 744px;
                 transition-duration: 0ms;
                 opacity: 1;
                 transform: translate3d(-3720px, 0px, 0px);
-              "
-            >
-              <div class="blog-slider__img">
-                <img
-                  src="./Biplov JHA_files/Twitter_SNS_f3ejqv.png"
-                  alt="Twitter type SNS "
-                />
-              </div>
+              ">
+            <div class="blog-slider__img">
+              <img src="./Biplov JHA_files/Twitter_SNS_f3ejqv.png" alt="Twitter type SNS " />
+            </div>
 
-              <div class="blog-slider__content">
-                <span class="blog-slider__code"> July 2021</span>
-                <div class="blog-slider__title">Twitter Like SNS</div>
-                <div class="blog-slider__text">
-                  Designed a Twitter-like social network website for making
-                  posts and following users.
-                </div>
-                <a
-                  href="#"
-                  target="_blank"
-                  class="button blog-slider__button button--flex"
-                >
-                  Demo
-                  <i class="uil uil-play button__icon"></i>
-                </a>
+            <div class="blog-slider__content">
+              <span class="blog-slider__code"> July 2021</span>
+              <div class="blog-slider__title">Twitter Like SNS</div>
+              <div class="blog-slider__text">
+                Designed a Twitter-like social network website for making
+                posts and following users.
               </div>
+              <a href="#" target="_blank" class="button blog-slider__button button--flex">
+                Demo
+                <i class="uil uil-play button__icon"></i>
+              </a>
             </div>
           </div>
-          <span
-            class="swiper-notification"
-            aria-live="assertive"
-            aria-atomic="true"
-          ></span>
         </div>
-      </section>
-      <!-- CONTACTEZ-NOUS -->
-      <section class="contact section" id="contact">
-        <div class="centrage">
-          <h2 class="section__tilte">Contactez-Nous</h2>
-          <span class="section__subtitle">
-            Entrez en contact &downdownarrows;
-          </span>
-        </div>
+        <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+      </div>
+    </section>
 
-        <div class="row mt-lg-6 justify-content-center contact_mail">
-          <!-- CONTACT INFORMATION -->
-          <div class="col-lg-6 mx-lg-0 mx-2 contact__container container">
-            <div class="contact__information">
-              <i class="uil uil-phone contact__icon"></i>
-              <div>
-                <h3 class="contact__title">Appellez-Nous</h3>
-                <span class="contact__subtitle">
-                  <a href="tel:+22893470215">+228-93470215</a></span
-                >
-              </div>
-            </div>
 
-            <div class="contact__information">
-              <i class="uil uil-at contact__icon"></i>
-              <div>
-                <h3 class="contact__title">E-Mail</h3>
-                <span class="contact__subtitle">
-                  <a href="mailto:kamamoctar@gmail.com"
-                    >kamamoctar@gmail.com</a
-                  ></span
-                >
-              </div>
-            </div>
+  <!-- =====================================================================
 
-            <div class="contact__information">
-              <i class="uil uil-map contact__icon"></i>
-              <div>
-                <h3 class="contact__title">Adresse</h3>
-                <span class="contact__subtitle">
-                  <address>
-                    NAMADOU Moctar Kamakaté. Rue La Pampa. ####, Lomé.
-                  </address>
-                  <br />
-                  <a
-                    href="https://www.google.com/maps/place/6%C2%B010'49.9%22N+1%C2%B009'40.0%22E/@6.1805217,1.1600077,18z/data=!3m1!4b1!4m6!3m5!1s0x0:0xb2b4dabac991458f!7e2!8m2!3d6.1805187!4d1.161102"
-                    target="_blank"
-                    >6°10'49.9"N 1°09'40.0"E</a
-                  >
-                </span>
-              </div>
+                      A COPIER ET MODIFIER
+
+  ======================================================================-->
+  <!-- <details>
+      <summary>Projects</summary>
+      <div>
+        <iframe src="https://kamamoctar.github.io/LeNouveauModel/" width="100%" height="590px" frameborder="0"></iframe>
+      </div>
+    </details> -->
+
+
+
+    <!-- CONTACTEZ-NOUS -->
+    <section class="contact section" id="contact">
+      <div class="centrage">
+        <h2 class="section__tilte">Contactez-Nous</h2>
+        <span class="section__subtitle">
+          Entrez en contact &downdownarrows;
+        </span>
+      </div>
+
+      <div class="row mt-lg-6 justify-content-center contact_mail">
+        <!-- CONTACT INFORMATION -->
+        <div class="col-lg-6 mx-lg-0 mx-2 contact__container container">
+          <div class="contact__information">
+            <i class="uil uil-phone contact__icon"></i>
+            <div>
+              <h3 class="contact__title">Appellez-Nous</h3>
+              <span class="contact__subtitle">
+                <a href="tel:+22893470215">+228-93470215</a></span>
             </div>
           </div>
-          <!-- FORMULAIRE -->
-          <div
-            class="col-lg-6 pl-lg-4 mt-lg-0 mt-6 contact-form"
-            id="message-me"
-          >
-            <h2 class="contact__title">
-              Vous souhaitez travailler avec nous, vous voulez plus d'infos ? -
-              <span> Discutons </span>
-            </h2>
-            <form action="#" method="POST" class="cf">
-              <div class="row">
-                <div class="col-lg-6">
-                  <input
-                    type="text"
-                    name="message-name"
-                    class="form-control mb-30 cf"
-                    placeholder="Votre Nom"
-                  />
-                </div>
 
-                <div class="col-lg-6">
-                  <input
-                    type="email"
-                    name="message-email"
-                    class="form-control mb-30 cf"
-                    placeholder="Votre E-mail"
-                  />
-                </div>
+          <div class="contact__information">
+            <i class="uil uil-at contact__icon"></i>
+            <div>
+              <h3 class="contact__title">E-Mail</h3>
+              <span class="contact__subtitle">
+                <a href="mailto:kamamoctar@gmail.com">kamamoctar@gmail.com</a></span>
+            </div>
+          </div>
 
-                <div class="col-12">
-                  <input
-                    type="text"
-                    name="message-subject"
-                    class="form-control mb-30 cf"
-                    placeholder="Objet"
-                  />
-                </div>
+          <div class="contact__information">
+            <i class="uil uil-map contact__icon"></i>
+            <div>
+              <h3 class="contact__title">Adresse</h3>
+              <span class="contact__subtitle">
+                <address>
+                  NAMADOU Moctar Kamakaté. Rue La Pampa. ####, Lomé.
+                </address>
+                <br />
+                <a href="https://www.google.com/maps/place/6%C2%B010'49.9%22N+1%C2%B009'40.0%22E/@6.1805217,1.1600077,18z/data=!3m1!4b1!4m6!3m5!1s0x0:0xb2b4dabac991458f!7e2!8m2!3d6.1805187!4d1.161102"
+                  target="_blank">6°10'49.9"N 1°09'40.0"E</a>
+              </span>
+            </div>
+          </div>
+        </div>
+        <!-- FORMULAIRE -->
+        <div class="col-lg-6 pl-lg-4 mt-lg-0 mt-6 contact-form" id="message-me">
+          <h2 class="contact__title">
+            Vous souhaitez travailler avec nous, vous voulez plus d'infos ? -
+            <span> Discutons </span>
+          </h2>
+          <form action="#" method="POST" class="cf">
+            <div class="row">
+              <div class="col-lg-6">
+                <input type="text" name="message-name" class="form-control mb-30 cf" placeholder="Votre Nom" />
+              </div>
 
-                <div class="col-12">
-                  <textarea
-                    name="message"
-                    class="form-control mb-30 cf"
-                    cols="30"
-                    rows="10"
-                    placeholder="Votre Message"
-                  ></textarea>
-                </div>
-                <div class="col-12">
-                  <button
-                    type="submit"
-                    class="button button--flex send-message form-button"
-                  >
-                  Envoyez votre message 
+              <div class="col-lg-6">
+                <input type="email" name="message-email" class="form-control mb-30 cf" placeholder="Votre E-mail" />
+              </div>
+
+              <div class="col-12">
+                <input type="text" name="message-subject" class="form-control mb-30 cf" placeholder="Objet" />
+              </div>
+
+              <div class="col-12">
+                <textarea name="message" class="form-control mb-30 cf" cols="30" rows="10"
+                  placeholder="Votre Message"></textarea>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="button button--flex send-message form-button">
+                  Envoyez votre message
                   <i class="uil uil-message button-icon"></i>
-                  </button>
-                </div>
+                </button>
               </div>
-            </form>
-          </div>
+            </div>
+          </form>
         </div>
-      </section>
-    </main>
+      </div>
+    </section>
+  </main>
 
-    <!-- =========================== 
+  <!-- =========================== 
 
             PIED - FOOTER 
             
     ============================ -->
-    <footer class="Footer"></footer>
 
-    <!-- LE JS DE BOOTSTRAP -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-      crossorigin="anonymous"
-    ></script>
+  <footer class="Footer">
+    <div class="footer__bg">
+      <div class="footer__container container grid">
+        <div>
+          <h1 class="footer__title"> NAMADOU </h1>
+          <span class="footer__subtitle">Information manager</span><br>
+          <!-- -- removabme -- -->
+          <small>professionnel de l'information documentaire</small>
+        </div>
 
-    <!-- Core -->
-    <script src="JS/core/jquery.min.js"></script>
-    <script src="JS/core/popper.min.js"></script>
-    <script src="JS/core/bootstrap.min.js"></script>
-    <!-- Theme JS -->
-    <script src="JS/argon-design-system.min.js"></script>
+        <ul class="footer__links">
+          <li>
+            <a href="#about" class="footer__link"> Moi ? </a>
+          </li>
 
-    <!-- Typewriter CSS EFFECT JS -->
-    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+          <li>
+            <a href="#portfolio" class="footer__link"> Portfolio </a>
+          </li>
 
-    <!-- Swiper JS -->
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+          <li>
+            <a href="#contact" class="footer__link"> Nous joindre </a>
+          </li>
+        </ul>
 
-    <!-- MON JS -->
-    <script src="JS/app.js"></script>
-  </body>
+        <div class="footer__socials">
+          <a href="https://www.linkedin.com/in/moctar-kamakat%C3%A9-namadou/" target="_blank" class="footer__social"
+            id="myLinkedIn">
+            <i class="uil uil-linkedin-alt"></i>
+          </a>
+
+          <a href="https://twitter.com/NamadouMoctar" target="_blank" class="footer__social" id="myTwitter">
+            <i class="uil uil-twitter-alt"></i>
+          </a>
+
+          <a href="https://www.facebook.com/MKNAMADOU/" target="_blank" class="footer__social" id="myFacebook">
+            <i class="uil uil-facebook-f"></i>
+          </a>
+
+          <a href="https://www.instagram.com/moctar_kamakate/" target="_blank" class="footer__social" id="myInstagram">
+            <i class="uil uil-instagram"></i>
+          </a>
+
+          <a href="https://www.youtube.com/channel/UCFePu0LN_VOwIpqT4T02YgQ" target="_blank" class="footer__social"
+            id="myYoutube">
+            <i class="uil uil-youtube"></i>
+          </a>
+          <a href="https://t.me/SageMKN" target="_blank" class="footer__social" id="myTelegram">
+            <i class="uil uil-telegram-alt"></i>
+          </a>
+          <a href="https://github.com/Kamamoctar" target="_blank" class="footer__social" id="myGithub">
+        </div>
+
+      </div>
+      <p class="footer__copy">&copy; NMK. Tout droits reservés, <span id="LadateDuCopy"></span></p>
+    </div>
+  </footer>
+
+  <!-- =========================== 
+
+            LES SCROLLS 
+            
+    ============================ -->
+  <a href="#home" class="scrollup" id="scroll-up">
+    <i class="uil uil-arrow-up scrollup__icon"></i>
+  </a>
+
+
+  <!-- LE JS DE BOOTSTRAP -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+
+  <!-- Core -->
+  <script src="JS/core/jquery.min.js"></script>
+  <script src="JS/core/popper.min.js"></script>
+  <script src="JS/core/bootstrap.min.js"></script>
+  <!-- Theme JS -->
+  <script src="JS/argon-design-system.min.js"></script>
+
+  <!-- Typewriter CSS EFFECT JS -->
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
+  <!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <!-- MON JS -->
+  <script src="JS/app.js"></script>
+</body>
+
 </html>
