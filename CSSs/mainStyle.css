@@ -682,7 +682,7 @@ GRPRT
   margin: 0;
   padding: 0;
 }
-#skills details:hover {
+/* #skills details:hover {
   box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
   0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.6),
   0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
@@ -691,7 +691,7 @@ GRPRT
   border-left: .5px solid gainsboro;
   border-top-left-radius: 5px;
   border-bottom-right-radius: 5px;
-}
+} */
 #skills details>div {
     display: flex;
     flex-wrap: wrap;
@@ -842,7 +842,7 @@ span.badge {
 }
 
       /* ? +++++++++++++AUTRES FORMATIONS */
-details:hover {
+/* details:hover {
         box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
         0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.6),
         0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
@@ -853,14 +853,14 @@ details:hover {
         border-bottom-right-radius: 5px;
         width: 90%;
         margin: auto;
-      }
+      } */
 details summary {
   text-align: center;
 }      
 
 .cardsInGrid{
   display: grid;
-  grid-template-columns: repeat(auto-fit, 22rem);
+  grid-template-columns: repeat(auto-fit, 20rem);
   justify-content: center;
   gap: 1%;
 } 
