@@ -860,7 +860,7 @@ details summary {
 
 .cardsInGrid{
   display: grid;
-  grid-template-columns: repeat(auto-fit, 22%);
+  grid-template-columns: repeat(auto-fit, 22rem);
   justify-content: center;
   gap: 1%;
 } 
@@ -1408,7 +1408,7 @@ GRPRT
 =============================== */
 
 /* LES PETITS ECRANS */
-@media screen and (max-width: 350px) {
+@media screen and (min-width: 350px) {
   .container {
     margin-left: var(--mb-0-25);
     margin-right: var(--mb-1);
