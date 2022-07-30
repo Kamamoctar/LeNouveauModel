@@ -1,0 +1,554 @@
+/* GNERALITE */
+
+body {
+    font-family: 'Lato', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/******* LE SCROLLBAR****** */
+
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 9px;
+}
+
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 7px rgba(60, 255, 60, 0.837);
+    border-radius: 10px;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom, rgba(60, 255, 60, 0.8), tomato 60%);
+    border-radius: 10px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-weight: bold;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+section {
+    padding: 50px 0 80px 0;
+}
+
+section .heading {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+section .heading h2 {
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+
+/* CLASSES PREDEFINIES */
+
+.red-divider {
+    width: 150px;
+    height: 2.5px;
+    background: tomato;
+    margin: 0 auto;
+}
+
+.white-divider {
+    width: 150px;
+    height: 2.5px;
+    background: white;
+    margin: 0 auto;
+}
+
+.Nom {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+/* MENU */
+
+.navbar {
+    background-color: #f8f9fa;
+    letter-spacing: 4px;
+    border-bottom: 5px solid tomato;
+}
+
+.navbar .nav-item:hover {
+    background-color: tomato;
+    color: white !important;
+    font-weight: bold;
+    text-align: center;
+}
+
+.nav-link:hover {
+    background-color: tomato;
+    color: white !important;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/* SECTION ABOUT */
+
+#about {
+    padding-top: 100px;
+    background: #f8f9fa;
+    display: grid;
+    grid-template-rows: 2;
+    place-items: center;
+}
+
+.profil-picture {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.profil-picture img {
+    max-width: 50%;
+    filter: grayscale(100%);
+}
+
+#about .heading h1 {
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+}
+
+#LeM {
+    font-size: 50px;
+    font-weight: bold;
+    transition: 1s;
+    color: black;
+}
+
+#LeM:hover {
+    -webkit-transform-origin-x: 10px;
+    rotate: 360°;
+}
+
+#about .heading h1 span {
+    color: tomato;
+    margin-left: 5px;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+#about .heading h3 {
+    color: rgb(0, 0, 0);
+}
+
+#about #InfoSuple {
+    display: block;
+    margin: 0 auto;
+}
+
+#about #exampleModal .modal-body {
+    text-align: justify;
+    background-color: rgba(60, 255, 60, 0.1);
+}
+
+.button1 {
+    font-weight: bold;
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.777);
+    border: 1px solid tomato;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 18px 50px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 1s ease-in-out 0s;
+}
+
+.button1:hover {
+    background: tomato;
+    color: white;
+    border: 5px solid rgb(218, 218, 218);
+    padding: 14px 50px;
+}
+
+
+/* SECTION DES COMPT */
+
+#competencesGen {
+    background: rgb(0, 0, 0);
+}
+
+#competencesGen .heading h2 {
+    color: white;
+    margin-top: 20px;
+}
+
+#competencesGen .progress {
+    height: fit-content;
+    margin: 30px 20px;
+    backface-visibility: rgb(194, 173, 173);
+}
+
+#competencesGen .progress h5 {
+    color: black;
+    text-shadow: 2px 4px 2px rgb(255, 255, 255);
+}
+
+#competencesGen .progress-bar {
+    background: tomato;
+}
+
+#competencesGen details {
+    color: tomato;
+    text-align: center;
+    width: 100%;
+    border: 1px solid hsl(0, 4%, 11%);
+    border-radius: 5px;
+    background-color: hsl(0, 0%, 0%);
+    padding-bottom: 10px;
+}
+
+#inDetails {
+    width: 99%;
+    margin: 0 auto;
+    padding-top: 0.5%;
+    background-color: rgb(0, 0, 0);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 19rem);
+    justify-content: space-evenly;
+}
+
+#competencesGen #inDetails table {
+    text-align: center;
+    border: 2px solid tomato;
+    margin: 0.3%;
+}
+
+.table {
+    padding: 4%;
+    border: 3px solid rgba(60, 255, 60, 0.5);
+    background: rgb(255, 255, 255);
+}
+
+#competencesGen table caption {
+    text-align: center;
+}
+
+#competencesGen table td {
+    border: 1px solid rgba(0, 0, 0, 0.39);
+    background-color: rgba(255, 99, 71, 0.009);
+}
+
+
+/* EXPERIENCES */
+
+#experience {
+    background: rgba(60, 255, 60, 0.8);
+}
+
+#experience .heading h2 {
+    color: rgb(0, 0, 0);
+}
+
+.timeline {
+    padding: 30px 10px;
+    position: relative;
+}
+
+.timeline:before {
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    content: " ";
+    width: 5px;
+    background-color: #333;
+    left: 50%;
+    margin-left: -2.5px;
+}
+
+.timeline>li {
+    margin-bottom: 2Opx;
+    position: relative;
+    list-style: none;
+}
+
+.timeline>li:after {
+    clear: both;
+}
+
+.timeline>li:before,
+.timeline>li:after {
+    content: " ";
+    display: table;
+}
+
+.timeline li .timeline-badge {
+    color: tomato;
+    width: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    top: 16px;
+    left: 50%;
+    margin-left: -25px;
+    background-color: black;
+    border-radius: 50%;
+    border: 1px solid tomato;
+}
+
+.timeline-panel-container {
+    width: 50%;
+    float: left;
+}
+
+.timeline-panel-container-inverted {
+    width: 50%;
+    float: right;
+}
+
+.timeline-panel {
+    width: 90%;
+    float: right;
+    margin-right: 40px;
+    border: 5px solid rgba(255, 255, 255, 0.4);
+    border-radius: 7px;
+    padding: 20px 25px;
+    position: relative;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.777);
+    background: #fff;
+}
+
+.timeline-panel-container-inverted .timeline-panel {
+    float: left;
+    margin-left: 40px;
+}
+
+.timeline-panel:after {
+    position: absolute;
+    top: 10px;
+    right: -14px;
+    display: inline-block;
+    border-top: 14px solid transparent;
+    border-left: 14px solid #fff;
+    border-right: 0 solid #fff;
+    border-bottom: 14px solid transparent;
+    content: " ";
+}
+
+.timeline-panel-container-inverted .timeline-panel:after {
+    border-left-width: 0;
+    border-right-width: 14px;
+    left: -14px;
+    right: auto;
+}
+
+.timeline-heading h3 {
+    margin-top: 5px;
+}
+
+.timeline-heading h4 {
+    color: tomato;
+    font-size: 18px;
+}
+
+
+/* EDUCATION */
+
+#cursusAcademique {
+    background-color: black;
+}
+
+#cursusAcademique .heading h2 {
+    color: white;
+}
+
+#cursusAcademique .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1%;
+}
+
+.educationBlock {
+    text-align: center;
+    padding: 30px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 2px solid rgb(192, 192, 192);
+    margin-bottom: 20px;
+}
+
+.educationBlock h5 {
+    color: #888;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.educationBlock .fas {
+    font-size: 40px;
+}
+
+.educationBlock h3 {
+    color: tomato;
+}
+
+.educationBlock h4 {
+    margin-bottom: 20px;
+}
+
+.educationBlock p {
+    font-weight: bold;
+}
+
+.educationBlock .red-divider {
+    margin-bottom: 20px;
+}
+
+
+/* autres Formation */
+
+#autresFormation {
+    background-color: rgba(60, 255, 60, 0.8);
+    padding-bottom: 180px;
+}
+
+#autresFormation .heading {
+    color: black;
+}
+
+#autresFormation .row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 23rem);
+    align-items: center;
+    justify-items: space-around;
+    justify-content: center;
+    gap: 0.3%;
+}
+
+#autresFormation .row .card {
+    width: 450px;
+    height: 500px;
+    transition: 2s;
+}
+
+#autresFormation .row .card:hover {
+    border: 0.5px solid black;
+}
+
+#autresFormation .row .card-title {
+    color: tomato;
+}
+
+#autresFormation .row .card img {
+    width: 100%;
+    height: 100%;
+    filter: grayscale(90%)
+}
+
+#autresFormation .row .card img:hover {
+    width: 100%;
+    height: 100%;
+    filter: none;
+}
+
+
+/* RECOMMANDATIONS */
+
+#recommandation {
+    background: black;
+    color: white;
+    min-height: 420px;
+}
+
+#recommandation .carousel-inner {
+    text-align: center;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background-image: none;
+    color: tomato;
+    font-size: 40px;
+}
+
+
+/* HOBBIES */
+
+#hobbies {
+    background-color: rgba(60, 255, 60, 0.8);
+    color: black;
+}
+
+    /* Lecture */
+.lesH3DesHobs {
+    margin-bottom: 50px;
+}
+
+.card {
+    margin: 0 auto;
+    color: black;
+    width: 28rem;
+    height: 95.9vh;
+}
+
+.card-img-top {
+    height: 300px;
+    width: 280px;
+    margin: 0 auto;
+}
+
+.card-text {
+    text-align: justify;
+}
+
+.card-text p {
+    padding-right: 0.5%;
+    height: 200px;
+    overflow-y: scroll;
+    font-size: 16px;
+}
+
+
+/* FOOTER */
+
+#avantFooter .red-divider {
+    width: 100%;
+    height: 5px;
+}
+
+#footerGeneral {
+    padding: 20px 0 40px;
+    background-color: #f8f9fa;
+    /* background-image: linear-gradient(to bottom, rgb(0, 0, 0) 20%, rgb(89, 88, 88), rgb(68, 68, 68)); */
+}
+
+#footerGeneral .bi {
+    font-size: 25px;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    height: 30px;
+}
+
+#footerGeneral .bi:hover {
+    color: rgba(60, 255, 60, 0.8);
+    background-color: rgb(61, 60, 60);
+    height: 30px;
+}
+
+#footerGeneral h5 {
+    font-weight: normal;
+    color: rgb(255, 99, 71);
+}

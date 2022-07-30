@@ -682,7 +682,7 @@ GRPRT
   margin: 0;
   padding: 0;
 }
-#skills details {
+#skills details:hover {
   box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
   0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.6),
   0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
@@ -841,9 +841,79 @@ span.badge {
   color: var(--mainText);
 }
 
+      /* ? +++++++++++++AUTRES FORMATIONS */
+details:hover {
+        box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.6),
+        0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+        0 100px 80px rgba(0, 0, 0, 0.12);
+        border-top: .5px solid gainsboro;
+        border-left: .5px solid gainsboro;
+        border-top-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        width: 90%;
+        margin: auto;
+      }
+details summary {
+  text-align: center;
+}      
+
+.cardsInGrid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 22%);
+  justify-content: center;
+  gap: 1%;
+} 
+.cardsInGrid:first{
+  margin-bottom: 20px;
+} 
+.card {
+  background-color: var(--background-body-color);
+  border-color: var(--border-color);
+} 
+.card-title {
+  color: tomato;
+}
+
 /* ++++++++++++++++ ++++++
-      PORTFOLIO
+      HOBBIES
 +++++++++++++++++++++++ */
+.accordion-item {
+  background-color: var(--body-color);
+  color: var(--mainText);
+}
+
+
+
+  /* LECTURE */
+
+  .ListeLivres {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-around;
+    gap: 2%;
+  }  
+.gridLivres .ListeLivres .badge:nth-child(odd) {
+  width: 25rem;
+  background-color: white;
+  color: black;
+  margin-top: 1%;
+  transition: 1s;
+}.gridLivres .ListeLivres .badge:nth-child(odd):hover {
+  background-color: black;
+  color: white;
+}
+.gridLivres .ListeLivres .badge:nth-child(even) {
+  width: 25.5rem;
+  background-color: black;
+  color: white;
+  margin-top: 1%;
+}.gridLivres .ListeLivres .badge:nth-child(even):hover {
+  background-color: white;
+  color: black;
+}
+
 
 /*  LE SLIDER PORTFOLIO */
 
