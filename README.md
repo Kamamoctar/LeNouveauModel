@@ -23,9 +23,7 @@ Ce site a été développé en utilisant les technologies web standard :
     -   Argon Design System
     -   Styles personnalisés (`mainStyle.css`, `reset.css`)
 -   **JavaScript :** Pour l'interactivité et les fonctionnalités dynamiques, y compris l'utilisation de :
-    -   jQuery
     -   Bootstrap JS
-    -   Argon Design System JS
     -   Scripts personnalisés (`app.js`)
 -   **Swiper JS :** Pour les carrousels ou sliders interactifs.
 
